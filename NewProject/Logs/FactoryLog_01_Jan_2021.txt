@@ -1,0 +1,178 @@
+﻿2021-01-01 09:08:29:1195 : EXCEPTION - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2021-01-01 09:09:29:7410 : EXCEPTION - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2021-01-01 11:32:03:9586 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 11:32:04:1126 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 11:32:04:1536 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 11:32:04:1956 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 11:32:04:2376 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 11:32:04:2746 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 11:32:04:3106 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 11:32:04:3426 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 11:32:04:3786 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:36:18:3326 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 14:36:18:4426 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:36:18:4866 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:36:18:5186 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:36:18:5506 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:36:18:5816 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:36:18:6146 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:36:18:6456 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:36:18:6896 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:27:7682 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 14:42:27:8773 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:27:9273 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:27:9673 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:28:0212 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:28:0762 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:28:1202 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:28:1672 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:28:2192 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:58:1661 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 14:42:58:2161 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:58:2681 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:58:3121 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:58:3461 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:58:3851 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:58:4291 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:58:4671 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:42:58:5092 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:43:02:6544 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 14:43:02:7654 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:43:02:8174 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:43:02:8564 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:43:02:8834 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:43:02:9284 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:43:02:9654 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:43:03:0014 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 14:43:03:0374 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:25:59:5424 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:25:59:6304 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:25:59:6754 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:25:59:7264 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:25:59:7744 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:25:59:8084 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:25:59:8434 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:25:59:8784 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:25:59:9234 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:25:59:9764 : EXCEPTION - While getting Process Parameter Controller Level Data Could not find stored procedure 'dbo.s_Masters_AGIProcessParameters_ViewData'.
+2021-01-01 18:27:04:2934 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:27:04:3414 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:04:3734 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:04:4064 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:04:4404 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:04:4764 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:04:5304 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:04:5664 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:04:6024 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:09:1206 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:27:09:1986 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:09:2586 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:09:3056 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:09:3396 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:09:3796 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:09:4176 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:09:4566 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:09:4976 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:09:5326 : EXCEPTION - While getting Process Parameter Controller Level Data Could not find stored procedure 'dbo.s_Masters_AGIProcessParameters_ViewData'.
+2021-01-01 18:27:11:1786 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:27:11:2515 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:11:3015 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:11:3395 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:11:3755 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:11:4095 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:11:4435 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:11:4795 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:11:5125 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:11:5535 : EXCEPTION - While getting Process Parameter Model Level Data Could not find stored procedure 'dbo.s_Masters_AGIProcessParameters_ViewData'.
+2021-01-01 18:27:13:7268 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:27:13:8018 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:13:8418 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:13:8838 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:13:9238 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:13:9698 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:14:0378 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:14:0698 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:14:0958 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:14:1368 : EXCEPTION - While getting Process Parameter Machine Level Data Could not find stored procedure 'dbo.s_Masters_AGIProcessParameters_ViewData'.
+2021-01-01 18:27:16:6028 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:27:16:6708 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:16:7098 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:16:7568 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:16:8028 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:16:8588 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:16:8988 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:16:9318 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:16:9668 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:17:0088 : EXCEPTION - While getting Process Parameter Model Level Data Could not find stored procedure 'dbo.s_Masters_AGIProcessParameters_ViewData'.
+2021-01-01 18:27:17:6798 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:27:17:7408 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:17:7748 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:17:8158 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:17:8518 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:17:8908 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:17:9268 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:17:9648 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:17:9908 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:18:0218 : EXCEPTION - While getting Process Parameter Controller Level Data Could not find stored procedure 'dbo.s_Masters_AGIProcessParameters_ViewData'.
+2021-01-01 18:27:20:2043 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:27:20:2723 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:20:3243 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:20:3803 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:20:4243 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:20:4733 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:20:5093 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:20:5443 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:20:5933 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:35:7187 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:27:35:7968 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:35:8617 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:35:9297 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:35:9807 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:36:0227 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:36:0607 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:36:1027 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:36:1327 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:36:1707 : EXCEPTION - While getting Process Parameter Controller Level Data Could not find stored procedure 'dbo.s_Masters_AGIProcessParameters_ViewData'.
+2021-01-01 18:27:42:4193 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:27:42:4703 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:42:5183 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:42:5823 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:42:6223 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:42:6593 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:42:6933 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:42:7293 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:27:42:7653 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:02:4760 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:28:05:3030 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:28:05:3540 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:05:4010 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:05:4580 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:05:4960 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:05:5300 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:05:5670 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:05:6010 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:05:6410 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:05:6810 : EXCEPTION - While getting Process Parameter Controller Level Data Could not find stored procedure 'dbo.s_Masters_AGIProcessParameters_ViewData'.
+2021-01-01 18:28:07:4175 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:28:09:8328 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:28:10:9295 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:28:11:6738 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:28:11:7458 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:11:7858 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:11:8268 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:11:8667 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:11:9037 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:11:9577 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:11:9967 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:12:0287 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:28:12:0647 : EXCEPTION - While getting Process Parameter Model Level Data Could not find stored procedure 'dbo.s_Masters_AGIProcessParameters_ViewData'.
+2021-01-01 18:32:14:1072 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-01 18:32:14:1642 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:32:14:2052 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:32:14:2562 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:32:14:3062 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:32:14:3452 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:32:14:3992 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:32:14:4252 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:32:14:4542 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-01 18:32:14:4962 : EXCEPTION - While getting Process Parameter Controller Level Data Could not find stored procedure 'dbo.s_Masters_AGIProcessParameters_ViewData'.

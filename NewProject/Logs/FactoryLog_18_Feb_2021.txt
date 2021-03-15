@@ -1,0 +1,31 @@
+﻿2021-02-18 10:07:40:3790 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-18 10:07:40:4830 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-18 11:27:37:0960 : EXCEPTION - getGroupDetails:  Procedure or function 'S_GetEntityAndCompanySaveAndView' expects parameter '@EffectiveFromDate', which was not supplied.
+2021-02-18 12:43:16:8800 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-18 12:43:16:9920 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-18 14:46:29:0420 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-18 14:46:29:1400 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-18 15:11:45:7703 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-18 15:11:45:8273 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-18 15:40:47:9168 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-18 15:40:47:9709 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-18 15:47:17:5394 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-18 15:47:17:5974 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-18 16:01:07:4388 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-18 16:01:07:5738 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-18 16:07:46:0600 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-18 16:07:46:1390 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-18 17:58:37:5093 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-18 17:58:37:6330 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-18 18:09:20:6193 : EXCEPTION - getShopDetails:  Procedure or function 's_Master_TPM_ShopCellGroup' expects parameter '@Type', which was not supplied.
+2021-02-18 18:09:55:4510 : EXCEPTION - getShopDetails:  Procedure or function 's_Master_TPM_ShopCellGroup' expects parameter '@Type', which was not supplied.
+2021-02-18 18:09:59:2359 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-18 18:10:01:6989 : EXCEPTION - saveUpdateShopCellDetails:  Procedure or function 's_Master_TPM_ShopCellGroup' expects parameter '@Type', which was not supplied.
+2021-02-18 20:14:02:6450 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-18 20:14:03:0784 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-18 20:59:04:2015 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-18 20:59:04:3465 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-18 21:05:31:8606 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-18 21:05:31:9996 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-18 21:06:25:8071 : EXCEPTION - saveUpdateShopCellDetails:  @CellDes is not a parameter for procedure s_Master_TPM_ShopCellGroup.
+2021-02-18 21:34:05:5953 : EXCEPTION - saveUpdateShopCellDetails:  Could not find stored procedure 'dbo.s_Master_TPM_ShopCellGroup1'.

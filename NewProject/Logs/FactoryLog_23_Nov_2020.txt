@@ -1,0 +1,43 @@
+﻿2020-11-23 09:41:16:6429 : DEBUG -  Start 8.9E-05  DateTime23/11/2020 09:41:16
+2020-11-23 09:41:16:6589 : DEBUG -  Before Query Call Seconds : 2E-06  DateTime23/11/2020 09:41:16
+2020-11-23 09:41:16:8969 : DEBUG -  After Query Call Milliseconds: 238.3413----Seconds: 0.2383436---  DateTime 23/11/2020 09:41:16
+2020-11-23 09:41:16:9059 : DEBUG -  Total Records 1743
+2020-11-23 09:41:16:9209 : DEBUG -  After object building 6.9165----Seconds: 0.0069193   DateTime 23/11/2020 09:41:16
+2020-11-23 09:41:16:9419 : DEBUG -  After getProcessParameterMasterData 27.8473  DateTime 23/11/2020 09:41:16
+2020-11-23 09:41:16:9549 : DEBUG -  Before Json Conversion 0.0007----Seconds: 6.5E-06   DateTime 23/11/2020 09:41:16
+2020-11-23 09:41:17:1720 : DEBUG -  After Json Conversion 217.5371----Seconds: 0.217541   DateTime 23/11/2020 09:41:17
+2020-11-23 09:55:39:1448 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 09:55:39:1808 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 09:55:39:2188 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 09:55:39:2668 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 09:55:39:3068 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 09:55:39:3528 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 09:55:39:3968 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 09:55:39:4468 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:11:19:3714 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:11:19:4161 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:11:19:4551 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:11:19:4901 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:11:19:5211 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:11:19:5621 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:11:19:6121 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:11:19:6561 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:17:21:3747 : DEBUG - filter= {}
+2020-11-23 11:17:21:3847 : DEBUG - Outside
+2020-11-23 11:17:25:9408 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:17:25:9708 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:17:26:0058 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:17:26:0378 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:17:26:0738 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:17:26:1068 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:17:26:1348 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 11:17:26:1728 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 17:35:56:6370 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2020-11-23 17:35:56:7766 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 17:35:56:8236 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 17:35:56:8628 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 17:35:56:9083 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 17:35:56:9563 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 17:35:57:0023 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 17:35:57:0563 : EXCEPTION - Object reference not set to an instance of an object.
+2020-11-23 17:35:57:1429 : EXCEPTION - Object reference not set to an instance of an object.

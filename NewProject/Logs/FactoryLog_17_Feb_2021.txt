@@ -1,0 +1,15 @@
+﻿2021-02-17 09:53:00:7872 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-17 09:53:00:9142 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-17 11:25:25:8615 : EXCEPTION - saveUpdateGroupDetails:  Error converting data type nvarchar to datetime.
+2021-02-17 11:27:25:7265 : EXCEPTION - saveUpdateGroupDetails:  Error converting data type nvarchar to datetime.
+2021-02-17 11:28:28:6456 : EXCEPTION - saveUpdateGroupDetails:  Error converting data type nvarchar to datetime.
+2021-02-17 11:29:58:4540 : EXCEPTION - saveUpdateGroupDetails:  Error converting data type nvarchar to datetime.
+2021-02-17 11:30:33:2071 : EXCEPTION - saveUpdateGroupDetails:  Procedure or function 'S_GetEntityAndCompanySaveAndView' expects parameter '@Type', which was not supplied.
+2021-02-17 11:31:02:4150 : EXCEPTION - saveUpdateGroupDetails:  Procedure or function 'S_GetEntityAndCompanySaveAndView' expects parameter '@Type', which was not supplied.
+2021-02-17 11:31:37:4279 : EXCEPTION - saveUpdateGroupDetails:  Parameter '@EffectiveToDate' was supplied multiple times.
+2021-02-17 11:34:58:9529 : EXCEPTION - saveUpdateGroupDetails:  Role
+2021-02-17 11:46:32:5506 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-17 11:47:10:8782 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-17 17:06:47:1883 : EXCEPTION - saveUpdatePlantDetails:  @CompanyName is not a parameter for procedure S_GetPlantInformationSaveAndView.
+2021-02-17 18:35:35:2432 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-17 18:35:35:2592 : EXCEPTION - Not able to convert datetime string 17-02-2021 18:33:0931-12-9999 00:00:00 to DateTime

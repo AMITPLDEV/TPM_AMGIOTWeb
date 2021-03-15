@@ -1,0 +1,5 @@
+﻿2021-03-14 23:51:17:6287 : EXCEPTION - while inserting or updating machine master data:  @CNCMake is not a parameter for procedure s_Masters_TPM_MachineInformation.
+2021-03-14 23:51:19:4899 : EXCEPTION - while inserting or updating machine master data:  @Mchrrate is not a parameter for procedure s_Masters_TPM_MachineInformation.
+2021-03-14 23:53:15:9223 : EXCEPTION - while inserting or updating machine master data:  @Mchrrate is not a parameter for procedure s_Masters_TPM_MachineInformation.
+2021-03-14 23:54:14:2593 : EXCEPTION - while inserting or updating machine master data:  @CriticalMachineEnabled is not a parameter for procedure s_Masters_TPM_MachineInformation.
+2021-03-14 23:54:41:9405 : EXCEPTION - while inserting or updating machine master data:  @AGIEnabled is not a parameter for procedure s_Masters_TPM_MachineInformation.

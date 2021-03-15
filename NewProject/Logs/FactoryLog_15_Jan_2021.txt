@@ -1,0 +1,16 @@
+﻿2021-01-15 13:07:05:4935 : EXCEPTION - Element 'Axis based' does not match any field or property of class NewProject.Model.ProcessParameterTransactionMasterData.
+2021-01-15 13:08:10:6217 : EXCEPTION - Element 'Axis based' does not match any field or property of class NewProject.Model.ProcessParameterTransactionMasterData.
+2021-01-15 13:08:31:3834 : EXCEPTION - Element 'Axis based' does not match any field or property of class NewProject.Model.ProcessParameterTransactionMasterData.
+2021-01-15 13:09:27:1617 : EXCEPTION - Element 'Axis based' does not match any field or property of class NewProject.Model.ProcessParameterTransactionMasterData.
+2021-01-15 13:11:31:2777 : EXCEPTION - Element 'Axis based' does not match any field or property of class NewProject.Model.ProcessParameterTransactionMasterData.
+2021-01-15 13:15:14:5846 : EXCEPTION - Element 'Axis based' does not match any field or property of class NewProject.Model.ProcessParameterTransactionMasterData.
+2021-01-15 13:37:59:7678 : EXCEPTION - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2021-01-15 13:39:26:6720 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-15 13:39:26:7450 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-15 13:39:26:8070 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-15 13:39:26:8740 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-15 13:39:26:9430 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-15 13:39:27:0140 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-15 13:39:27:1727 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-15 13:39:27:2456 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-15 14:50:52:0121 : EXCEPTION - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)

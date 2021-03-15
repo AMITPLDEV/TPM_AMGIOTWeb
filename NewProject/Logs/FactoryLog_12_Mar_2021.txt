@@ -1,0 +1,2 @@
+﻿2021-03-12 17:13:20:1285 : EXCEPTION - getPLCModelData CNC_Model
+2021-03-12 17:54:28:9833 : EXCEPTION - getAllMachinePlantAssociation - Invalid column name 'Pragati'.

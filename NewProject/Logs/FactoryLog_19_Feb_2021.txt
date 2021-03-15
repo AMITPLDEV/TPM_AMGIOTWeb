@@ -1,0 +1,61 @@
+﻿2021-02-19 08:57:56:1492 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 08:57:56:3312 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 08:57:58:4486 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 08:57:58:6156 : EXCEPTION - While getting Process Parameter Model Level Data Invalid column name 'PlantID'.
+2021-02-19 08:58:17:1275 : EXCEPTION - saveUpdateShopCellDetails:  Could not find stored procedure 'dbo.s_Master_TPM_ShopCellGroup1'.
+2021-02-19 08:59:22:7522 : EXCEPTION - saveUpdateShopCellDetails:  Could not find stored procedure 'dbo.s_Master_TPM_ShopCellGroup1'.
+2021-02-19 08:59:28:0335 : EXCEPTION - saveUpdateShopCellDetails:  Could not find stored procedure 'dbo.s_Master_TPM_ShopCellGroup1'.
+2021-02-19 09:06:39:3957 : EXCEPTION - saveUpdateShopCellDetails:  Could not find stored procedure 'dbo.s_Master_TPM_ShopCellGroup1'.
+2021-02-19 09:08:01:5078 : EXCEPTION - deleteShopCellGroupDetails:  Could not find stored procedure 'dbo.s_Master_TPM_ShopCellGroup1'.
+2021-02-19 09:36:31:5618 : EXCEPTION - saveUpdateShopGroupDetails:  Could not find stored procedure 'dbo.s_Master_TPM_ShopCellGroup1'.
+2021-02-19 09:44:04:0371 : EXCEPTION - saveUpdateShopGroupDetails:  Could not find stored procedure 'dbo.s_Master_TPM_ShopCellGroup1'.
+2021-02-19 09:44:31:8006 : EXCEPTION - saveUpdateShopGroupDetails:  Could not find stored procedure 'dbo.s_Master_TPM_ShopCellGroup1'.
+2021-02-19 12:13:14:4039 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 12:13:14:5859 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 12:19:15:0599 : EXCEPTION - saveUpdateCompanyDetails:  @Password is not a parameter for procedure s_Masters_TPM_EntityAndCompany.
+2021-02-19 12:33:41:5454 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 12:33:41:6294 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 12:57:50:3332 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 12:57:50:4192 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 14:16:41:2952 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 14:16:41:4362 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 14:32:10:4926 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 14:32:10:6376 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 14:45:07:2572 : EXCEPTION - saveUpdateCompanyDetails:  @Password is not a parameter for procedure s_Masters_TPM_EntityAndCompany.
+2021-02-19 15:32:15:1386 : EXCEPTION - while inserting or updating machine master data:  Error converting data type nvarchar to float.
+2021-02-19 15:33:01:1772 : EXCEPTION - While getting Employee Master Data ExecuteReader: CommandText property has not been initialized
+2021-02-19 15:35:07:1821 : EXCEPTION - While getting Employee Master Data ExecuteReader: CommandText property has not been initialized
+2021-02-19 15:36:11:4436 : EXCEPTION - While getting Employee Master Data ExecuteReader: CommandText property has not been initialized
+2021-02-19 16:00:05:9767 : EXCEPTION - While getting Employee Master Data ExecuteReader: CommandText property has not been initialized
+2021-02-19 16:55:59:1661 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 16:55:59:2761 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 17:01:14:1531 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 17:01:14:2361 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 17:02:49:6021 : EXCEPTION - While getting Employee Master Data ExecuteReader: CommandText property has not been initialized
+2021-02-19 17:04:27:3373 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 17:04:27:3973 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 17:05:14:8002 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 17:05:14:8862 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 17:05:16:7401 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 17:05:16:8661 : EXCEPTION - While getting Process Parameter Model Level Data Invalid column name 'PlantID'.
+2021-02-19 17:07:52:2661 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 17:07:52:3151 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 17:07:54:4564 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 17:07:54:5944 : EXCEPTION - While getting Process Parameter Model Level Data Invalid column name 'PlantID'.
+2021-02-19 17:09:24:2466 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 17:09:24:3386 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 17:11:43:9936 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 17:11:44:0576 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 17:11:46:4716 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 17:11:46:6266 : EXCEPTION - While getting Process Parameter Model Level Data Invalid column name 'PlantID'.
+2021-02-19 17:12:53:7872 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 17:12:53:9452 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-19 17:12:57:5722 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 17:12:57:7771 : EXCEPTION - While getting Process Parameter Model Level Data Invalid column name 'PlantID'.
+2021-02-19 17:13:00:8651 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 17:13:01:0651 : EXCEPTION - While getting Machine model Data Invalid column name 'PlantID'.
+2021-02-19 17:13:01:1401 : EXCEPTION - While getting Process Parameter Machine Level Data Invalid column name 'PlantID'.
+2021-02-19 18:08:25:0178 : EXCEPTION - saveUpdateCompanyAdminDetails:  @Entity is not a parameter for procedure s_Masters_TPM_LoginInformation.
+2021-02-19 18:29:53:6055 : EXCEPTION - While getting Employee Master Data ExecuteReader: CommandText property has not been initialized
+2021-02-19 18:56:24:7017 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-19 18:56:24:8137 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.

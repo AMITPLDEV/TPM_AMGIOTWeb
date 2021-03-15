@@ -1,0 +1,135 @@
+﻿2021-03-03 09:08:39:6351 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 09:08:39:7201 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 09:18:05:4957 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 09:18:05:6235 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 10:25:56:3897 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 10:28:13:5824 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+ 
+2021-03-03 10:48:18:5966 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 10:48:44:1017 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-03 11:46:08:1365 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 11:53:05:4035 : EXCEPTION - saveUpdateAssignMachineToShopDetails:  Cannot insert the value NULL into column 'GroupID', table 'TPMAMGIOT_New.dbo.PlantMachineGroups'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2021-03-03 11:58:19:9158 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 11:58:48:3781 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-03 12:03:18:9268 : EXCEPTION - saveUpdateAssignMachineToShopDetails:  Cannot insert the value NULL into column 'GroupID', table 'TPMAMGIOT_New.dbo.PlantMachineGroups'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2021-03-03 12:04:13:8399 : EXCEPTION - saveUpdateAssignMachineToShopDetails:  Cannot insert the value NULL into column 'GroupID', table 'TPMAMGIOT_New.dbo.PlantMachineGroups'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2021-03-03 12:07:12:7436 : EXCEPTION - While getting Employee Master Data ExecuteReader: CommandText property has not been initialized
+2021-03-03 12:08:14:0701 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-03 12:43:21:1524 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 12:45:55:7414 : EXCEPTION - saveUpdateAssignMachineToShopDetails:  Violation of PRIMARY KEY constraint 'PK_ShopMachine'. Cannot insert duplicate key in object 'dbo.ShopMachines'. The duplicate key value is (Sphoorthi, Plant 1, m1, Shop 1).
+The statement has been terminated.
+2021-03-03 12:50:46:9208 : EXCEPTION - saveUpdateAssignMachineToShopDetails:  Violation of PRIMARY KEY constraint 'PK_ShopMachine'. Cannot insert duplicate key in object 'dbo.ShopMachines'. The duplicate key value is (Sphoorthi, Plant 1, m1, Shop 1).
+The statement has been terminated.
+2021-03-03 12:53:44:7198 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 12:54:05:3802 : EXCEPTION - saveUpdateAssignMachineToShopDetails:  Violation of PRIMARY KEY constraint 'PK_ShopMachine'. Cannot insert duplicate key in object 'dbo.ShopMachines'. The duplicate key value is (Sphoorthi, Plant 1, m1, Shop 1).
+The statement has been terminated.
+2021-03-03 13:02:31:3029 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 13:10:30:9063 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 13:11:02:5809 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-03 13:41:35:5069 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 13:59:49:2681 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 14:00:04:4613 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-03 14:00:44:6879 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-03 14:01:36:5045 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-03 14:01:54:5330 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-03 14:02:31:4098 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-03 14:18:20:0379 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 14:18:20:1719 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 14:18:37:5014 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-03 14:19:26:9908 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-03 14:29:05:1274 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 14:29:05:2254 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 14:34:08:1157 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-03 15:05:46:7071 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 15:05:46:8131 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 15:06:41:4288 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 15:06:41:5327 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 15:06:45:4300 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 15:06:45:5940 : EXCEPTION - While getting Machine model Data Invalid column name 'PlantID'.
+2021-03-03 15:06:45:7029 : EXCEPTION - While getting Process Parameter Machine Level Data Invalid column name 'PlantID'.
+2021-03-03 15:08:34:6494 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 15:08:34:7574 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 15:56:45:3312 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 15:56:45:4392 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 15:57:19:9862 : EXCEPTION - getRoleDetails:  @RoleName is not a parameter for procedure s_Master_TPM_ShopCellGroup.
+2021-03-03 15:57:33:2807 : EXCEPTION - getRoleDetails:  @Type is not a parameter for procedure s_Masters_TPM_CompanyRoleInformation.
+2021-03-03 15:57:52:0046 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-03 15:57:52:0197 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-03 16:01:08:0505 : EXCEPTION - checkRoleEffectiveDate:  Conversion failed when converting the nvarchar value 'Sphoorthi' to data type int.
+2021-03-03 16:01:10:0996 : EXCEPTION - saveUpdateRoleDetails:  Conversion failed when converting the nvarchar value 'Sphoorthi' to data type int.
+2021-03-03 16:11:06:1678 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 16:11:06:2738 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 16:16:53:2375 : EXCEPTION - saveUpdateCompanyDetails:  Violation of PRIMARY KEY constraint 'PK_Company'. Cannot insert duplicate key in object 'dbo.Company'. The duplicate key value is (Comp 3, Comp 3, Mar  3 2021  4:15PM).
+The statement has been terminated.
+2021-03-03 16:21:49:2116 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 16:21:49:3536 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 16:45:26:3530 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 16:45:26:4900 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 16:46:00:9128 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-03 16:46:00:9348 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-03 16:46:15:1401 : EXCEPTION - saveUpdateRoleDetails:  Cannot insert the value NULL into column 'RoleID', table 'TPMAMGIOT_New.dbo.CompanyRole'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2021-03-03 16:49:00:6687 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 16:49:00:8097 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 16:49:22:4671 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-03 16:49:22:4831 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-03 16:49:24:3209 : EXCEPTION - saveUpdateRoleDetails:  Cannot insert the value NULL into column 'RoleID', table 'TPMAMGIOT_New.dbo.CompanyRole'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+2021-03-03 17:30:05:8016 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 17:30:06:0326 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 17:30:49:6469 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-03 17:30:49:6709 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-03 17:53:36:6560 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 17:53:36:7780 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 21:54:16:4048 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 21:54:16:5949 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 21:54:22:4061 : EXCEPTION - While getting Employee Role Role
+2021-03-03 21:55:31:4340 : EXCEPTION - While getting Employee Role Role
+2021-03-03 21:56:27:6269 : EXCEPTION - While getting Employee Role Role
+2021-03-03 22:00:14:7707 : EXCEPTION - While getting Employee Role Role
+2021-03-03 22:22:45:5221 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 22:22:45:5901 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 22:22:51:8963 : EXCEPTION - While getting Employee Role Role
+2021-03-03 22:24:54:4143 : EXCEPTION - While getting Employee Role Role
+2021-03-03 22:25:33:1570 : EXCEPTION - While getting Employee Role Role
+2021-03-03 22:31:42:5120 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 22:31:42:6610 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 22:32:18:3059 : EXCEPTION - while inserting or updating employee master data: Violation of PRIMARY KEY constraint 'PK_User_1'. Cannot insert duplicate key in object 'dbo.UserInfo'. The duplicate key value is (Sphoorthi, 101, Mar  3 2021  5:48PM).
+The statement has been terminated.
+2021-03-03 22:37:05:9661 : EXCEPTION - while inserting or updating employee master data: Violation of PRIMARY KEY constraint 'PK_User_1'. Cannot insert duplicate key in object 'dbo.UserInfo'. The duplicate key value is (Sphoorthi, 101, Mar  3 2021  5:48PM).
+The statement has been terminated.
+2021-03-03 22:50:25:3743 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 22:50:25:5193 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 22:51:53:6151 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-03 22:51:53:6841 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-03 23:00:51:8059 : EXCEPTION - while inserting or updating employee master data: Violation of PRIMARY KEY constraint 'PK_User_1'. Cannot insert duplicate key in object 'dbo.UserInfo'. The duplicate key value is (Sphoorthi 1, Dff, Mar  3 2021  4:22PM).
+The statement has been terminated.

@@ -1,0 +1,55 @@
+﻿2021-02-24 09:19:13:2294 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 09:19:13:3164 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 09:49:17:6838 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 09:49:17:7518 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 12:27:34:9428 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 12:27:35:0848 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 12:32:05:8854 : EXCEPTION - saveUpdateCompanyDetails:  Violation of PRIMARY KEY constraint 'PK_Company'. Cannot insert duplicate key in object 'dbo.Company'. The duplicate key value is (Comp 7, Comp 7, Feb 24 2021 12:31PM).
+The statement has been terminated.
+2021-02-24 12:32:26:6314 : EXCEPTION - saveUpdateCompanyDetails:  Violation of PRIMARY KEY constraint 'PK_Company'. Cannot insert duplicate key in object 'dbo.Company'. The duplicate key value is (Comp 7, Comp 7, Feb 24 2021 12:31PM).
+The statement has been terminated.
+2021-02-24 12:39:37:1261 : EXCEPTION - While getting Employee Master Data ExecuteReader: CommandText property has not been initialized
+2021-02-24 14:14:46:8306 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 14:14:46:9126 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 14:30:34:9809 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 14:30:35:0630 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 14:39:14:5082 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 14:39:14:6072 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 14:49:17:0108 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 14:49:17:1049 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 14:52:53:5382 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 14:52:53:6212 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 14:55:52:1166 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 14:55:52:2306 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 15:00:09:1974 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 15:00:09:2814 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 18:18:56:4866 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 18:18:56:6556 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 18:29:26:8451 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 18:29:26:9511 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 19:45:21:0761 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 19:45:21:2130 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 20:36:44:1994 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 20:36:44:3044 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 20:42:21:6156 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 20:42:21:7116 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 20:43:20:0768 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-24 20:43:20:1028 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-24 20:43:20:1148 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-24 20:43:20:1268 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-24 20:43:20:1438 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-24 20:43:20:1598 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-24 20:43:20:1818 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-24 20:43:20:2018 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-24 20:43:20:2128 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-24 20:43:20:2238 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-24 20:45:48:0548 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 20:45:48:1688 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 21:46:36:1331 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 21:46:36:2381 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 22:00:59:8502 : EXCEPTION - saveUpdateGroupDetails:  Violation of PRIMARY KEY constraint 'PK_Entity'. Cannot insert duplicate key in object 'dbo.Entity'. The duplicate key value is (Ace 1, Ace 1, Feb 24 2021 10:00PM).
+The statement has been terminated.
+2021-02-24 22:28:31:1467 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 22:28:31:3717 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-24 23:16:43:8044 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-24 23:16:43:8954 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.

@@ -1,0 +1,150 @@
+﻿2021-01-08 11:48:13:0079 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-08 11:48:13:0960 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:13:1370 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:13:1690 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:13:2090 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:13:2480 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:13:2830 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:13:3120 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:13:3440 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:15:6160 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-08 11:48:15:6770 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:15:7140 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:15:7510 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:15:7870 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:15:8200 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:15:8510 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:15:8910 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:15:9200 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:29:9903 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:30:0233 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:30:0504 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:30:0773 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:30:1053 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:30:1393 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:30:1653 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:30:1893 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:38:4358 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:38:4667 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:38:4967 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:38:5237 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:38:5487 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:38:5737 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:38:5977 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:48:38:6217 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:50:04:1715 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:50:04:2005 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:50:04:2385 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:50:04:2665 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:50:04:2935 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:50:04:3285 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:50:04:3555 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:50:04:3865 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:24:1606 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-08 11:58:24:2526 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:24:2936 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:24:3276 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:24:3626 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:24:3966 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:24:4336 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:24:4726 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:24:5146 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:26:2615 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-08 11:58:26:3305 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:26:3785 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:26:4196 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:26:4525 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:26:4875 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:26:5185 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:26:5625 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:58:26:6025 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:05:0927 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-08 11:59:05:1446 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:05:1956 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:05:2486 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:05:2877 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:05:3216 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:05:3586 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:05:3926 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:05:4286 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:07:8828 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-08 11:59:07:9528 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:08:0028 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:08:1078 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:08:1558 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:08:2088 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:08:2598 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:08:2988 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 11:59:08:3398 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:00:06:4832 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:00:06:5223 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:00:06:5573 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:00:06:5932 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:00:06:6272 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:00:06:6812 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:00:06:7192 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:00:06:7652 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:48:9655 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-08 12:19:49:0575 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:49:0995 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:49:1355 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:49:1685 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:49:2035 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:49:2435 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:49:2795 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:49:3325 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:52:0561 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-08 12:19:52:1411 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:52:1751 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:52:2201 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:52:2550 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:52:2941 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:52:3340 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:52:3750 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:19:52:4171 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:03:5318 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-08 12:20:03:6548 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:03:7198 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:03:7568 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:03:8058 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:03:8428 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:03:8868 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:03:9488 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:03:9908 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:24:9036 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:24:9336 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:24:9626 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:24:9946 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:25:0316 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:25:0591 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:25:0910 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:25:1190 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:27:3233 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-08 12:20:27:4743 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:27:5113 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:27:5453 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:27:5853 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:27:6283 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:27:6543 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:27:6803 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:27:7063 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:52:7746 : EXCEPTION - While getting PlantID Data Input string was not in a correct format.
+2021-01-08 12:20:52:8746 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:52:9236 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:52:9606 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:52:9946 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:53:0446 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:53:0856 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:53:1436 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 12:20:53:1916 : EXCEPTION - Object reference not set to an instance of an object.
+2021-01-08 13:06:22:1101 : EXCEPTION - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2021-01-08 13:07:26:0938 : EXCEPTION - Login failed for user 'sa'.
+2021-01-08 13:08:26:7099 : EXCEPTION - Login failed for user 'sa'.
+2021-01-08 14:43:12:0438 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date;; ;; 
+2021-01-08 14:43:13:7311 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date08/01/2021 14:43:06;; 08/01/2021 14:43:06;; 08/01/2021 14:43:06
+2021-01-08 14:43:13:7541 : DEBUG - Prev else 08/01/2021 14:43:06;; 08/01/2021 14:43:06
+2021-01-08 14:43:13:7730 : DEBUG - Latest Date For Next and Start Date08/01/2021 14:43:06 ;; 08/01/2021 14:43:06
+2021-01-08 14:43:13:7920 : DEBUG - Set Next Prev: 08/01/2021 14:43:05   08/01/2021 14:43:06
+2021-01-08 14:43:13:8110 : DEBUG - Set Next Prev: 08-01-2021 14:43:05.000   08-01-2021 14:43:06.000
+2021-01-08 14:43:13:8420 : DEBUG - Eneter BindForTroubleShoot 08/01/2021 14:43:05  ;  08/01/2021 14:43:06
+2021-01-08 14:43:42:1598 : DEBUG - Result Count -2

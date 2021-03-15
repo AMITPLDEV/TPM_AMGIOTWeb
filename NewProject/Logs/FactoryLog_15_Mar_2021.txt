@@ -1,0 +1,20 @@
+﻿2021-03-15 11:36:30:4081 : EXCEPTION - while inserting or updating machine master data:  Object reference not set to an instance of an object.
+2021-03-15 12:56:23:0478 : EXCEPTION - getAllMachineShopAssociation - Parameter '@CellId' was supplied multiple times.
+2021-03-15 12:56:42:2144 : EXCEPTION - getAllMachineShopAssociation - Parameter '@CellId' was supplied multiple times.
+2021-03-15 12:57:01:4384 : EXCEPTION - getAllMachineShopAssociation - Parameter '@CellId' was supplied multiple times.
+2021-03-15 13:01:08:1801 : EXCEPTION - getAllMachineShopAssociation - The multi-part identifier "PlantShop.ShopID" could not be bound.
+Invalid length parameter passed to the LEFT or SUBSTRING function.
+2021-03-15 13:01:14:9503 : EXCEPTION - getAllMachineShopAssociation - The multi-part identifier "PlantShop.ShopID" could not be bound.
+Invalid length parameter passed to the LEFT or SUBSTRING function.
+2021-03-15 13:01:16:8270 : EXCEPTION - getAllMachineShopAssociation - The multi-part identifier "PlantShop.ShopID" could not be bound.
+Invalid length parameter passed to the LEFT or SUBSTRING function.
+2021-03-15 13:01:18:1207 : EXCEPTION - getAllMachineShopAssociation - The multi-part identifier "PlantShop.ShopID" could not be bound.
+Invalid length parameter passed to the LEFT or SUBSTRING function.
+2021-03-15 13:01:19:3239 : EXCEPTION - getAllMachineShopAssociation - The multi-part identifier "PlantShop.ShopID" could not be bound.
+Invalid length parameter passed to the LEFT or SUBSTRING function.
+2021-03-15 13:20:03:1100 : EXCEPTION - getAllMachineShopAssociation - The multi-part identifier "PlantShop.ShopID" could not be bound.
+Invalid length parameter passed to the LEFT or SUBSTRING function.
+2021-03-15 13:20:52:7145 : EXCEPTION - getAllMachineShopAssociation - The multi-part identifier "PlantShop.ShopID" could not be bound.
+Invalid length parameter passed to the LEFT or SUBSTRING function.
+2021-03-15 13:21:17:3160 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+2021-03-15 13:22:37:1806 : EXCEPTION - getAllMachineShopAssociation - Parameter '@CellId' was supplied multiple times.

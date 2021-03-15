@@ -1,0 +1,12 @@
+﻿2021-03-08 10:09:48:3573 : EXCEPTION - getAllMachinePlantAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-08 10:10:53:7254 : EXCEPTION - getAllMachinePlantAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-08 10:11:46:7262 : EXCEPTION - getAllMachinePlantAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-08 10:33:03:6577 : EXCEPTION - getAllMachinePlantAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.

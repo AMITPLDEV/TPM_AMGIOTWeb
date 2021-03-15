@@ -1,0 +1,252 @@
+﻿2021-01-30 09:15:22:2976 : DEBUG -  Start 0.0001964  DateTime30/01/2021 09:15:22
+2021-01-30 09:15:22:3216 : DEBUG -  Before Query Call Seconds : 1.7E-06  DateTime30/01/2021 09:15:22
+2021-01-30 09:16:38:5215 : DEBUG -  After Query Call Milliseconds: 76199.9996----Seconds: 76.2000052---  DateTime 30/01/2021 09:16:38
+2021-01-30 09:16:38:5524 : DEBUG -  Total Records 0
+2021-01-30 09:16:38:5734 : DEBUG -  After object building 2.5831----Seconds: 0.0025982   DateTime 30/01/2021 09:16:38
+2021-01-30 09:16:38:7314 : DEBUG -  After getProcessParameterMasterData 160.4044  DateTime 30/01/2021 09:16:38
+2021-01-30 09:16:38:7414 : DEBUG -  Before Json Conversion 0.0006----Seconds: 3.8E-06   DateTime 30/01/2021 09:16:38
+2021-01-30 09:16:38:9334 : DEBUG -  After Json Conversion 191.3072----Seconds: 0.1913107   DateTime 30/01/2021 09:16:38
+2021-01-30 09:16:48:6579 : EXCEPTION - While getting Process Parameter wise Validation Data Invalid object name 'ParameterwisePollingFreqMaster'.
+2021-01-30 09:16:48:7029 : EXCEPTION - While getting Process Parameter wise Validation Data IsEnabled
+2021-01-30 09:16:55:1262 : EXCEPTION - While getting Process Parameter Unit Data Invalid object name 'ParametersUnitMaster'.
+2021-01-30 09:18:20:9268 : DEBUG -  Start 1.4E-06  DateTime30/01/2021 09:18:20
+2021-01-30 09:18:20:9438 : DEBUG -  Before Query Call Seconds : 1.1E-06  DateTime30/01/2021 09:18:20
+2021-01-30 09:18:27:0524 : DEBUG -  After Query Call Milliseconds: 6108.2209----Seconds: 6.108223---  DateTime 30/01/2021 09:18:27
+2021-01-30 09:18:27:0634 : DEBUG -  Total Records 0
+2021-01-30 09:18:27:0734 : DEBUG -  After object building 0.009----Seconds: 1.46E-05   DateTime 30/01/2021 09:18:27
+2021-01-30 09:18:27:1065 : DEBUG -  After getProcessParameterMasterData 32.9738  DateTime 30/01/2021 09:18:27
+2021-01-30 09:18:27:1175 : DEBUG -  Before Json Conversion 0.0008----Seconds: 4.6E-06   DateTime 30/01/2021 09:18:27
+2021-01-30 09:18:27:1275 : DEBUG -  After Json Conversion 10.8918----Seconds: 0.0108962   DateTime 30/01/2021 09:18:27
+2021-01-30 09:20:13:0444 : DEBUG -  Start 3E-06  DateTime30/01/2021 09:20:13
+2021-01-30 09:20:13:0644 : DEBUG -  Before Query Call Seconds : 1.3E-06  DateTime30/01/2021 09:20:13
+2021-01-30 09:20:16:7600 : DEBUG -  After Query Call Milliseconds: 3695.3993----Seconds: 3.695407---  DateTime 30/01/2021 09:20:16
+2021-01-30 09:20:16:7890 : DEBUG -  Total Records 0
+2021-01-30 09:20:16:8110 : DEBUG -  After object building 0.0111----Seconds: 1.84E-05   DateTime 30/01/2021 09:20:16
+2021-01-30 09:20:16:8460 : DEBUG -  After getProcessParameterMasterData 35.5411  DateTime 30/01/2021 09:20:16
+2021-01-30 09:20:16:8760 : DEBUG -  Before Json Conversion 0.0007----Seconds: 4.7E-06   DateTime 30/01/2021 09:20:16
+2021-01-30 09:20:16:8890 : DEBUG -  After Json Conversion 13.0257----Seconds: 0.0130317   DateTime 30/01/2021 09:20:16
+2021-01-30 09:20:56:8321 : DEBUG -  Start 1.5E-06  DateTime30/01/2021 09:20:56
+2021-01-30 09:20:56:9011 : DEBUG -  Before Query Call Seconds : 1.2E-06  DateTime30/01/2021 09:20:56
+2021-01-30 09:21:03:5311 : DEBUG -  After Query Call Milliseconds: 6630.6595----Seconds: 6.6306631---  DateTime 30/01/2021 09:21:03
+2021-01-30 09:21:03:5541 : DEBUG -  Total Records 0
+2021-01-30 09:21:03:5731 : DEBUG -  After object building 0.0112----Seconds: 1.67E-05   DateTime 30/01/2021 09:21:03
+2021-01-30 09:21:03:6101 : DEBUG -  After getProcessParameterMasterData 36.8021  DateTime 30/01/2021 09:21:03
+2021-01-30 09:21:03:6261 : DEBUG -  Before Json Conversion 0.0012----Seconds: 6.2E-06   DateTime 30/01/2021 09:21:03
+2021-01-30 09:21:03:6371 : DEBUG -  After Json Conversion 11.3264----Seconds: 0.011331   DateTime 30/01/2021 09:21:03
+2021-01-30 09:22:26:1632 : DEBUG -  Start 3.3E-06  DateTime30/01/2021 09:22:26
+2021-01-30 09:22:26:1822 : DEBUG -  Before Query Call Seconds : 9E-07  DateTime30/01/2021 09:22:26
+2021-01-30 09:22:35:4502 : DEBUG -  After Query Call Milliseconds: 9268.4632----Seconds: 9.2684673---  DateTime 30/01/2021 09:22:35
+2021-01-30 09:22:35:4692 : DEBUG -  Total Records 0
+2021-01-30 09:22:35:4822 : DEBUG -  After object building 0.012----Seconds: 1.59E-05   DateTime 30/01/2021 09:22:35
+2021-01-30 09:22:35:5092 : DEBUG -  After getProcessParameterMasterData 27.1041  DateTime 30/01/2021 09:22:35
+2021-01-30 09:22:35:5222 : DEBUG -  Before Json Conversion 0.0011----Seconds: 5.6E-06   DateTime 30/01/2021 09:22:35
+2021-01-30 09:22:35:5332 : DEBUG -  After Json Conversion 11.1712----Seconds: 0.011176   DateTime 30/01/2021 09:22:35
+2021-01-30 09:22:52:7602 : DEBUG -  Start 2.6E-06  DateTime30/01/2021 09:22:52
+2021-01-30 09:22:52:7763 : DEBUG -  Before Query Call Seconds : 9E-07  DateTime30/01/2021 09:22:52
+2021-01-30 09:23:00:0524 : DEBUG -  After Query Call Milliseconds: 7275.6597----Seconds: 7.2756625---  DateTime 30/01/2021 09:23:00
+2021-01-30 09:23:00:0744 : DEBUG -  Total Records 9621
+2021-01-30 09:23:00:1434 : DEBUG -  After object building 54.8296----Seconds: 0.0548343   DateTime 30/01/2021 09:23:00
+2021-01-30 09:23:00:1704 : DEBUG -  After getProcessParameterMasterData 82.2332  DateTime 30/01/2021 09:23:00
+2021-01-30 09:23:00:1804 : DEBUG -  Before Json Conversion 0.0008----Seconds: 4.8E-06   DateTime 30/01/2021 09:23:00
+2021-01-30 09:23:00:2255 : DEBUG -  After Json Conversion 44.4449----Seconds: 0.0444483   DateTime 30/01/2021 09:23:00
+2021-01-30 09:23:14:1627 : DEBUG -  Start 2.4E-06  DateTime30/01/2021 09:23:14
+2021-01-30 09:23:14:1837 : DEBUG -  Before Query Call Seconds : 1.3E-06  DateTime30/01/2021 09:23:14
+2021-01-30 09:23:18:5976 : DEBUG -  After Query Call Milliseconds: 4414.5902----Seconds: 4.4145926---  DateTime 30/01/2021 09:23:18
+2021-01-30 09:23:18:6096 : DEBUG -  Total Records 9621
+2021-01-30 09:23:18:7135 : DEBUG -  After object building 94.1593----Seconds: 0.0941632   DateTime 30/01/2021 09:23:18
+2021-01-30 09:23:18:7706 : DEBUG -  After getProcessParameterMasterData 151.3156  DateTime 30/01/2021 09:23:18
+2021-01-30 09:23:18:7835 : DEBUG -  Before Json Conversion 0.0008----Seconds: 5.9E-06   DateTime 30/01/2021 09:23:18
+2021-01-30 09:23:18:8425 : DEBUG -  After Json Conversion 58.641----Seconds: 0.0586448   DateTime 30/01/2021 09:23:18
+2021-01-30 09:25:20:8650 : DEBUG -  Start 2.6E-06  DateTime30/01/2021 09:25:20
+2021-01-30 09:25:20:8860 : DEBUG -  Before Query Call Seconds : 1E-06  DateTime30/01/2021 09:25:20
+2021-01-30 09:25:35:4049 : DEBUG -  After Query Call Milliseconds: 14519.2501----Seconds: 14.5192523---  DateTime 30/01/2021 09:25:35
+2021-01-30 09:25:35:4178 : DEBUG -  Total Records 9621
+2021-01-30 09:25:35:4858 : DEBUG -  After object building 57.1001----Seconds: 0.0571045   DateTime 30/01/2021 09:25:35
+2021-01-30 09:25:35:5259 : DEBUG -  After getProcessParameterMasterData 96.6584  DateTime 30/01/2021 09:25:35
+2021-01-30 09:25:35:5359 : DEBUG -  Before Json Conversion 0.0007----Seconds: 4.9E-06   DateTime 30/01/2021 09:25:35
+2021-01-30 09:25:35:5719 : DEBUG -  After Json Conversion 35.3766----Seconds: 0.0353806   DateTime 30/01/2021 09:25:35
+2021-01-30 09:28:20:4341 : DEBUG -  Start 2.4E-06  DateTime30/01/2021 09:28:20
+2021-01-30 09:28:20:4541 : DEBUG -  Before Query Call Seconds : 9E-07  DateTime30/01/2021 09:28:20
+2021-01-30 09:28:27:8729 : DEBUG -  After Query Call Milliseconds: 7418.4287----Seconds: 7.418432---  DateTime 30/01/2021 09:28:27
+2021-01-30 09:28:27:8889 : DEBUG -  Total Records 3849
+2021-01-30 09:28:27:9289 : DEBUG -  After object building 28.3874----Seconds: 0.0283906   DateTime 30/01/2021 09:28:27
+2021-01-30 09:28:27:9529 : DEBUG -  After getProcessParameterMasterData 51.7635  DateTime 30/01/2021 09:28:27
+2021-01-30 09:28:27:9629 : DEBUG -  Before Json Conversion 0.0006----Seconds: 5.1E-06   DateTime 30/01/2021 09:28:27
+2021-01-30 09:28:28:0009 : DEBUG -  After Json Conversion 37.2298----Seconds: 0.037234   DateTime 30/01/2021 09:28:27
+2021-01-30 09:31:20:2912 : DEBUG -  Start 2.8E-06  DateTime30/01/2021 09:31:20
+2021-01-30 09:31:20:3122 : DEBUG -  Before Query Call Seconds : 9E-07  DateTime30/01/2021 09:31:20
+2021-01-30 09:31:29:1650 : DEBUG -  After Query Call Milliseconds: 8849.0499----Seconds: 8.8490527---  DateTime 30/01/2021 09:31:29
+2021-01-30 09:31:29:1890 : DEBUG -  Total Records 3849
+2021-01-30 09:31:29:2330 : DEBUG -  After object building 29.528----Seconds: 0.0295311   DateTime 30/01/2021 09:31:29
+2021-01-30 09:31:29:2630 : DEBUG -  After getProcessParameterMasterData 59.9267  DateTime 30/01/2021 09:31:29
+2021-01-30 09:31:29:2741 : DEBUG -  Before Json Conversion 0.0009----Seconds: 4.8E-06   DateTime 30/01/2021 09:31:29
+2021-01-30 09:31:29:2930 : DEBUG -  After Json Conversion 19.0389----Seconds: 0.0190425   DateTime 30/01/2021 09:31:29
+2021-01-30 09:34:46:4505 : DEBUG -  Start 2.5E-06  DateTime30/01/2021 09:34:46
+2021-01-30 09:34:46:4775 : DEBUG -  Before Query Call Seconds : 1.4E-06  DateTime30/01/2021 09:34:46
+2021-01-30 09:34:53:7592 : DEBUG -  After Query Call Milliseconds: 7281.9772----Seconds: 7.2819796---  DateTime 30/01/2021 09:34:53
+2021-01-30 09:34:53:7782 : DEBUG -  Total Records 3849
+2021-01-30 09:34:53:8142 : DEBUG -  After object building 22.9744----Seconds: 0.0229774   DateTime 30/01/2021 09:34:53
+2021-01-30 09:34:53:8779 : DEBUG -  After getProcessParameterMasterData 86.665  DateTime 30/01/2021 09:34:53
+2021-01-30 09:34:53:8929 : DEBUG -  Before Json Conversion 0.0007----Seconds: 6.1E-06   DateTime 30/01/2021 09:34:53
+2021-01-30 09:34:53:9269 : DEBUG -  After Json Conversion 34.524----Seconds: 0.0345282   DateTime 30/01/2021 09:34:53
+2021-01-30 09:36:28:9283 : DEBUG -  Start 2.2E-06  DateTime30/01/2021 09:36:28
+2021-01-30 09:36:28:9533 : DEBUG -  Before Query Call Seconds : 1.2E-06  DateTime30/01/2021 09:36:28
+2021-01-30 09:36:33:0571 : DEBUG -  After Query Call Milliseconds: 4104.1895----Seconds: 4.1041922---  DateTime 30/01/2021 09:36:33
+2021-01-30 09:36:33:0701 : DEBUG -  Total Records 3849
+2021-01-30 09:36:33:1171 : DEBUG -  After object building 33.9077----Seconds: 0.0339108   DateTime 30/01/2021 09:36:33
+2021-01-30 09:36:33:1683 : DEBUG -  After getProcessParameterMasterData 84.9633  DateTime 30/01/2021 09:36:33
+2021-01-30 09:36:33:1802 : DEBUG -  Before Json Conversion 0.0008----Seconds: 5.4E-06   DateTime 30/01/2021 09:36:33
+2021-01-30 09:36:33:2202 : DEBUG -  After Json Conversion 40.6753----Seconds: 0.0406798   DateTime 30/01/2021 09:36:33
+2021-01-30 09:41:59:4515 : DEBUG -  Start 0.0001441  DateTime30/01/2021 09:41:59
+2021-01-30 09:41:59:4735 : DEBUG -  Before Query Call Seconds : 1.9E-06  DateTime30/01/2021 09:41:59
+2021-01-30 09:42:03:8904 : DEBUG -  After Query Call Milliseconds: 4416.8011----Seconds: 4.4168035---  DateTime 30/01/2021 09:42:03
+2021-01-30 09:42:03:9034 : DEBUG -  Total Records 8469
+2021-01-30 09:42:03:9164 : DEBUG -  After object building 2.2776----Seconds: 0.0022808   DateTime 30/01/2021 09:42:03
+2021-01-30 09:42:04:0956 : DEBUG -  After getProcessParameterMasterData 181.4724  DateTime 30/01/2021 09:42:04
+2021-01-30 09:42:04:1056 : DEBUG -  Before Json Conversion 0.0007----Seconds: 4.4E-06   DateTime 30/01/2021 09:42:04
+2021-01-30 09:42:04:2917 : DEBUG -  After Json Conversion 185.194----Seconds: 0.1851973   DateTime 30/01/2021 09:42:04
+2021-01-30 09:42:19:9086 : DEBUG -  Start 2.5E-06  DateTime30/01/2021 09:42:19
+2021-01-30 09:42:19:9286 : DEBUG -  Before Query Call Seconds : 5.14E-05  DateTime30/01/2021 09:42:19
+2021-01-30 09:42:24:2828 : DEBUG -  After Query Call Milliseconds: 4354.199----Seconds: 4.3542016---  DateTime 30/01/2021 09:42:24
+2021-01-30 09:42:24:2948 : DEBUG -  Total Records 8141
+2021-01-30 09:42:24:3178 : DEBUG -  After object building 12.2389----Seconds: 0.0122412   DateTime 30/01/2021 09:42:24
+2021-01-30 09:42:24:3557 : DEBUG -  After getProcessParameterMasterData 49.4171  DateTime 30/01/2021 09:42:24
+2021-01-30 09:42:24:3687 : DEBUG -  Before Json Conversion 0.0007----Seconds: 1.83E-05   DateTime 30/01/2021 09:42:24
+2021-01-30 09:42:24:4017 : DEBUG -  After Json Conversion 32.2344----Seconds: 0.0322375   DateTime 30/01/2021 09:42:24
+2021-01-30 09:42:44:6481 : DEBUG -  Start 2.5E-06  DateTime30/01/2021 09:42:44
+2021-01-30 09:42:44:6661 : DEBUG -  Before Query Call Seconds : 1.1E-06  DateTime30/01/2021 09:42:44
+2021-01-30 09:42:50:1119 : DEBUG -  After Query Call Milliseconds: 5446.3943----Seconds: 5.4463964---  DateTime 30/01/2021 09:42:50
+2021-01-30 09:42:50:1229 : DEBUG -  Total Records 8141
+2021-01-30 09:42:50:1499 : DEBUG -  After object building 15.8488----Seconds: 0.0158518   DateTime 30/01/2021 09:42:50
+2021-01-30 09:42:50:1779 : DEBUG -  After getProcessParameterMasterData 44.2821  DateTime 30/01/2021 09:42:50
+2021-01-30 09:42:50:1919 : DEBUG -  Before Json Conversion 0.0008----Seconds: 4.6E-06   DateTime 30/01/2021 09:42:50
+2021-01-30 09:42:50:2189 : DEBUG -  After Json Conversion 26.5831----Seconds: 0.0265966   DateTime 30/01/2021 09:42:50
+2021-01-30 09:56:53:7289 : DEBUG -  Start 0.0001006  DateTime30/01/2021 09:56:53
+2021-01-30 09:56:53:7429 : DEBUG -  Before Query Call Seconds : 2E-06  DateTime30/01/2021 09:56:53
+2021-01-30 09:57:00:2279 : DEBUG -  After Query Call Milliseconds: 6485.2153----Seconds: 6.4852173---  DateTime 30/01/2021 09:57:00
+2021-01-30 09:57:00:2404 : DEBUG -  Total Records 8141
+2021-01-30 09:57:00:2804 : DEBUG -  After object building 20.0523----Seconds: 0.020055   DateTime 30/01/2021 09:57:00
+2021-01-30 09:57:00:3134 : DEBUG -  After getProcessParameterMasterData 52.7913  DateTime 30/01/2021 09:57:00
+2021-01-30 09:57:00:3234 : DEBUG -  Before Json Conversion 0.0005----Seconds: 5E-06   DateTime 30/01/2021 09:57:00
+2021-01-30 09:57:00:5294 : DEBUG -  After Json Conversion 206.6291----Seconds: 0.2066328   DateTime 30/01/2021 09:57:00
+2021-01-30 09:57:08:0179 : DEBUG -  Start 2.2E-06  DateTime30/01/2021 09:57:08
+2021-01-30 09:57:08:0339 : DEBUG -  Before Query Call Seconds : 9E-07  DateTime30/01/2021 09:57:08
+2021-01-30 09:57:14:9379 : DEBUG -  After Query Call Milliseconds: 6903.2314----Seconds: 6.9032336---  DateTime 30/01/2021 09:57:14
+2021-01-30 09:57:14:9529 : DEBUG -  Total Records 8141
+2021-01-30 09:57:14:9829 : DEBUG -  After object building 19.4652----Seconds: 0.0194692   DateTime 30/01/2021 09:57:14
+2021-01-30 09:57:15:0229 : DEBUG -  After getProcessParameterMasterData 59.3218  DateTime 30/01/2021 09:57:15
+2021-01-30 09:57:15:0329 : DEBUG -  Before Json Conversion 0.0007----Seconds: 5E-06   DateTime 30/01/2021 09:57:15
+2021-01-30 09:57:15:0569 : DEBUG -  After Json Conversion 24.0404----Seconds: 0.0240444   DateTime 30/01/2021 09:57:15
+2021-01-30 10:00:25:1274 : DEBUG -  Start 3.9E-06  DateTime30/01/2021 10:00:25
+2021-01-30 10:00:25:1494 : DEBUG -  Before Query Call Seconds : 9E-07  DateTime30/01/2021 10:00:25
+2021-01-30 10:00:32:2435 : DEBUG -  After Query Call Milliseconds: 7093.4354----Seconds: 7.0934392---  DateTime 30/01/2021 10:00:32
+2021-01-30 10:00:32:2565 : DEBUG -  Total Records 8141
+2021-01-30 10:00:32:3235 : DEBUG -  After object building 52.5721----Seconds: 0.0525764   DateTime 30/01/2021 10:00:32
+2021-01-30 10:00:32:3585 : DEBUG -  After getProcessParameterMasterData 87.7767  DateTime 30/01/2021 10:00:32
+2021-01-30 10:00:32:3725 : DEBUG -  Before Json Conversion 0.0007----Seconds: 5.9E-06   DateTime 30/01/2021 10:00:32
+2021-01-30 10:00:32:4045 : DEBUG -  After Json Conversion 32.5445----Seconds: 0.0325495   DateTime 30/01/2021 10:00:32
+2021-01-30 10:18:10:0858 : DEBUG -  Start 2.1E-06  DateTime30/01/2021 10:18:10
+2021-01-30 10:18:10:1118 : DEBUG -  Before Query Call Seconds : 1E-06  DateTime30/01/2021 10:18:10
+2021-01-30 10:18:16:4240 : DEBUG -  After Query Call Milliseconds: 6311.9616----Seconds: 6.3119636---  DateTime 30/01/2021 10:18:16
+2021-01-30 10:18:16:4349 : DEBUG -  Total Records 8141
+2021-01-30 10:18:16:4679 : DEBUG -  After object building 18.2266----Seconds: 0.0182307   DateTime 30/01/2021 10:18:16
+2021-01-30 10:18:16:5329 : DEBUG -  After getProcessParameterMasterData 84.1729  DateTime 30/01/2021 10:18:16
+2021-01-30 10:18:16:5439 : DEBUG -  Before Json Conversion 0.0007----Seconds: 5.1E-06   DateTime 30/01/2021 10:18:16
+2021-01-30 10:18:16:5659 : DEBUG -  After Json Conversion 22.5768----Seconds: 0.0225813   DateTime 30/01/2021 10:18:16
+2021-01-30 10:19:23:6634 : DEBUG -  Start 1.3E-06  DateTime30/01/2021 10:19:23
+2021-01-30 10:19:23:6804 : DEBUG -  Before Query Call Seconds : 1.6E-06  DateTime30/01/2021 10:19:23
+2021-01-30 10:19:41:2395 : DEBUG -  After Query Call Milliseconds: 17559.5276----Seconds: 17.5595304---  DateTime 30/01/2021 10:19:41
+2021-01-30 10:19:41:2590 : DEBUG -  Total Records 3
+2021-01-30 10:19:41:2750 : DEBUG -  After object building 0.0714----Seconds: 7.47E-05   DateTime 30/01/2021 10:19:41
+2021-01-30 10:19:41:3588 : DEBUG -  After getProcessParameterMasterData 83.9841  DateTime 30/01/2021 10:19:41
+2021-01-30 10:19:41:3758 : DEBUG -  Before Json Conversion 0.001----Seconds: 6E-06   DateTime 30/01/2021 10:19:41
+2021-01-30 10:19:41:3938 : DEBUG -  After Json Conversion 17.7083----Seconds: 0.0177192   DateTime 30/01/2021 10:19:41
+2021-01-30 10:29:03:6486 : DEBUG -  Start 0.0001171  DateTime30/01/2021 10:29:03
+2021-01-30 10:29:03:6646 : DEBUG -  Before Query Call Seconds : 1.5E-06  DateTime30/01/2021 10:29:03
+2021-01-30 10:29:09:6200 : DEBUG -  After Query Call Milliseconds: 5955.3877----Seconds: 5.9553904---  DateTime 30/01/2021 10:29:09
+2021-01-30 10:29:09:6436 : DEBUG -  Total Records 0
+2021-01-30 10:29:09:6656 : DEBUG -  After object building 1.283----Seconds: 0.0012889   DateTime 30/01/2021 10:29:09
+2021-01-30 10:29:09:8106 : DEBUG -  After getProcessParameterMasterData 146.5142  DateTime 30/01/2021 10:29:09
+2021-01-30 10:29:09:8336 : DEBUG -  Before Json Conversion 0.0005----Seconds: 4.9E-06   DateTime 30/01/2021 10:29:09
+2021-01-30 10:29:10:0716 : DEBUG -  After Json Conversion 238.5145----Seconds: 0.2385199   DateTime 30/01/2021 10:29:10
+2021-01-30 10:29:30:4636 : DEBUG -  Start 0.0043246  DateTime30/01/2021 10:29:30
+2021-01-30 10:29:30:4826 : DEBUG -  Before Query Call Seconds : 9E-07  DateTime30/01/2021 10:29:30
+2021-01-30 10:29:37:7061 : DEBUG -  After Query Call Milliseconds: 7223.9875----Seconds: 7.2239911---  DateTime 30/01/2021 10:29:37
+2021-01-30 10:29:37:7221 : DEBUG -  Total Records 0
+2021-01-30 10:29:37:7341 : DEBUG -  After object building 0.0079----Seconds: 1.25E-05   DateTime 30/01/2021 10:29:37
+2021-01-30 10:29:37:7922 : DEBUG -  After getProcessParameterMasterData 58.0127  DateTime 30/01/2021 10:29:37
+2021-01-30 10:29:37:8031 : DEBUG -  Before Json Conversion 0.0008----Seconds: 5.1E-06   DateTime 30/01/2021 10:29:37
+2021-01-30 10:29:37:8141 : DEBUG -  After Json Conversion 10.797----Seconds: 0.0108018   DateTime 30/01/2021 10:29:37
+2021-01-30 10:30:37:6163 : DEBUG -  Start 1.6E-06  DateTime30/01/2021 10:30:37
+2021-01-30 10:30:37:6413 : DEBUG -  Before Query Call Seconds : 1.1E-06  DateTime30/01/2021 10:30:37
+2021-01-30 10:30:44:1975 : DEBUG -  After Query Call Milliseconds: 6557.0994----Seconds: 6.5571029---  DateTime 30/01/2021 10:30:44
+2021-01-30 10:30:44:2185 : DEBUG -  Total Records 3
+2021-01-30 10:30:44:2385 : DEBUG -  After object building 4.0027----Seconds: 0.0040058   DateTime 30/01/2021 10:30:44
+2021-01-30 10:30:44:2865 : DEBUG -  After getProcessParameterMasterData 51.4767  DateTime 30/01/2021 10:30:44
+2021-01-30 10:30:44:2965 : DEBUG -  Before Json Conversion 0.0006----Seconds: 4.2E-06   DateTime 30/01/2021 10:30:44
+2021-01-30 10:30:44:3175 : DEBUG -  After Json Conversion 21.0692----Seconds: 0.021072   DateTime 30/01/2021 10:30:44
+2021-01-30 11:26:15:7071 : DEBUG -  Start 0.004833  DateTime30/01/2021 11:26:15
+2021-01-30 11:26:15:7511 : DEBUG -  Before Query Call Seconds : 2.1E-06  DateTime30/01/2021 11:26:15
+2021-01-30 11:26:21:1887 : DEBUG -  After Query Call Milliseconds: 5437.5804----Seconds: 5.4375825---  DateTime 30/01/2021 11:26:21
+2021-01-30 11:26:21:2046 : DEBUG -  Total Records 0
+2021-01-30 11:26:21:2186 : DEBUG -  After object building 0.9329----Seconds: 0.0009363   DateTime 30/01/2021 11:26:21
+2021-01-30 11:26:21:4108 : DEBUG -  After getProcessParameterMasterData 193.7408  DateTime 30/01/2021 11:26:21
+2021-01-30 11:26:21:4218 : DEBUG -  Before Json Conversion 0.0009----Seconds: 5.3E-06   DateTime 30/01/2021 11:26:21
+2021-01-30 11:26:21:6348 : DEBUG -  After Json Conversion 213.2697----Seconds: 0.2132739   DateTime 30/01/2021 11:26:21
+2021-01-30 11:26:32:9351 : DEBUG -  Start 2.6E-06  DateTime30/01/2021 11:26:32
+2021-01-30 11:26:32:9570 : DEBUG -  Before Query Call Seconds : 9E-07  DateTime30/01/2021 11:26:32
+2021-01-30 11:26:37:9203 : DEBUG -  After Query Call Milliseconds: 4963.065----Seconds: 4.9630702---  DateTime 30/01/2021 11:26:37
+2021-01-30 11:26:37:9582 : DEBUG -  Total Records 3
+2021-01-30 11:26:37:9802 : DEBUG -  After object building 4.4728----Seconds: 0.0044752   DateTime 30/01/2021 11:26:37
+2021-01-30 11:26:38:0212 : DEBUG -  After getProcessParameterMasterData 45.5589  DateTime 30/01/2021 11:26:38
+2021-01-30 11:26:38:0332 : DEBUG -  Before Json Conversion 0.0011----Seconds: 1.09E-05   DateTime 30/01/2021 11:26:38
+2021-01-30 11:26:38:0542 : DEBUG -  After Json Conversion 20.9412----Seconds: 0.0209438   DateTime 30/01/2021 11:26:38
+2021-01-30 11:51:39:0780 : DEBUG -  Start 0.0001303  DateTime30/01/2021 11:51:39
+2021-01-30 11:51:39:0961 : DEBUG -  Before Query Call Seconds : 1.2E-06  DateTime30/01/2021 11:51:39
+2021-01-30 11:51:42:4812 : DEBUG -  After Query Call Milliseconds: 3385.6172----Seconds: 3.3856221---  DateTime 30/01/2021 11:51:42
+2021-01-30 11:51:42:5102 : DEBUG -  Total Records 0
+2021-01-30 11:51:42:5263 : DEBUG -  After object building 1.0359----Seconds: 0.0010392   DateTime 30/01/2021 11:51:42
+2021-01-30 11:51:42:7533 : DEBUG -  After getProcessParameterMasterData 228.6014  DateTime 30/01/2021 11:51:42
+2021-01-30 11:51:42:7652 : DEBUG -  Before Json Conversion 0.0005----Seconds: 4.4E-06   DateTime 30/01/2021 11:51:42
+2021-01-30 11:51:42:9553 : DEBUG -  After Json Conversion 189.5994----Seconds: 0.1896029   DateTime 30/01/2021 11:51:42
+2021-01-30 11:51:58:7884 : DEBUG -  Start 1.9E-06  DateTime30/01/2021 11:51:58
+2021-01-30 11:51:58:8074 : DEBUG -  Before Query Call Seconds : 1E-06  DateTime30/01/2021 11:51:58
+2021-01-30 11:52:03:6402 : DEBUG -  After Query Call Milliseconds: 4833.0885----Seconds: 4.8330918---  DateTime 30/01/2021 11:52:03
+2021-01-30 11:52:03:6562 : DEBUG -  Total Records 3
+2021-01-30 11:52:03:6702 : DEBUG -  After object building 3.1342----Seconds: 0.0031361   DateTime 30/01/2021 11:52:03
+2021-01-30 11:52:03:6932 : DEBUG -  After getProcessParameterMasterData 26.561  DateTime 30/01/2021 11:52:03
+2021-01-30 11:52:03:7042 : DEBUG -  Before Json Conversion 0.0007----Seconds: 5E-06   DateTime 30/01/2021 11:52:03
+2021-01-30 11:52:03:7253 : DEBUG -  After Json Conversion 21.2942----Seconds: 0.0212984   DateTime 30/01/2021 11:52:03
+2021-01-30 12:07:20:5763 : DEBUG -  Start 1.14E-05  DateTime30/01/2021 12:07:20
+2021-01-30 12:07:20:5913 : DEBUG -  Before Query Call Seconds : 9E-07  DateTime30/01/2021 12:07:20
+2021-01-30 12:07:24:4333 : DEBUG -  After Query Call Milliseconds: 3841.3214----Seconds: 3.8413293---  DateTime 30/01/2021 12:07:24
+2021-01-30 12:07:24:4682 : DEBUG -  Total Records 3
+2021-01-30 12:07:24:4883 : DEBUG -  After object building 0.0133----Seconds: 1.82E-05   DateTime 30/01/2021 12:07:24
+2021-01-30 12:07:24:5182 : DEBUG -  After getProcessParameterMasterData 30.0279  DateTime 30/01/2021 12:07:24
+2021-01-30 12:07:24:5292 : DEBUG -  Before Json Conversion 0.0008----Seconds: 4.9E-06   DateTime 30/01/2021 12:07:24
+2021-01-30 12:07:24:5422 : DEBUG -  After Json Conversion 12.8747----Seconds: 0.0128796   DateTime 30/01/2021 12:07:24
+2021-01-30 12:07:33:2962 : DEBUG -  Start 3.6E-06  DateTime30/01/2021 12:07:33
+2021-01-30 12:07:33:3162 : DEBUG -  Before Query Call Seconds : 2.1E-06  DateTime30/01/2021 12:07:33
+2021-01-30 12:07:38:3431 : DEBUG -  After Query Call Milliseconds: 5026.9132----Seconds: 5.0269171---  DateTime 30/01/2021 12:07:38
+2021-01-30 12:07:38:3711 : DEBUG -  Total Records 3
+2021-01-30 12:07:38:3860 : DEBUG -  After object building 0.0791----Seconds: 8.18E-05   DateTime 30/01/2021 12:07:38
+2021-01-30 12:07:38:4211 : DEBUG -  After getProcessParameterMasterData 35.3625  DateTime 30/01/2021 12:07:38
+2021-01-30 12:07:38:4351 : DEBUG -  Before Json Conversion 0.0007----Seconds: 1.82E-05   DateTime 30/01/2021 12:07:38
+2021-01-30 12:07:38:4461 : DEBUG -  After Json Conversion 10.9048----Seconds: 0.0109083   DateTime 30/01/2021 12:07:38
+2021-01-30 12:55:34:8924 : EXCEPTION - Getting Process Parameter Live Data Details : Command aggregate failed: the $facet specification must be a non-empty object, but found: $facet: {}.---------  Query : [{ "$match" : { "CompanyID" : "Ace Designers", "PlantID" : "Plant-01" } }, { "$facet" : { } }, { "$project" : { "data" : { "$concatArrays" : [] } } }, { "$unwind" : "$data" }, { "$replaceRoot" : { "newRoot" : "$data" } }]
+2021-01-30 12:57:33:0375 : EXCEPTION - Getting Process Parameter Live Data Details : Command aggregate failed: the $facet specification must be a non-empty object, but found: $facet: {}.---------  Query : [{ "$match" : { "CompanyID" : "Ace Designers", "PlantID" : "Plant-01" } }, { "$facet" : { } }, { "$project" : { "data" : { "$concatArrays" : [] } } }, { "$unwind" : "$data" }, { "$replaceRoot" : { "newRoot" : "$data" } }]
+2021-01-30 17:06:56:0990 : DEBUG - getCNCAlarmData = Object reference not set to an instance of an object.
+2021-01-30 17:06:57:9599 : DEBUG - getPreventiveAlarmData = Object reference not set to an instance of an object.
+2021-01-30 17:07:01:1710 : DEBUG - getCNCAlarmData = Object reference not set to an instance of an object.
+2021-01-30 17:07:03:5016 : DEBUG - getCNCAlarmData = Object reference not set to an instance of an object.
+2021-01-30 17:07:09:1548 : DEBUG - getCNCAlarmData = Object reference not set to an instance of an object.
+2021-01-30 17:07:14:2628 : DEBUG - getPreventiveAlarmData = Object reference not set to an instance of an object.
+2021-01-30 17:07:17:5450 : DEBUG - getCNCAlarmData = Object reference not set to an instance of an object.
+2021-01-30 17:08:04:0077 : DEBUG - getCNCAlarmData = Object reference not set to an instance of an object.
+2021-01-30 17:08:36:3960 : DEBUG - getCNCAlarmData = Object reference not set to an instance of an object.
+2021-01-30 17:08:52:4878 : EXCEPTION - While getting Process Parameter wise Validation Data Invalid object name 'ParameterwisePollingFreqMaster'.
+2021-01-30 17:08:52:5398 : EXCEPTION - While getting Process Parameter wise Validation Data IsEnabled
+2021-01-30 17:08:52:6898 : EXCEPTION - While getting Process Parameter Unit Data Invalid object name 'ParametersUnitMaster'.
+2021-01-30 17:08:56:6369 : EXCEPTION - While getting Process Parameter wise Validation Data Invalid object name 'ParameterwisePollingFreqMaster'.
+2021-01-30 17:08:56:6809 : EXCEPTION - While getting Process Parameter wise Validation Data IsEnabled
+2021-01-30 17:08:56:7349 : EXCEPTION - While getting Process Parameter Unit Data Invalid object name 'ParametersUnitMaster'.

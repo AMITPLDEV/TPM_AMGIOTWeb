@@ -1,0 +1,14 @@
+﻿2021-03-09 11:04:38:8962 : EXCEPTION - getCheckedShopCellList:  The parameterized query '(@CompanyID nvarchar(4000),@PlantID nvarchar(7))select * from [U' expects the parameter '@CompanyID', which was not supplied.
+2021-03-09 11:42:01:7823 : EXCEPTION - While getting Employee Master Data Employeeid
+2021-03-09 11:53:36:8921 : EXCEPTION - While getting Employee Master Data Employeeid
+2021-03-09 11:53:45:6707 : EXCEPTION - While getting Employee Master Data Employeeid
+2021-03-09 17:12:22:2470 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-09 17:12:22:2630 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-09 17:12:22:2810 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-09 17:12:22:2920 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-09 17:12:22:3070 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-09 17:12:22:3260 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-09 17:12:22:3370 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-09 17:12:22:3540 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-09 17:12:22:3700 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-09 17:12:22:3820 : EXCEPTION - Not able to convert datetime string  to DateTime

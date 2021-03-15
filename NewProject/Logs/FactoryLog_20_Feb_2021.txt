@@ -1,0 +1,77 @@
+﻿2021-02-20 09:52:11:7561 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-20 09:52:11:8541 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-20 13:01:04:6780 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-20 13:01:04:7700 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-20 13:04:57:8595 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-20 13:04:57:9375 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-20 13:51:55:1766 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-20 13:51:55:3019 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-20 19:08:04:1367 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-20 19:08:04:3117 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-20 19:08:57:5963 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:08:57:6383 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:08:57:6513 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:08:57:6623 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:08:57:6743 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:08:57:6853 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:11:07:2933 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:11:07:3343 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:11:07:3513 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:11:07:3643 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:11:07:3793 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:11:07:3943 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:30:06:3102 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:30:06:3411 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:30:30:7085 : EXCEPTION - saveupdateLevelHeirarchyDetails:  Violation of PRIMARY KEY constraint 'PK_UserDefinedEntityMeny'. Cannot insert duplicate key in object 'dbo.UserDefinedEntityMenu'. The duplicate key value is (Sphoorthi, Plant 5, Feb 20 2021  7:30PM).
+The statement has been terminated.
+2021-02-20 19:30:30:7325 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:30:30:7535 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:30:30:7705 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:30:30:7845 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:30:43:2792 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:30:43:3181 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:34:53:5353 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:34:53:5673 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:35:54:7014 : EXCEPTION - saveupdateLevelHeirarchyDetails:  Violation of PRIMARY KEY constraint 'PK_UserDefinedEntityMeny'. Cannot insert duplicate key in object 'dbo.UserDefinedEntityMenu'. The duplicate key value is (Sphoorthi, Plant 5, Feb 20 2021  7:34PM).
+The statement has been terminated.
+2021-02-20 19:35:54:7284 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:35:54:7714 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:35:54:7884 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:35:54:8094 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:36:54:0018 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:36:54:0338 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:36:54:0528 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:36:54:0718 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:36:54:0888 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:36:54:1088 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:37:44:3277 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:37:44:3557 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:49:11:0267 : EXCEPTION - saveupdateLevelHeirarchyDetails:  Violation of PRIMARY KEY constraint 'PK_UserDefinedEntityMeny'. Cannot insert duplicate key in object 'dbo.UserDefinedEntityMenu'. The duplicate key value is (Sphoorthi, Plant 5, Feb 20 2021  7:37PM).
+The statement has been terminated.
+2021-02-20 19:49:11:0497 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:49:11:0787 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:49:11:0967 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:49:11:1137 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:49:12:8881 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:49:12:9001 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:49:12:9181 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:49:12:9301 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:49:12:9441 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:49:12:9571 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:55:06:9511 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:55:06:9821 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:55:07:0041 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:55:07:0241 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:55:07:0411 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:55:07:0571 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 19:59:03:8660 : EXCEPTION - saveupdateLevelHeirarchyDetails:  Violation of PRIMARY KEY constraint 'PK_UserDefinedEntityMeny'. Cannot insert duplicate key in object 'dbo.UserDefinedEntityMenu'. The duplicate key value is (Sphoorthi, Plant 5, ShopCell, Feb 20 2021  7:49PM).
+The statement has been terminated.
+2021-02-20 21:38:20:1708 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 21:38:20:2278 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 21:38:20:2528 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 21:38:20:2738 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 21:38:20:2928 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 21:38:20:3088 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-20 21:41:45:0211 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-20 21:41:45:2190 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-20 21:45:30:5050 : EXCEPTION - While getting Employee Master Data ExecuteReader: CommandText property has not been initialized

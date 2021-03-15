@@ -1,0 +1,11 @@
+﻿2021-03-11 00:00:57:2054 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-11 09:23:54:8061 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-11 10:25:18:5748 : EXCEPTION - While getting Employee Master Data CorporateID
+2021-03-11 10:30:59:8593 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-11 10:40:37:1021 : EXCEPTION - While getting Employee Master Data CorporateID

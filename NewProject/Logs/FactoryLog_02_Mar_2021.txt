@@ -1,0 +1,44 @@
+﻿2021-03-02 09:20:27:4302 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-02 09:20:28:0744 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-02 09:44:19:8449 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-02 09:44:19:9069 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-02 11:25:12:8609 : DEBUG - Machine ID: A timeout occured after 30000ms selecting a server using CompositeServerSelector{ Selectors = MongoDB.Driver.MongoClient+AreSessionsSupportedServerSelector, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 } }. Client view of cluster state is { ClusterId : "1", ConnectionMode : "Automatic", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "172.36.0.107:27017" }", EndPoint: "172.36.0.107:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server. ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.36.0.107:27017
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.<ConnectAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.<CreateStreamAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.<OpenHelperAsync>d__51.MoveNext()
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.<OpenHelperAsync>d__51.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.<InitializeConnectionAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.<HeartbeatAsync>d__34.MoveNext()", LastHeartbeatTimestamp: "2021-03-02T05:55:01.9409528Z", LastUpdateTimestamp: "2021-03-02T05:55:01.9409528Z" }] }.
+2021-03-02 17:25:34:1620 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-02 17:25:34:3320 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-02 17:25:35:9757 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-02 17:25:36:0597 : EXCEPTION - While getting Machine model Data Invalid column name 'PlantID'.
+2021-03-02 17:25:36:1437 : EXCEPTION - While getting Process Parameter Machine Level Data Invalid column name 'PlantID'.
+2021-03-02 17:39:18:2046 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-02 17:39:18:2906 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-02 17:48:03:2056 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-02 17:48:03:2966 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-02 18:12:43:9054 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-02 18:12:44:4184 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-02 19:10:43:5683 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-02 19:10:43:6693 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.

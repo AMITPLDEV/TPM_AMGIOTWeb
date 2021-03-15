@@ -1,0 +1,258 @@
+﻿2021-01-13 09:47:07:9971 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date;; ;; 
+2021-01-13 09:47:08:6321 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date13/01/2021 09:41:15;; 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 09:47:08:6511 : DEBUG - Prev else 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 09:47:08:6621 : DEBUG - Latest Date For Next and Start Date13/01/2021 09:41:15 ;; 13/01/2021 09:41:15
+2021-01-13 09:47:08:6721 : DEBUG - Set Next Prev: 13/01/2021 09:40:15   13/01/2021 09:41:15
+2021-01-13 09:47:08:6811 : DEBUG - Set Next Prev: 13-01-2021 09:40:15.000   13-01-2021 09:41:15.000
+2021-01-13 09:47:08:7041 : DEBUG - Eneter BindForTroubleShoot 13/01/2021 09:40:15  ;  13/01/2021 09:41:15
+2021-01-13 09:49:15:5616 : DEBUG - Query : {$and : [  {MachineID : 'CNC1'},  { UpdatedTS: {$gte: ISODate('2021-01-13T09:40:15Z')} },{ UpdatedTS: {$lte: ISODate('2021-01-13T09:41:15Z')}}]}
+2021-01-13 09:49:15:5986 : DEBUG - After call : 
+2021-01-13 09:49:15:8365 : DEBUG - Result Count -59
+2021-01-13 09:51:14:0803 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date;; ;; 
+2021-01-13 09:51:16:6392 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date13/01/2021 09:41:15;; 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 09:51:16:6552 : DEBUG - Prev else 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 09:51:16:6642 : DEBUG - Latest Date For Next and Start Date13/01/2021 09:41:15 ;; 13/01/2021 09:41:15
+2021-01-13 09:51:16:6762 : DEBUG - Set Next Prev: 13/01/2021 09:40:15   13/01/2021 09:41:15
+2021-01-13 09:51:16:6882 : DEBUG - Set Next Prev: 13-01-2021 09:40:15.000   13-01-2021 09:41:15.000
+2021-01-13 09:51:16:7112 : DEBUG - Eneter BindForTroubleShoot 13/01/2021 09:40:15  ;  13/01/2021 09:41:15
+2021-01-13 09:52:41:9548 : DEBUG - Query : {$and : [  {MachineID : 'CNC1'},  { UpdatedTS: {$gte: ISODate('2021-01-13T09:40:15Z')} },{ UpdatedTS: {$lte: ISODate('2021-01-13T09:41:15Z')}}]}
+2021-01-13 09:52:41:9908 : DEBUG - After call : 
+2021-01-13 09:52:42:0198 : DEBUG - Result Count -59
+2021-01-13 09:53:46:6383 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date;; ;; 
+2021-01-13 09:53:46:6573 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date13/01/2021 09:41:15;; 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 09:53:46:6763 : DEBUG - Prev else 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 09:53:46:6963 : DEBUG - Latest Date For Next and Start Date13/01/2021 09:41:15 ;; 13/01/2021 09:41:15
+2021-01-13 09:53:46:7103 : DEBUG - Set Next Prev: 13/01/2021 09:40:15   13/01/2021 09:41:15
+2021-01-13 09:53:46:7213 : DEBUG - Set Next Prev: 13-01-2021 09:40:15.000   13-01-2021 09:41:15.000
+2021-01-13 09:53:46:7313 : DEBUG - Eneter BindForTroubleShoot 13/01/2021 09:40:15  ;  13/01/2021 09:41:15
+2021-01-13 09:53:49:5705 : DEBUG - Query : {$and : [  {MachineID : 'CNC1'},  { UpdatedTS: {$gte: ISODate('2021-01-13T09:40:15Z')} },{ UpdatedTS: {$lte: ISODate('2021-01-13T09:41:15Z')}}]}
+2021-01-13 09:53:49:6065 : DEBUG - After call : 
+2021-01-13 09:53:49:6395 : DEBUG - Result Count -59
+2021-01-13 09:53:59:8251 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date13/01/2021 09:40:15;; 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 09:53:59:8361 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date13/01/2021 09:41:15;; 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 09:53:59:8483 : DEBUG - Prev else 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 09:53:59:8593 : DEBUG - Latest Date For Next and Start Date13/01/2021 09:41:15 ;; 13/01/2021 09:41:15
+2021-01-13 09:53:59:8723 : DEBUG - Set Next Prev: 13/01/2021 09:40:15   13/01/2021 09:41:15
+2021-01-13 09:53:59:8893 : DEBUG - Set Next Prev: 13-01-2021 09:40:15.000   13-01-2021 09:41:15.000
+2021-01-13 09:53:59:9033 : DEBUG - Eneter BindForTroubleShoot 13/01/2021 09:40:15  ;  13/01/2021 09:41:15
+2021-01-13 09:54:19:7980 : DEBUG - Query : {$and : [  {MachineID : 'CNC1'},  { UpdatedTS: {$gte: ISODate('2021-01-13T09:40:15Z')} },{ UpdatedTS: {$lte: ISODate('2021-01-13T09:41:15Z')}}]}
+2021-01-13 09:54:19:8340 : DEBUG - After call : 
+2021-01-13 09:54:19:8530 : DEBUG - Result Count -59
+2021-01-13 10:01:32:1326 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date;; ;; 
+2021-01-13 10:01:32:1576 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date13/01/2021 09:41:15;; 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 10:01:32:1696 : DEBUG - Prev else 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 10:01:32:1795 : DEBUG - Latest Date For Next and Start Date13/01/2021 09:41:15 ;; 13/01/2021 09:41:15
+2021-01-13 10:01:32:1915 : DEBUG - Set Next Prev: 13/01/2021 09:40:15   13/01/2021 09:41:15
+2021-01-13 10:01:32:2015 : DEBUG - Set Next Prev: 13-01-2021 09:40:15.000   13-01-2021 09:41:15.000
+2021-01-13 10:01:32:2176 : DEBUG - Eneter BindForTroubleShoot 13/01/2021 09:40:15  ;  13/01/2021 09:41:15
+2021-01-13 10:04:56:1215 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date;; ;; 
+2021-01-13 10:04:56:1445 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date13/01/2021 09:41:15;; 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 10:04:56:1645 : DEBUG - Prev else 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 10:04:56:1835 : DEBUG - Latest Date For Next and Start Date13/01/2021 09:41:15 ;; 13/01/2021 09:41:15
+2021-01-13 10:04:56:2015 : DEBUG - Set Next Prev: 13/01/2021 09:40:15   13/01/2021 09:41:15
+2021-01-13 10:04:56:2195 : DEBUG - Set Next Prev: 13-01-2021 09:40:15.000   13-01-2021 09:41:15.000
+2021-01-13 10:04:56:2465 : DEBUG - Eneter BindForTroubleShoot 13/01/2021 09:40:15  ;  13/01/2021 09:41:15
+2021-01-13 10:05:31:8106 : EXCEPTION - BindForTroubleShoot Error - Command aggregate failed: Unrecognized pipeline stage name: 'UpdatedTS'.
+2021-01-13 10:05:36:1937 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date13/01/2021 09:40:15;; 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 10:05:36:2078 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date13/01/2021 09:41:15;; 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 10:05:36:2218 : DEBUG - Prev else 13/01/2021 09:41:15;; 13/01/2021 09:41:15
+2021-01-13 10:05:36:2418 : DEBUG - Latest Date For Next and Start Date13/01/2021 09:41:15 ;; 13/01/2021 09:41:15
+2021-01-13 10:05:36:2588 : DEBUG - Set Next Prev: 13/01/2021 09:40:15   13/01/2021 09:41:15
+2021-01-13 10:05:36:2798 : DEBUG - Set Next Prev: 13-01-2021 09:40:15.000   13-01-2021 09:41:15.000
+2021-01-13 10:05:36:2978 : DEBUG - Eneter BindForTroubleShoot 13/01/2021 09:40:15  ;  13/01/2021 09:41:15
+2021-01-13 10:58:56:7553 : DEBUG -  Start 8.42E-05  DateTime13/01/2021 10:58:56
+2021-01-13 10:58:56:7853 : DEBUG -  Before Query Call Seconds : 1.5E-06  DateTime13/01/2021 10:58:56
+2021-01-13 10:58:56:8964 : DEBUG -  After Query Call Milliseconds: 109.9601----Seconds: 0.109977---  DateTime 13/01/2021 10:58:56
+2021-01-13 10:58:56:9153 : DEBUG -  Total Records 0
+2021-01-13 10:58:56:9353 : DEBUG -  After object building 1.1657----Seconds: 0.0011727   DateTime 13/01/2021 10:58:56
+2021-01-13 10:58:57:5155 : DEBUG -  After getProcessParameterMasterData 581.6974  DateTime 13/01/2021 10:58:57
+2021-01-13 10:58:57:5295 : DEBUG -  Before Json Conversion 0.0007----Seconds: 5.66E-05   DateTime 13/01/2021 10:58:57
+2021-01-13 10:58:57:7695 : DEBUG -  After Json Conversion 239.6891----Seconds: 0.2396943   DateTime 13/01/2021 10:58:57
+2021-01-13 10:59:07:3221 : DEBUG -  Start 1E-06  DateTime13/01/2021 10:59:07
+2021-01-13 10:59:07:3451 : DEBUG -  Before Query Call Seconds : 1.2E-06  DateTime13/01/2021 10:59:07
+2021-01-13 10:59:08:0117 : DEBUG -  After Query Call Milliseconds: 667.2246----Seconds: 0.6672269---  DateTime 13/01/2021 10:59:08
+2021-01-13 10:59:08:0367 : DEBUG -  Total Records 1816
+2021-01-13 10:59:08:0527 : DEBUG -  After object building 0.9075----Seconds: 0.0009138   DateTime 13/01/2021 10:59:08
+2021-01-13 10:59:08:2059 : DEBUG -  After getProcessParameterMasterData 153.3181  DateTime 13/01/2021 10:59:08
+2021-01-13 10:59:08:2439 : DEBUG -  Before Json Conversion 0.0012----Seconds: 6.2E-06   DateTime 13/01/2021 10:59:08
+2021-01-13 10:59:08:2629 : DEBUG -  After Json Conversion 19.1129----Seconds: 0.0191187   DateTime 13/01/2021 10:59:08
+2021-01-13 10:59:20:1070 : DEBUG -  Start 2E-06  DateTime13/01/2021 10:59:20
+2021-01-13 10:59:20:1360 : DEBUG -  Before Query Call Seconds : 1E-06  DateTime13/01/2021 10:59:20
+2021-01-13 10:59:21:5986 : DEBUG -  After Query Call Milliseconds: 1462.8805----Seconds: 1.462883---  DateTime 13/01/2021 10:59:21
+2021-01-13 10:59:21:6106 : DEBUG -  Total Records 3485
+2021-01-13 10:59:21:6276 : DEBUG -  After object building 2.2526----Seconds: 0.002259   DateTime 13/01/2021 10:59:21
+2021-01-13 10:59:21:6556 : DEBUG -  After getProcessParameterMasterData 30.2667  DateTime 13/01/2021 10:59:21
+2021-01-13 10:59:21:6676 : DEBUG -  Before Json Conversion 0.0007----Seconds: 4.8E-06   DateTime 13/01/2021 10:59:21
+2021-01-13 10:59:21:6796 : DEBUG -  After Json Conversion 12.2452----Seconds: 0.0122494   DateTime 13/01/2021 10:59:21
+2021-01-13 10:59:32:2676 : DEBUG -  Start 1E-06  DateTime13/01/2021 10:59:32
+2021-01-13 10:59:32:2866 : DEBUG -  Before Query Call Seconds : 1.3E-06  DateTime13/01/2021 10:59:32
+2021-01-13 10:59:32:7563 : DEBUG -  After Query Call Milliseconds: 471.0183----Seconds: 0.4710216---  DateTime 13/01/2021 10:59:32
+2021-01-13 10:59:32:7733 : DEBUG -  Total Records 3485
+2021-01-13 10:59:32:8533 : DEBUG -  Count 6970 -- Element 'CycleStartTS' not found.
+2021-01-13 10:59:32:8713 : DEBUG -  Before Json Conversion 0.0008----Seconds: 4.6E-06   DateTime 13/01/2021 10:59:32
+2021-01-13 10:59:32:8853 : DEBUG -  After Json Conversion 13.9031----Seconds: 0.0139077   DateTime 13/01/2021 10:59:32
+2021-01-13 10:59:40:4999 : DEBUG -  Start 1.2E-06  DateTime13/01/2021 10:59:40
+2021-01-13 10:59:40:5269 : DEBUG -  Before Query Call Seconds : 1.5E-06  DateTime13/01/2021 10:59:40
+2021-01-13 10:59:42:2487 : DEBUG -  After Query Call Milliseconds: 1722.3072----Seconds: 1.7223103---  DateTime 13/01/2021 10:59:42
+2021-01-13 10:59:42:2677 : DEBUG -  Total Records 3485
+2021-01-13 10:59:42:3017 : DEBUG -  Count 6970 -- Element 'CycleStartTS' not found.
+2021-01-13 10:59:42:3137 : DEBUG -  Before Json Conversion 0.0013----Seconds: 5.1E-06   DateTime 13/01/2021 10:59:42
+2021-01-13 10:59:42:3247 : DEBUG -  After Json Conversion 11.5646----Seconds: 0.0115695   DateTime 13/01/2021 10:59:42
+2021-01-13 10:59:58:0621 : DEBUG -  Start 1.4E-06  DateTime13/01/2021 10:59:58
+2021-01-13 10:59:58:0931 : DEBUG -  Before Query Call Seconds : 4E-06  DateTime13/01/2021 10:59:58
+2021-01-13 10:59:58:8336 : DEBUG -  After Query Call Milliseconds: 740.6561----Seconds: 0.7406596---  DateTime 13/01/2021 10:59:58
+2021-01-13 10:59:58:8466 : DEBUG -  Total Records 3485
+2021-01-13 10:59:58:8756 : DEBUG -  Count 6970 -- Element 'CycleStartTS' not found.
+2021-01-13 10:59:58:8866 : DEBUG -  Before Json Conversion 0.0008----Seconds: 5.4E-06   DateTime 13/01/2021 10:59:58
+2021-01-13 10:59:58:8976 : DEBUG -  After Json Conversion 11.1716----Seconds: 0.0111764   DateTime 13/01/2021 10:59:58
+2021-01-13 11:05:46:9487 : DEBUG -  Start 1E-06  DateTime13/01/2021 11:05:46
+2021-01-13 11:05:46:9757 : DEBUG -  Before Query Call Seconds : 1.3E-06  DateTime13/01/2021 11:05:46
+2021-01-13 11:05:47:9268 : DEBUG -  After Query Call Milliseconds: 950.92----Seconds: 0.950924---  DateTime 13/01/2021 11:05:47
+2021-01-13 11:05:47:9468 : DEBUG -  Total Records 3485
+2021-01-13 11:06:06:2137 : DEBUG -  Count 6970 -- Element 'CycleStartTS' not found.
+2021-01-13 11:06:06:2267 : DEBUG -  Before Json Conversion 0.0008----Seconds: 4.7E-06   DateTime 13/01/2021 11:06:06
+2021-01-13 11:06:06:2387 : DEBUG -  After Json Conversion 12.2263----Seconds: 0.012231   DateTime 13/01/2021 11:06:06
+2021-01-13 11:12:21:1871 : DEBUG -  Start 1.1E-06  DateTime13/01/2021 11:12:21
+2021-01-13 11:12:21:2101 : DEBUG -  Before Query Call Seconds : 1.36E-05  DateTime13/01/2021 11:12:21
+2021-01-13 11:12:22:3233 : DEBUG -  After Query Call Milliseconds: 1113.4434----Seconds: 1.1134461---  DateTime 13/01/2021 11:12:22
+2021-01-13 11:12:22:3383 : DEBUG -  Total Records 3485
+2021-01-13 11:12:29:0060 : DEBUG -  Count 6970 -- Element 'CycleStartTS' not found.
+2021-01-13 11:12:29:0191 : DEBUG -  Before Json Conversion 0.0006----Seconds: 4.6E-06   DateTime 13/01/2021 11:12:29
+2021-01-13 11:12:29:0360 : DEBUG -  After Json Conversion 17.3003----Seconds: 0.0173046   DateTime 13/01/2021 11:12:29
+2021-01-13 11:12:49:2786 : DEBUG -  Start 1.15E-05  DateTime13/01/2021 11:12:49
+2021-01-13 11:12:49:3026 : DEBUG -  Before Query Call Seconds : 1.2E-06  DateTime13/01/2021 11:12:49
+2021-01-13 11:12:59:4745 : DEBUG -  After Query Call Milliseconds: 10171.8943----Seconds: 10.1718976---  DateTime 13/01/2021 11:12:59
+2021-01-13 11:12:59:4875 : DEBUG -  Total Records 6969
+2021-01-13 11:12:59:5195 : DEBUG -  Count 13938 -- Element 'CycleStartTS' not found.
+2021-01-13 11:12:59:5316 : DEBUG -  Before Json Conversion 0.0007----Seconds: 5E-06   DateTime 13/01/2021 11:12:59
+2021-01-13 11:12:59:5436 : DEBUG -  After Json Conversion 11.7636----Seconds: 0.0117685   DateTime 13/01/2021 11:12:59
+2021-01-13 11:15:59:9301 : DEBUG -  Start 9.2E-05  DateTime13/01/2021 11:15:59
+2021-01-13 11:15:59:9511 : DEBUG -  Before Query Call Seconds : 1.5E-06  DateTime13/01/2021 11:15:59
+2021-01-13 11:15:59:9841 : DEBUG -  After Query Call Milliseconds: 33.135----Seconds: 0.0331371---  DateTime 13/01/2021 11:15:59
+2021-01-13 11:16:00:0081 : DEBUG -  Total Records 0
+2021-01-13 11:16:00:0431 : DEBUG -  After object building 3.5955----Seconds: 0.0036038   DateTime 13/01/2021 11:16:00
+2021-01-13 11:16:00:3591 : DEBUG -  After getProcessParameterMasterData 319.6904  DateTime 13/01/2021 11:16:00
+2021-01-13 11:16:00:3791 : DEBUG -  Before Json Conversion 0.0012----Seconds: 5.6E-06   DateTime 13/01/2021 11:16:00
+2021-01-13 11:16:00:7161 : DEBUG -  After Json Conversion 336.9716----Seconds: 0.3369788   DateTime 13/01/2021 11:16:00
+2021-01-13 11:16:13:7258 : DEBUG -  Start 1E-06  DateTime13/01/2021 11:16:13
+2021-01-13 11:16:13:7579 : DEBUG -  Before Query Call Seconds : 3.6E-06  DateTime13/01/2021 11:16:13
+2021-01-13 11:16:17:3615 : DEBUG -  After Query Call Milliseconds: 3603.8615----Seconds: 3.6038633---  DateTime 13/01/2021 11:16:17
+2021-01-13 11:16:17:3735 : DEBUG -  Total Records 10453
+2021-01-13 11:16:17:3895 : DEBUG -  After object building 4.9567----Seconds: 0.0049624   DateTime 13/01/2021 11:16:17
+2021-01-13 11:16:17:4355 : DEBUG -  After getProcessParameterMasterData 50.5652  DateTime 13/01/2021 11:16:17
+2021-01-13 11:16:17:4475 : DEBUG -  Before Json Conversion 0.0007----Seconds: 5.1E-06   DateTime 13/01/2021 11:16:17
+2021-01-13 11:16:17:4595 : DEBUG -  After Json Conversion 12.6527----Seconds: 0.0126572   DateTime 13/01/2021 11:16:17
+2021-01-13 11:16:47:9279 : DEBUG -  Start 1E-06  DateTime13/01/2021 11:16:47
+2021-01-13 11:16:47:9658 : DEBUG -  Before Query Call Seconds : 1.1E-06  DateTime13/01/2021 11:16:47
+2021-01-13 11:16:53:5841 : DEBUG -  After Query Call Milliseconds: 5618.3342----Seconds: 5.6183367---  DateTime 13/01/2021 11:16:53
+2021-01-13 11:16:53:5991 : DEBUG -  Total Records 10453
+2021-01-13 11:16:53:6172 : DEBUG -  After object building 2.9968----Seconds: 0.003002   DateTime 13/01/2021 11:16:53
+2021-01-13 11:16:53:6541 : DEBUG -  After getProcessParameterMasterData 39.2818  DateTime 13/01/2021 11:16:53
+2021-01-13 11:16:53:6691 : DEBUG -  Before Json Conversion 0.001----Seconds: 6E-06   DateTime 13/01/2021 11:16:53
+2021-01-13 11:16:53:6881 : DEBUG -  After Json Conversion 19.0763----Seconds: 0.0190809   DateTime 13/01/2021 11:16:53
+2021-01-13 11:17:43:9603 : DEBUG -  Start 8E-07  DateTime13/01/2021 11:17:43
+2021-01-13 11:17:43:9933 : DEBUG -  Before Query Call Seconds : 1.1E-06  DateTime13/01/2021 11:17:43
+2021-01-13 11:17:45:5534 : DEBUG -  After Query Call Milliseconds: 1562.5486----Seconds: 1.5625514---  DateTime 13/01/2021 11:17:45
+2021-01-13 11:17:45:5654 : DEBUG -  Total Records 10453
+2021-01-13 11:18:20:0101 : DEBUG -  Count 10453 -- Element 'CycleStartTS' not found.
+2021-01-13 11:18:20:0331 : DEBUG -  Before Json Conversion 0.0008----Seconds: 5.7E-06   DateTime 13/01/2021 11:18:20
+2021-01-13 11:18:20:0511 : DEBUG -  After Json Conversion 18.3229----Seconds: 0.0183307   DateTime 13/01/2021 11:18:20
+2021-01-13 11:18:26:3780 : DEBUG -  Start 6.6E-05  DateTime13/01/2021 11:18:26
+2021-01-13 11:18:26:3950 : DEBUG -  Before Query Call Seconds : 1.2E-06  DateTime13/01/2021 11:18:26
+2021-01-13 11:18:29:1331 : DEBUG -  After Query Call Milliseconds: 2738.0307----Seconds: 2.7380345---  DateTime 13/01/2021 11:18:29
+2021-01-13 11:18:29:1531 : DEBUG -  Total Records 10453
+2021-01-13 11:18:50:5157 : DEBUG -  After object building 21344.3749----Seconds: 21.3443794   DateTime 13/01/2021 11:18:50
+2021-01-13 11:18:50:5397 : DEBUG -  After getProcessParameterMasterData 21369.1123  DateTime 13/01/2021 11:18:50
+2021-01-13 11:18:50:5537 : DEBUG -  Before Json Conversion 0.0005----Seconds: 4.3E-06   DateTime 13/01/2021 11:18:50
+2021-01-13 11:18:50:8237 : DEBUG -  After Json Conversion 270.3949----Seconds: 0.2703985   DateTime 13/01/2021 11:18:50
+2021-01-13 11:18:56:0140 : DEBUG -  Start 7E-07  DateTime13/01/2021 11:18:56
+2021-01-13 11:18:56:0380 : DEBUG -  Before Query Call Seconds : 1.4E-06  DateTime13/01/2021 11:18:56
+2021-01-13 11:18:57:6893 : DEBUG -  After Query Call Milliseconds: 1651.2976----Seconds: 1.6512996---  DateTime 13/01/2021 11:18:57
+2021-01-13 11:18:57:7042 : DEBUG -  Total Records 10453
+2021-01-13 11:20:01:0573 : DEBUG -  Start 0.0001288  DateTime13/01/2021 11:20:01
+2021-01-13 11:20:01:0854 : DEBUG -  Before Query Call Seconds : 1.1E-06  DateTime13/01/2021 11:20:01
+2021-01-13 11:20:01:1314 : DEBUG -  After Query Call Milliseconds: 45.5817----Seconds: 0.0455851---  DateTime 13/01/2021 11:20:01
+2021-01-13 11:20:01:1544 : DEBUG -  Total Records 0
+2021-01-13 11:20:02:9734 : DEBUG -  After object building 1798.4043----Seconds: 1.7984097   DateTime 13/01/2021 11:20:02
+2021-01-13 11:20:03:2134 : DEBUG -  After getProcessParameterMasterData 2038.3242  DateTime 13/01/2021 11:20:03
+2021-01-13 11:20:03:2293 : DEBUG -  Before Json Conversion 0.0007----Seconds: 4E-06   DateTime 13/01/2021 11:20:03
+2021-01-13 11:20:03:4574 : DEBUG -  After Json Conversion 228.2225----Seconds: 0.2282256   DateTime 13/01/2021 11:20:03
+2021-01-13 11:20:23:5512 : DEBUG -  Start 9E-07  DateTime13/01/2021 11:20:23
+2021-01-13 11:20:23:5772 : DEBUG -  Before Query Call Seconds : 1.5E-06  DateTime13/01/2021 11:20:23
+2021-01-13 11:20:25:2113 : DEBUG -  After Query Call Milliseconds: 1634.8207----Seconds: 1.6348244---  DateTime 13/01/2021 11:20:25
+2021-01-13 11:20:25:2233 : DEBUG -  Total Records 3485
+2021-01-13 11:20:31:2216 : DEBUG -  Count 0 -- Element 'CycleStartTS' not found.
+2021-01-13 11:20:31:2346 : DEBUG -  Before Json Conversion 0.0011----Seconds: 5.8E-06   DateTime 13/01/2021 11:20:31
+2021-01-13 11:20:31:2526 : DEBUG -  After Json Conversion 17.8074----Seconds: 0.0179104   DateTime 13/01/2021 11:20:31
+2021-01-13 11:20:41:8139 : DEBUG -  Start 9E-07  DateTime13/01/2021 11:20:41
+2021-01-13 11:20:41:8489 : DEBUG -  Before Query Call Seconds : 1.2E-06  DateTime13/01/2021 11:20:41
+2021-01-13 11:20:42:2689 : DEBUG -  After Query Call Milliseconds: 419.7638----Seconds: 0.4197668---  DateTime 13/01/2021 11:20:42
+2021-01-13 11:20:42:2839 : DEBUG -  Total Records 3485
+2021-01-13 11:24:20:2911 : DEBUG -  Start 9.74E-05  DateTime13/01/2021 11:24:20
+2021-01-13 11:24:20:3171 : DEBUG -  Before Query Call Seconds : 1.3E-06  DateTime13/01/2021 11:24:20
+2021-01-13 11:24:20:3571 : DEBUG -  After Query Call Milliseconds: 39.5816----Seconds: 0.0396012---  DateTime 13/01/2021 11:24:20
+2021-01-13 11:24:20:3811 : DEBUG -  Total Records 0
+2021-01-13 11:24:20:4131 : DEBUG -  After object building 1.6667----Seconds: 0.0016728   DateTime 13/01/2021 11:24:20
+2021-01-13 11:24:20:5791 : DEBUG -  After getProcessParameterMasterData 168.2417  DateTime 13/01/2021 11:24:20
+2021-01-13 11:24:20:5961 : DEBUG -  Before Json Conversion 0.0007----Seconds: 5.23E-05   DateTime 13/01/2021 11:24:20
+2021-01-13 11:24:20:8161 : DEBUG -  After Json Conversion 220.605----Seconds: 0.2206084   DateTime 13/01/2021 11:24:20
+2021-01-13 11:24:33:9626 : DEBUG -  Start 1E-06  DateTime13/01/2021 11:24:33
+2021-01-13 11:24:33:9876 : DEBUG -  Before Query Call Seconds : 9E-07  DateTime13/01/2021 11:24:33
+2021-01-13 11:24:34:2746 : DEBUG -  After Query Call Milliseconds: 287.8629----Seconds: 0.287865---  DateTime 13/01/2021 11:24:34
+2021-01-13 11:24:34:2926 : DEBUG -  Total Records 3485
+2021-01-13 11:24:34:3576 : DEBUG -  Count 0 -- Unable to cast object of type 'MongoDB.Bson.BsonDouble' to type 'MongoDB.Bson.BsonInt32'.
+2021-01-13 11:24:34:3696 : DEBUG -  Before Json Conversion 0.0006----Seconds: 5.4E-06   DateTime 13/01/2021 11:24:34
+2021-01-13 11:24:34:3816 : DEBUG -  After Json Conversion 11.8462----Seconds: 0.0118507   DateTime 13/01/2021 11:24:34
+2021-01-13 11:24:47:0454 : DEBUG -  Start 8E-07  DateTime13/01/2021 11:24:47
+2021-01-13 11:24:47:0684 : DEBUG -  Before Query Call Seconds : 1E-06  DateTime13/01/2021 11:24:47
+2021-01-13 11:24:47:4018 : DEBUG -  After Query Call Milliseconds: 332.5862----Seconds: 0.332589---  DateTime 13/01/2021 11:24:47
+2021-01-13 11:24:47:4208 : DEBUG -  Total Records 3485
+2021-01-13 11:25:12:2909 : DEBUG -  Count 0 -- Unable to cast object of type 'MongoDB.Bson.BsonDouble' to type 'MongoDB.Bson.BsonInt32'.
+2021-01-13 11:25:12:3179 : DEBUG -  Before Json Conversion 0.0004----Seconds: 3.7E-06   DateTime 13/01/2021 11:25:12
+2021-01-13 11:25:12:3359 : DEBUG -  After Json Conversion 18.3458----Seconds: 0.0183496   DateTime 13/01/2021 11:25:12
+2021-01-13 11:25:34:8749 : DEBUG -  Start 7E-07  DateTime13/01/2021 11:25:34
+2021-01-13 11:25:34:9040 : DEBUG -  Before Query Call Seconds : 1.4E-06  DateTime13/01/2021 11:25:34
+2021-01-13 11:25:35:7639 : DEBUG -  After Query Call Milliseconds: 860.7294----Seconds: 0.8607315---  DateTime 13/01/2021 11:25:35
+2021-01-13 11:25:35:7849 : DEBUG -  Total Records 3485
+2021-01-13 11:26:13:6966 : DEBUG -  Count 0 -- Unable to cast object of type 'MongoDB.Bson.BsonDouble' to type 'MongoDB.Bson.BsonInt32'.
+2021-01-13 11:26:13:7186 : DEBUG -  Before Json Conversion 0.0006----Seconds: 4.5E-06   DateTime 13/01/2021 11:26:13
+2021-01-13 11:26:13:7466 : DEBUG -  After Json Conversion 27.8895----Seconds: 0.0278937   DateTime 13/01/2021 11:26:13
+2021-01-13 11:26:17:2154 : DEBUG -  Start 1.1E-06  DateTime13/01/2021 11:26:17
+2021-01-13 11:26:17:2354 : DEBUG -  Before Query Call Seconds : 1E-06  DateTime13/01/2021 11:26:17
+2021-01-13 11:26:17:6491 : DEBUG -  After Query Call Milliseconds: 413.8258----Seconds: 0.4138284---  DateTime 13/01/2021 11:26:17
+2021-01-13 11:26:17:6611 : DEBUG -  Total Records 3485
+2021-01-13 11:28:12:6030 : DEBUG -  Start 0.00068  DateTime13/01/2021 11:28:12
+2021-01-13 11:28:12:6260 : DEBUG -  Before Query Call Seconds : 1.4E-06  DateTime13/01/2021 11:28:12
+2021-01-13 11:28:12:6670 : DEBUG -  After Query Call Milliseconds: 41.2846----Seconds: 0.0412979---  DateTime 13/01/2021 11:28:12
+2021-01-13 11:28:12:6860 : DEBUG -  Total Records 0
+2021-01-13 11:28:12:7040 : DEBUG -  After object building 0.9705----Seconds: 0.0009738   DateTime 13/01/2021 11:28:12
+2021-01-13 11:28:12:8700 : DEBUG -  After getProcessParameterMasterData 167.7327  DateTime 13/01/2021 11:28:12
+2021-01-13 11:28:12:8860 : DEBUG -  Before Json Conversion 0.0009----Seconds: 5.54E-05   DateTime 13/01/2021 11:28:12
+2021-01-13 11:28:13:1830 : DEBUG -  After Json Conversion 296.8381----Seconds: 0.2968413   DateTime 13/01/2021 11:28:13
+2021-01-13 11:28:26:8926 : DEBUG -  Start 1.5E-06  DateTime13/01/2021 11:28:26
+2021-01-13 11:28:26:9236 : DEBUG -  Before Query Call Seconds : 1.1E-06  DateTime13/01/2021 11:28:26
+2021-01-13 11:28:27:2548 : DEBUG -  After Query Call Milliseconds: 331.5177----Seconds: 0.3315198---  DateTime 13/01/2021 11:28:27
+2021-01-13 11:28:27:2678 : DEBUG -  Total Records 3485
+2021-01-13 11:32:00:1001 : DEBUG -  Count 3485 -- Element 'CycleEndTS' not found.
+2021-01-13 11:32:00:1631 : DEBUG -  Before Json Conversion 0.0006----Seconds: 3.2E-06   DateTime 13/01/2021 11:32:00
+2021-01-13 11:32:00:1761 : DEBUG -  After Json Conversion 13.5309----Seconds: 0.013536   DateTime 13/01/2021 11:32:00
+2021-01-13 11:32:17:3485 : DEBUG -  Start 1.7E-06  DateTime13/01/2021 11:32:17
+2021-01-13 11:32:17:3685 : DEBUG -  Before Query Call Seconds : 1.2E-06  DateTime13/01/2021 11:32:17
+2021-01-13 11:32:18:0986 : DEBUG -  After Query Call Milliseconds: 730.3327----Seconds: 0.730338---  DateTime 13/01/2021 11:32:18
+2021-01-13 11:32:18:1096 : DEBUG -  Total Records 3485
+2021-01-13 11:33:16:4103 : DEBUG -  Start 8.34E-05  DateTime13/01/2021 11:33:16
+2021-01-13 11:33:16:4293 : DEBUG -  Before Query Call Seconds : 1E-06  DateTime13/01/2021 11:33:16
+2021-01-13 11:33:16:4793 : DEBUG -  After Query Call Milliseconds: 50.1371----Seconds: 0.0501399---  DateTime 13/01/2021 11:33:16
+2021-01-13 11:33:16:5053 : DEBUG -  Total Records 0
+2021-01-13 11:33:16:5263 : DEBUG -  After object building 1.0783----Seconds: 0.0010826   DateTime 13/01/2021 11:33:16
+2021-01-13 11:33:16:6833 : DEBUG -  After getProcessParameterMasterData 157.8731  DateTime 13/01/2021 11:33:16
+2021-01-13 11:33:16:7003 : DEBUG -  Before Json Conversion 0.0009----Seconds: 5.95E-05   DateTime 13/01/2021 11:33:16
+2021-01-13 11:33:16:9203 : DEBUG -  After Json Conversion 219.2479----Seconds: 0.2192529   DateTime 13/01/2021 11:33:16
+2021-01-13 11:33:26:7370 : DEBUG -  Start 1.92E-05  DateTime13/01/2021 11:33:26
+2021-01-13 11:33:26:7630 : DEBUG -  Before Query Call Seconds : 1E-06  DateTime13/01/2021 11:33:26
+2021-01-13 11:33:27:2576 : DEBUG -  After Query Call Milliseconds: 495.3156----Seconds: 0.4953177---  DateTime 13/01/2021 11:33:27
+2021-01-13 11:33:27:2726 : DEBUG -  Total Records 3485
+2021-01-13 11:33:27:3496 : DEBUG -  After object building 65.7133----Seconds: 0.0657165   DateTime 13/01/2021 11:33:27
+2021-01-13 11:33:27:3775 : DEBUG -  After getProcessParameterMasterData 93.3993  DateTime 13/01/2021 11:33:27
+2021-01-13 11:33:27:3905 : DEBUG -  Before Json Conversion 0.005----Seconds: 9.1E-06   DateTime 13/01/2021 11:33:27
+2021-01-13 11:33:27:4395 : DEBUG -  After Json Conversion 49.7711----Seconds: 0.0497751   DateTime 13/01/2021 11:33:27

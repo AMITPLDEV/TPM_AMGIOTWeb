@@ -1,0 +1,2547 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="NewProject.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMG IOT</title>
+
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+
+    <script src="Scripts/FontAwesome/all.js"></script>
+    <script src="Scripts/FontAwesome/fontawesome.js"></script>
+    <script src="Scripts/FontAwesome/regular.js"></script>
+    <script src="Scripts/FontAwesome/solid.js"></script>
+    <script src="Scripts/Toaster/toastr.min.js"></script>
+    <link href="Scripts/Toaster/toastr.min.css" rel="stylesheet" />
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <style id="siteMasterStyle">
+        #aboutTbl tr td {
+            border: 1px solid black;
+            padding: 10px 15px;
+        }
+
+        #logoutBtn:hover {
+            color: #4d4d4e;
+        }
+
+        #userProfile .panel-footer:hover, #userProfile .panel-heading:hover {
+            background-color: #dedddd;
+        }
+
+        .profileicon {
+            color: #909096;
+        }
+
+        .userNamecs {
+            color: #4d4d4e;
+            font-size: medium;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+            font-size: 14px;
+            color: white;
+        }
+
+        #sidebar {
+            /*position: fixed;*/
+            /*top: 32px;*/
+            width: 200px;
+            min-height: 100vh;
+            overflow: hidden;
+            /*background-color: #046787;*/
+            background-color: white;
+            border: 1px solid white;
+            transition: all 500ms linear;
+            z-index: 200;
+            flex-basis: 12%;
+            box-shadow: 2px 2px 5px 2px #c3bfbfed;
+        }
+
+            #sidebar.active {
+                left: 0px;
+            }
+
+            #sidebar ul {
+                margin-bottom: 100px;
+            }
+
+                #sidebar ul li {
+                    color: #000;
+                    list-style: none;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    /*border-bottom: 1px solid #09526a;*/
+                    border-radius: 0px;
+                    text-align: left;
+                    padding-left: 0px;
+                }
+
+        .sidebara, .sidebara:hover {
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        #sidebar ul li .toggle-btn span {
+            display: block;
+            width: 25px;
+            height: 4px;
+            background-color: #171e20;
+            margin: 3px 0px;
+            border-radius: 2px;
+        }
+
+        .HeaderImage {
+            flex: 1;
+            float: left;
+        }
+
+        p {
+            float: right;
+        }
+
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            background-color: #F5F5F5;
+            border-radius: 10px;
+        }
+
+            ::-webkit-scrollbar-track:hover {
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                background-color: #F5F5F5;
+                border-radius: 10px;
+            }
+
+        ::-webkit-scrollbar {
+            width: 16px;
+            height: 16px;
+            background-color: #F5F5F5;
+            border-radius: 10px;
+            box-shadow: inset 0 0 5px grey;
+        }
+
+        /*::-webkit-scrollbar:hover {
+                width: 15px;
+                height: 15px;
+                background-color: #F5F5F5;
+                border-radius: 10px;
+                box-shadow: inset 0 0 5px grey;
+            }*/
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            /*background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(77, 133, 129)), color-stop(0.72, rgb(33, 133, 129)), color-stop(0.86, rgb(13, 82, 77)));*/
+            /*background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44,#9c9c9c), color-stop(0.72,#c9c9c9 ), color-stop(0.86,#9c9c9c));*/
+            background-color: #9c9c9c;
+        }
+
+        /*::-webkit-scrollbar-thumb:hover {
+                border-radius: 10px;    
+               
+                background-color: #9c9c9c;
+            }*/
+
+        div:hover::-webkit-scrollbar-corner {
+            width: 15px;
+            /*background-color: red !important;*/
+        }
+
+        /*Content Page*/
+
+        .headerFix {
+            box-shadow: 2px 2px 8px 2px #efe7e7;
+        }
+
+            .headerFix tr th {
+                position: sticky;
+                top: -1px;
+                color: rgb(30, 31,31);
+                border: none;
+                /*background-color: #edeef5;*/
+                background-color: #c1c2c2;
+                z-index: 5;
+                font-size: 16px;
+                padding: 12px 6px;
+                white-space: nowrap;
+                text-align: center;
+            }
+
+            .headerFix tr td {
+                padding: 10px 6px;
+                color: #454444;
+                font-size: 15px;
+                z-index: unset;
+                border: none;
+                border-bottom: 1px solid #f3f2f5;
+                white-space: nowrap;
+                text-align: left;
+            }
+
+        .footerfix tr:last-child td {
+            position: sticky;
+            bottom: 0px;
+            padding: 10px 6px;
+            color: #454444;
+            font-size: 15px;
+            z-index: unset;
+            border: none;
+            border-bottom: 1px solid #f3f2f5;
+            white-space: nowrap;
+            text-align: left;
+            background-color: #c1c2c2;
+        }
+
+        .gridHover tr:not(:last-child):hover, .gridHover tr:not(:last-child):hover td {
+            background-color: #eaeaea !important;
+        }
+
+        .gridHoverWithLastrow tr:hover, .gridHoverWithLastrow tr:hover td {
+            background-color: #eaeaea !important;
+        }
+
+        .actionBtns {
+            color: #1d74aa;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .successModalContent {
+            border: 2px solid rgb(119, 190,74);
+        }
+
+        .successModalHeader {
+            background-color: rgb(119, 190,74);
+            padding: 8px;
+            color: white;
+        }
+
+        .successModalFooter {
+            padding: 5px;
+            border-top: 1px solid rgb(119, 190,74);
+        }
+
+        .warningModalContent {
+            border: 2px solid rgb(250,221, 9);
+        }
+
+        .warningModalHeader {
+            background-color: rgb(250,221, 9);
+            padding: 8px;
+            color: black;
+        }
+
+        .warningModalFooter {
+            padding: 5px;
+            border-top: 1px solid rgb(250,221, 9);
+        }
+
+        .errorModalContent {
+            border: 2px solid rgb(223, 71,12);
+        }
+
+        .errorModalHeader {
+            background-color: rgb(223, 71,12);
+            padding: 8px;
+            color: white;
+        }
+
+        .errorModalFooter {
+            padding: 5px;
+            border-top: 1px solid rgb(223, 71,12);
+        }
+
+        .confirmationModalContent {
+            border: 2px solid rgb(42, 140, 177);
+        }
+
+        .confirmationModalHeader {
+            background-color: rgb(42, 140, 177);
+            padding: 8px;
+            color: white;
+        }
+
+        .confirmationModalFooter {
+            padding: 5px;
+            border-top: 1px solid rgb(42, 140, 177);
+        }
+
+        .generalModalContent {
+            border: 2px solid rgb(9, 132,151);
+        }
+
+        .generalModalHeader {
+            background-color: rgb(9, 132,151);
+            padding: 8px;
+            color: white;
+        }
+
+        .generalModalFooter {
+            padding: 5px;
+            border-top: 1px solid rgb(9, 132,151);
+        }
+
+        .modal-text {
+            font-size: 18px;
+        }
+
+
+        .modalbtns {
+            background-color: rgb(9, 132,151);
+            color: white;
+            padding: 3px 24px;
+        }
+
+            .modalbtns:hover {
+                background-color: rgb(9, 132,151);
+                color: white;
+                padding: 3px 24px;
+            }
+
+        .leftLabel {
+            font-size: 16px;
+            font-weight: bold;
+            color: #5f5f5f;
+        }
+
+        select {
+            color: #454444;
+        }
+
+        #ParameterDropdownListMaster a, #ParameterDetailsMaster a, #EmployeeInformation a, #RoleAccessRights a, #CustomerDetails a, #ParameterDropdownListMaster a, #PODetailsMaster a, #PackagingAndExportInvoice a {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .collapse-menu {
+            flex-basis: 88px !important;
+            overflow: hidden;
+        }
+
+        .main-menu-item, .sub-menu-item {
+            text-align: left;
+            font-weight: bold;
+        }
+
+            .sub-menu-item:hover {
+                cursor: pointer;
+                background-color: #ebeaea;
+                /*border-left: 6px solid rgb(23, 173, 196);*/
+            }
+
+        .collapse-menu .main-menu-item, .collapse-menu .sub-menu-item {
+            text-align: center !important;
+            padding-left: 0px !important;
+            transition: all 0.2s linear;
+        }
+
+            .collapse-menu .main-menu-item div.menu-icon {
+                margin: auto !important;
+            }
+
+        .collapse-menu .menu-icon {
+            margin-left: 0px;
+            transition: all 0.2s linear;
+        }
+
+
+
+        .menu-icon {
+            margin-right: 5px;
+            margin-left: 18px;
+            opacity: 1;
+        }
+
+        .menu-text {
+            opacity: 1;
+            transition: all 0.5s linear;
+        }
+
+        .menu-icon-big {
+            font-size: 26px !important;
+        }
+
+        .menu-icon-small {
+            font-size: 14px !important;
+        }
+
+        .menu-selected {
+            border-left: 6px solid #171e20;
+            background-color: #ebeaea;
+        }
+
+            .menu-selected span {
+                color: black;
+                font-weight: 400;
+            }
+
+        .menu-animate {
+            opacity: 0;
+            transition: opacity 0.5s linear;
+        }
+
+
+
+        .header-right-side tr td {
+            /*min-width: 100px;
+            width: 100px;*/
+            padding: 3px 20px;
+        }
+
+            .header-right-side tr td:not(:last-child) {
+                border-right: 0.5px solid #ffffffb8;
+            }
+
+        .submenu-right-side tr td {
+            /*min-width: 100px;
+            width: 100px;*/
+            padding: 10px 20px;
+            height: 45px;
+        }
+
+        .table-subitems {
+            min-width: 200px;
+        }
+
+            .table-subitems tr td {
+                color: black;
+                padding: 10px 15px;
+                border-bottom: 1px solid #dfdfdfcf;
+            }
+
+            .table-subitems tr:last-child td:last-child {
+                border-bottom: unset;
+            }
+
+            .table-subitems tr:hover {
+                background-color: #ebeaea;
+            }
+
+
+
+
+        .inner-ul {
+            padding: 6px 0px 6px 44px;
+            margin: 10px;
+        }
+
+            .inner-ul > li {
+                padding: 8px;
+            }
+
+
+        .outer-div {
+            /*height: 200px;*/
+            width: 325px;
+            height: 320px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px 2px #262626ed;
+            background-color: #171e21;
+            border-top: 5px solid red;
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        .light-mode .outer-div {
+            box-shadow: 2px 2px 5px 2px #c3bfbfed !important;
+            background-color: #f1f1f1 !important;
+        }
+
+        .card-table {
+            width: 100%
+        }
+
+            .card-table tr td {
+                padding: 8px;
+            }
+
+        .card-sub-header {
+            font-weight: bold;
+        }
+
+        .card-header {
+            color: #00669f;
+            font-weight: bold;
+        }
+
+        .card-table tr:first-child {
+            border-bottom: 0.5px solid #00669f52;
+        }
+
+        .line {
+            padding-bottom: 3px;
+            border-bottom-style: solid;
+            border-bottom-width: 3.1px;
+            width: fit-content;
+            border-bottom-color: #44fff4;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+
+
+
+
+
+        .themetoggle {
+            /*height: 85vh;*/
+            width: 96vw;
+            margin: 97px auto 0px auto;
+        }
+
+        .checkbox-list input {
+            margin-right: 5px;
+        }
+
+        .checkbox-list label {
+            font-weight: unset;
+        }
+
+        #mainBody {
+            background-color: #32383d;
+            width: 100vw;
+            height: 98vh;
+            padding: 0px;
+        }
+
+        .light-mode {
+            background-color: #f1f1f1 !important;
+            transition: all 1s ease-in-out;
+        }
+
+            .light-mode * {
+                color: #1a1a1af7;
+            }
+
+        .nav-header {
+            background-color: #171e21;
+            border-color: #171e21;
+        }
+
+        .light-mode .nav-header {
+            background-color: #49bde9 !important;
+            background-image: linear-gradient(to right, #15a5ec, #49bde9, #23c0d9) !important;
+            border-color: #0f9fd5 !important;
+        }
+
+        .quicker-btn {
+            padding: 2px 6px;
+            border-radius: 30px;
+            border: unset;
+            color: #171e21;
+            font-size: 17px;
+            font-weight: bold;
+            line-height: 1.4;
+            vertical-align: baseline;
+        }
+
+        .light-mode .quicker-btn {
+            color: #0f9fd5 !important;
+        }
+
+        .panel-subitems {
+            visibility: hidden;
+            z-index: 10;
+            position: absolute;
+            box-shadow: 2px 2px 5px 2px #1e1e1eed;
+            border-color: #6d6d6d;
+            background-color: #171e21;
+        }
+
+        .panel-default > .panel-heading {
+            background-color: #6c7884;
+            color: unset;
+        }
+
+        .panel-footer {
+            background-color: unset;
+        }
+
+        .light-mode .panel-subitems {
+            box-shadow: 2px 2px 5px 2px #dededeed !important;
+            border-color: #ddd !important;
+            background-color: #fff !important;
+        }
+
+        .light-mode .panel-default > .panel-heading {
+            background-color: #fff !important;
+        }
+
+        #tableQuickLink {
+            width: 100%;
+            padding: 20px;
+        }
+
+            #tableQuickLink tr th {
+                background-color: #6c7884;
+                border: 1px solid #6c7884;
+                padding: 10px;
+                text-align: left;
+            }
+
+            #tableQuickLink tr td {
+                border: 1px solid #6c7884;
+                padding: 8px;
+                text-align: left;
+            }
+
+
+        .light-mode #tableQuickLink tr th {
+            background-color: #f3f6f8 !important;
+            border: 1px solid #f3f6f8 !important;
+        }
+
+        .light-mode #tableQuickLink tr td {
+            border: 1px solid #f3f6f8 !important;
+        }
+
+        .content-sub-menu {
+            height: 40px;
+            box-shadow: 2px 2px 5px 2px #2b2828ed;
+            background-color: #3c464e;
+            position: sticky;
+            top: 40px;
+            z-index: 4;
+        }
+
+        .light-mode .content-sub-menu {
+            box-shadow: 2px 2px 5px 2px #c3bfbfed !important;
+            background-color: white !important;
+        }
+
+        .navbar-nav > li > a {
+            padding-top: 0px;
+            padding-bottom: 6px;
+        }
+
+        .navbar-nav > li:hover {
+            border-bottom: 3px solid white;
+        }
+
+            .navbar-nav > li:hover a {
+                background-color: unset;
+                color: white;
+            }
+
+        .light-mode .navbar-nav > li:hover {
+            border-bottom: 3px solid #00669f !important;
+        }
+
+            .light-mode .navbar-nav > li:hover a {
+                color: #000000ab !important;
+            }
+
+        .menuData {
+            color: white;
+            font-weight: bold;
+            padding: 0px 20px;
+        }
+
+        .light-mode .menuData {
+            color: #000000ab !important;
+        }
+
+        .submenuData {
+            color: white;
+            font-weight: bold;
+            padding: 0px 20px;
+        }
+
+        .light-mode .submenuData {
+            color: #000000ab !important;
+        }
+
+        .sub_submenuData {
+            color: white;
+            font-weight: bold;
+            padding: 0px 20px;
+        }
+
+        .light-mode .sub_submenuData {
+            color: #000000ab !important;
+        }
+
+           .assignMachine_menuData {
+            color: white;
+            font-weight: bold;
+            padding: 0px 20px;
+        }
+
+        .light-mode .assignMachine_menuData {
+            color: #000000ab !important;
+        }
+
+        .daySubMenu {
+            color: white;
+            font-weight: bold;
+            padding: 0px 20px;
+        }
+
+        .light-mode .daySubMenu {
+            color: #000000ab !important;
+        }
+
+        .arrow {
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 2px;
+            position: absolute;
+            top: 23px;
+            left: 39%;
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .light-mode .arrow {
+            border: solid #00669f !important;
+            border-width: 0 3px 3px 0 !important;
+        }
+
+        .selected-Submenu {
+            border-bottom: 3px solid red;
+            background-color: unset !important;
+            color: white !important;
+            font-size: 17px;
+            font-weight: 800;
+        }
+
+        .selected-Submenu-ArrowUp {
+            border: solid red;
+            border-width: 0 3px 3px 0;
+        }
+
+        .light-mode .selected-Submenu {
+            border-bottom: 3px solid #00669f;
+            color: #000000ab !important;
+        }
+
+         .selected-machine-menu {
+            border-bottom: 3px solid red;
+            background-color: unset !important;
+            color: black !important;
+        }
+        .light-mode .selected-machine-menu {
+            border-bottom: 3px solid #00669f;
+            color: black !important;
+        }
+
+
+        .selected-sub-Submenu {
+            border-bottom: 3px solid red;
+            background-color: unset !important;
+            color: white !important;
+              font-size: 17px;
+            font-weight: 800;
+        }
+
+        .selected-sub-Submenu-ArrowUp {
+            border: solid red;
+            border-width: 0 3px 3px 0;
+        }
+
+        .light-mode .selected-sub-Submenu {
+            border-bottom: 3px solid #00669f;
+            color: #000000ab !important;
+        }
+
+        .submenus-style > li:hover {
+            border-bottom: 3px solid red;
+        }
+
+            .submenus-style > li:hover a {
+                background-color: unset;
+                color: white;
+            }
+
+        .light-mode .submenus-style > li:hover {
+            border-bottom: 3px solid #00669f !important;
+        }
+
+            .light-mode .submenus-style > li:hover a {
+                color: #000000ab !important;
+            }
+
+            .machine-menu-style > li:hover{
+                 border-bottom: 3px solid red;
+            }
+             .machine-menu-style > li:hover a {
+                background-color: unset;
+                color: black;
+            }
+
+
+        .P1Table {
+            background-color: #212528 !important;
+            width: 100%;
+            box-shadow: 2px 2px 5px 2px #262626ed;
+        }
+
+            .P1Table tr th {
+                padding: 4px 10px;
+                background-color: #6c7884;
+                position: sticky;
+                top: 0px;
+                /*z-index: 10;*/
+                     z-index: 2;
+                /*border-right: 0.5px solid #a3a3a361;*/
+            }
+            /*.P1Table tr th{
+                position: sticky;
+                top: 0px;
+                background-color: #6c7884;
+            }*/
+
+            .P1Table tr td {
+                padding: 8px;
+                /*border-right: 0.5px solid #f1f1f1;*/
+                /*border-bottom: 0.5px solid #a3a3a361;*/
+                border: none;
+                border-bottom: 0.5px solid #a3a3a361;
+                border-right: 0.5px solid #363333 !important;
+                text-align: left;
+            }
+
+        .light-mode .P1Table > tbody > tr:hover > td {
+            background-color: #a3a3a361;
+        }
+
+        .P1Table-footer-style tr:last-child td {
+            background-color: #6c7884;
+        }
+
+        .light-mode .P1Table {
+            background-color: white !important;
+            box-shadow: 2px 2px 5px 2px #dededeed !important;
+        }
+
+            .light-mode .P1Table tr th {
+                background-color: #ebebeb !important;
+                border: 0.5px solid gainsboro;
+            }
+            /*.light-mode .P1Table tr th{
+                position: sticky;
+                top: 0px;
+                background-color: #ebebeb    !important;
+                z-index: 2;
+            }*/
+
+            .light-mode .P1Table tr td {
+                border: 0.5px solid #f1f1f1 !important;
+            }
+
+            .light-mode .P1Table > tbody > tr:hover > td {
+                background-color: #f1f1f1 !important;
+            }
+
+            .light-mode .P1Table tr td a {
+                color: #1a1a1af7 !important;
+            }
+
+        .light-mode .P1Table-footer-style tr:last-child td {
+            background-color: #ebebeb !important;
+        }
+
+        .datepicker {
+            background-color: #171e21;
+        }
+
+        .light-mode .datepicker {
+            background-color: white !important;
+        }
+
+        .datetimepicker {
+            background-color: #171e21;
+        }
+
+        .light-mode .datetimepicker {
+            background-color: white !important;
+        }
+
+        .bootstrap-datetimepicker-widget .picker-switch td span {
+            background-color: #171e21;
+        }
+
+            .bootstrap-datetimepicker-widget .picker-switch td span:hover {
+                background-color: #171e21;
+            }
+
+        .bootstrap-datetimepicker-widget table th.picker-switch:hover {
+            background-color: #171e21 !important;
+        }
+
+        .table-condensed > thead > tr > th:hover, .table-condensed > tbody > tr > th:hover, .table-condensed > tfoot > tr > th:hover, .table-condensed > thead > tr > td:hover, .table-condensed > tbody > tr > td:hover, .table-condensed > tfoot > tr > td:hover {
+            background-color: #171e21 !important;
+        }
+
+        .light-mode .table-condensed > thead > tr > th:hover, .light-mode .table-condensed > tbody > tr > th:hover, .light-mode .table-condensed > tfoot > tr > th:hover, .light-mode .table-condensed > thead > tr > td:hover, .light-mode .table-condensed > tbody > tr > td:hover, .light-mode .table-condensed > tfoot > tr > td:hover {
+            background-color: white !important;
+        }
+
+        .bootstrap-datetimepicker-widget table td {
+            background-color: #171e21 !important;
+        }
+
+        .light-mode .bootstrap-datetimepicker-widget .picker-switch td span {
+            background-color: white !important;
+        }
+
+        .light-mode .bootstrap-datetimepicker-widget table td {
+            background-color: white !important;
+        }
+
+        .bootstrap-datetimepicker-widget .timepicker-hour:hover, .bootstrap-datetimepicker-widget .timepicker-minute:hover, .bootstrap-datetimepicker-widget .timepicker-second:hover {
+            background-color: #171e21 !important;
+        }
+
+        .bootstrap-datetimepicker-widget table td span:hover {
+            background-color: #171e21 !important;
+        }
+
+        .light-mode .bootstrap-datetimepicker-widget .timepicker-hour:hover, .light-mode .bootstrap-datetimepicker-widget .timepicker-minute:hover, .light-mode .bootstrap-datetimepicker-widget .timepicker-second:hover {
+            background-color: white !important;
+        }
+
+        .light-mode .bootstrap-datetimepicker-widget table td span:hover {
+            background-color: white !important;
+        }
+
+        .bootstrap-datetimepicker-widget table td {
+            padding: 7px;
+        }
+
+        .btn-info {
+            font-size: 18px;
+            padding: 10px 30px;
+        }
+
+        .light-mode .btn-info {
+            color: white !important;
+        }
+
+        .box-shadow {
+            /*box-shadow: 2px 2px 5px 2px #262626ed;*/
+            box-shadow: 2px 2px 5px 2px #151617;
+        }
+
+        .light-mode .box-shadow {
+            box-shadow: 2px 5px 2px #dededeed !important;
+        }
+
+        .highcharts-background {
+            fill: #171e21;
+        }
+
+
+
+        .highchart-xyaxis-label text {
+            fill: white;
+            stroke: white;
+            /*font-family: 'Glyphicons Halflings';*/
+            /*font-family: emoji;*/
+            font-family: initial;
+        }
+
+        .highcharts-title text {
+            font-size: 20px;
+            fill: red;
+        }
+
+        .highcharts-legend text {
+            fill: red;
+        }
+
+        .highcharts-legend-item > span > span {
+            color: red;
+        }
+
+        .highcharts-legend-item-hidden > span > span {
+            color: red;
+        }
+
+        .span-legend-active {
+            /*background-color: white;
+            border: 1px solid green;*/
+            color: white !important;
+            /*padding: 3px 7px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 13px;*/
+        }
+
+        .light-mode .span-legend-active {
+            color: #1a1a1af7 !important;
+        }
+        /*.span-legend-item-inactive {
+    background-color: white;
+    border: 1px solid #cccccc;
+    color: #cccccc;
+    padding: 3px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+  
+}*/
+        .light-mode .highcharts-background {
+            fill: white !important;
+        }
+
+        .light-mode .highchart-xyaxis-label text {
+            fill: #1a1a1af7 !important;
+            stroke: #1a1a1af7 !important;
+        }
+
+
+        .Btns {
+            color: #fff;
+            background: -webkit-linear-gradient(top, #aaa 0,#000 40%, #555 100%);
+            -webkit-box-shadow: inset 0 -1em 0 0.2em rgba(0,0,0,.55);
+            border: 2px solid gray;
+            -webkit-border-radius: 1em;
+            /* padding: .67em; */
+            font-weight: 700;
+            padding: 5px 20px;
+            font-size: 16px;
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+
+        .light-mode .Btns {
+            background: -webkit-linear-gradient(top, #4ad5f5 0,#15567f 40%, #23eabc 100%) !important;
+            -webkit-box-shadow: inset 0 -1em 0 0.2em rgba(0,0,0,.55) !important;
+            border: 2px solid #0a9a9a !important;
+        }
+
+        .light-mode .aa {
+            border-bottom: 3px solid #00669f !important;
+            background-color: unset !important;
+            color: #000000ab !important;
+        }
+
+        .other-menu-style {
+            border-bottom: unset;
+            color: white;
+            /*background-color: unset;*/
+        }
+
+        .selected-menu-style {
+            background-color: unset !important;
+            border-bottom: 3px solid white !important;
+            color: white !important;
+        }
+
+        .light-mode .other-menu-style {
+            color: #000000ab !important;
+        }
+
+        .light-mode .selected-menu-style {
+            background-color: unset !important;
+            border-bottom: 3px solid #00669f !important;
+            color: #000000ab !important;
+        }
+
+        .outer-ul {
+            text-align: left;
+        }
+
+            .outer-ul li {
+                list-style-type: none;
+            }
+
+            .outer-ul > li {
+                padding: 10px;
+            }
+
+                .outer-ul > li:hover {
+                    background-color: #a3a3a361;
+                }
+
+        .datetime-txtstyle {
+            border: unset;
+            border-bottom: 2px solid red;
+            background-color: unset;
+            color: white;
+        }
+
+        .light-mode .datetime-txtstyle {
+            color: black !important;
+        }
+
+
+
+        .div-show-nodatafound-message {
+            text-align: center;
+        }
+
+        .lbl-nondatafound {
+            font-weight: bold;
+            font-size: 30px;
+            color: white;
+        }
+
+        .light-mode .lbl-nondatafound {
+            color: black !important;
+        }
+
+        .btn-to-span-looks {
+            background: unset;
+            border: unset;
+        }
+
+
+        .warning-modal-content {
+            border: 2px solid #f7d631;
+        }
+
+        .warning-modal-header {
+            background-color: #f7d631;
+            padding: 8px;
+            color: black;
+            text-align: center;
+        }
+
+        .warning-modal-title {
+            color: black;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .warning-modal-msg {
+            font-size: 18px;
+            color: black;
+        }
+
+        .warning-modal-btn {
+            background-color: #f7d631;
+            border: 1px solid #f7d631;
+            color: black;
+            font-weight: bold;
+            padding: 8px 25px;
+            border-radius: 8px;
+        }
+
+        .error-modal-content {
+            border: 2px solid #f50505;
+        }
+
+        .error-modal-header {
+            background-color: #f50505;
+            padding: 8px;
+            color: white;
+            text-align: center;
+        }
+
+        .error-modal-title {
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .error-modal-msg {
+            font-size: 18px;
+            color: white;
+        }
+
+        .error-modal-btn {
+            background-color: #f50505;
+            border: 1px solid #f50505;
+            color: white;
+            font-weight: bold;
+            padding: 8px 25px;
+            border-radius: 8px;
+        }
+
+        .confirm-modal-content {
+            border: 2px solid #3cbbef;
+        }
+
+        .confirm-modal-header {
+            background-color: #3cbbef;
+            padding: 8px;
+            color: black;
+            text-align: center;
+        }
+
+        .confirm-modal-title {
+            color: black;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .confirm-modal-msg {
+            font-size: 18px;
+            color: black;
+        }
+
+        .confirm-modal-btn {
+            background-color: #3cbbef;
+            border: 1px solid #3cbbef;
+            color: black;
+            font-weight: bold;
+            padding: 8px 25px;
+            border-radius: 8px;
+        }
+
+        .modal-footer {
+            padding: 25px;
+            /*border-top: 1px solid #f34d1b;*/
+            text-align: center;
+        }
+
+        .modal-icons {
+            font-size: 3pc;
+        }
+
+        .normal-modal-content {
+            box-shadow: 2px 2px 5px 2px #1e1e1eed;
+            border-color: #6d6d6d;
+            background-color: #171e21;
+        }
+
+        .light-mode .normal-modal-content {
+            box-shadow: 2px 2px 5px 2px #dededeed !important;
+            border-color: #ddd !important;
+            background-color: #fff !important;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 30px;
+        }
+
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 26px;
+                width: 26px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+
+        input:checked + .slider {
+            background-color: #31363a;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #31363a;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+            .slider.round:before {
+                border-radius: 50%;
+                width: 23px;
+                height: 23px;
+                margin: 3px 2px 0px 2px;
+            }
+
+        /*fieldset {
+            border: 1px solid #4f4e63;
+            padding: 0px;
+            border-radius: 4px;
+            width: auto;
+            box-shadow: 2px 2px 8px 2px #252424;
+            margin: 0 8px 0 8px;
+            padding: 0 10px 10px 10px;
+        }
+
+        legend {
+            text-align: left;
+            color: white;
+            display: block;
+            width: auto;
+            padding: 0;
+            margin-bottom: 5px;
+            font-size: 21px;
+            line-height: inherit;
+            border-bottom: transparent;
+        }*/
+        /*.light-mode fieldset {
+            border: 1px solid #4f4e63 !important;
+            box-shadow: 2px 2px 8px 2px #efe7e7 !important;
+           
+        }*/
+
+
+
+        /*----------------------------------------------- Field Set ------------------------------------------*/
+
+        fieldset {
+            border: 1px solid #6d6d6d;
+            padding: 0px;
+            border-radius: 4px;
+            width: fit-content;
+            box-shadow: 2px 2px 8px 2px #171616;
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+
+        .light-mode fieldset {
+            border: 1px solid #c1c1c1 !important;
+            box-shadow: 2px 2px 8px 2px #c3bfbfed !important;
+        }
+
+        .field-set {
+            padding: 0 5px 0 5px;
+        }
+
+        legend {
+            text-align: left;
+            color: white;
+            display: block;
+            width: auto;
+            padding: 0;
+            margin-bottom: -5px;
+            font-size: 21px;
+            line-height: inherit;
+            border-bottom: transparent;
+            /*color: black;*/
+        }
+
+        .light-mode legend {
+            color: #4f4e63 !important;
+        }
+
+        .filter-field-table {
+            margin-bottom: 6px;
+        }
+
+        .filter-table-gap tr:first-child td {
+            padding-bottom: 7px;
+        }
+
+        .filterTbl tr td {
+            font-size: 14px;
+            padding: 3px;
+        }
+
+            .filterTbl tr td select {
+                min-width: 120px
+            }
+        /*-------------------------------------------- Field Set End---------------------------------------------*/
+
+        /*--------------------------------Drop Down Style ------------------------*/
+        .form-control {
+            border-radius: 10px;
+        }
+
+        .dropdown-list option {
+            color: black;
+        }
+
+        .light-mode .dropdown-list option {
+            color: black !important;
+        }
+        /*--------------------------------Drop Down Style End ------------------------*/
+
+        /*.infoModal .modal-content {
+            background: black;
+        }
+
+        .light-mode .infoModal .modal-content {
+            background: white;
+        }*/
+
+
+        /* -------- Action icons  --------*/
+        .action-glypicon, .action-glypicon:hover {
+            color: white;
+        }
+
+        /* Modal pop up  */
+        /*.infoModal .modal-content {
+            border: 1px solid #5b5b5b;
+            background: #151515;
+        }
+
+        .infoModal .modal-footer {
+            padding: 9px;
+            border-top: 1px solid #5b5b5b;
+            background-color: #3b484f;
+        }
+
+        .infoModal .modal-header {
+            border-bottom: 1px solid #5b5b5b;
+            background-color: #3b484f;
+        }
+
+
+            .infoModal .modal-header h4 {
+                font-weight: bold;
+            }
+
+        .light-mode .infoModal .modal-content {
+            background: white;
+            border: 1px solid #c6c6c6 !important;
+        }
+
+        .light-mode .infoModal .modal-footer {
+            padding: 9px;
+            border-top: 1px solid #c6c6c6 !important;
+        }
+
+        .light-mode .infoModal .modal-header {
+            border-bottom: 1px solid #c6c6c6 !important;
+        }
+
+        .light-mode .infoModal .modal-header, .light-mode .infoModal .modal-footer {
+            background-color: #ebebeb !important
+        }*/
+
+        /*Info Modal Css*/
+        .addUpdateTbl tr td {
+            padding: 10px 4px !important;
+            /*border-bottom:1px solid #e6e4e4;*/
+        }
+
+
+
+        .infoModal .modal-content {
+            background: black;
+        }
+
+        /*.light-mode .infoModal .modal-content {
+            background: white;
+        }*/
+
+
+
+        .action-glypicon, .action-glypicon:hover {
+            color: white;
+        }
+
+
+        .infoModal * {
+            color: black;
+        }
+
+        .infoModal .modal-content {
+            border: 1px solid #5b5b5b;
+            background: white;
+        }
+
+        .infoModal .modal-footer {
+            padding: 9px;
+            border: 1px solid #318bd8;
+            background-color: white;
+        }
+
+        .infoModal .modal-header {
+            border-bottom: 1px solid #337ab7;
+            background-color: #318bd8;
+        }
+
+            .infoModal .modal-header .modal-title {
+                color: white;
+            }
+
+            .infoModal .modal-header h4 {
+                font-weight: bold;
+            }
+
+        .infoModal .modal-body {
+            border-left: 1px solid #318bd8;
+            border-right: 1px solid #318bd8;
+        }
+        /*.infoModal .InfoBtns {
+            background-color: #318bd8;
+            color: white;
+            border: 1px solid #318bd8;
+            padding: 4px 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }*/
+        /* .infoModal .InfoBtns {
+            background-color: white;
+            color: #318bd8;
+            border: 2px solid #318bd8;
+            padding: 5px 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .infoModal .InfoBtns:hover {
+            background-color: #318bd8;
+            color: white;
+        }*/
+
+        /*.infoModal .InfoModalBtns {
+            background-color: #318bd8;
+            color: white;
+            border: 1px solid #318bd8;
+            padding: 5px 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .infoModal .InfoModalBtns:hover {
+            background-color: #1474c5;
+             border: 1px solid #1474c5;
+        }*/
+        .infoModal .Btns {
+            background: unset;
+            -webkit-box-shadow: unset;
+            font-weight: 700;
+            padding: 5px 20px;
+            background-color: #318bd8;
+            color: white;
+            border: 1px solid #318bd8;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+            .infoModal .Btns:hover {
+                background-color: #1474c5;
+                border: 1px solid #1474c5;
+            }
+
+        .infoModal .datepicker {
+            background-color: white !important;
+        }
+
+        .infoModal .datetimepicker {
+            background-color: white !important;
+        }
+
+        .infoModal .table-condensed > thead > tr > th:hover, .infoModal .table-condensed > tbody > tr > th:hover, .infoModal .table-condensed > tfoot > tr > th:hover, .infoModal .table-condensed > thead > tr > td:hover, .infoModal .table-condensed > tbody > tr > td:hover, .infoModal .table-condensed > tfoot > tr > td:hover {
+            background-color: white !important;
+        }
+
+        .infoModal .bootstrap-datetimepicker-widget .picker-switch td span {
+            background-color: white !important;
+        }
+
+        .infoModal .bootstrap-datetimepicker-widget table td {
+            background-color: white !important;
+        }
+
+        .infoModal .bootstrap-datetimepicker-widget .timepicker-hour:hover, .infoModal .bootstrap-datetimepicker-widget .timepicker-minute:hover, .infoModal .bootstrap-datetimepicker-widget .timepicker-second:hover {
+            background-color: white !important;
+        }
+
+        .infoModal .bootstrap-datetimepicker-widget table td span:hover {
+            background-color: white !important;
+        }
+
+        .infoModal .div-border-style {
+            border-bottom: 1px solid #d0d6da;
+        }
+
+        .infoModal .div-border-top-style {
+            border-top: 1px solid #d0d6da;
+        }
+
+        .infoModal fieldset {
+            border: 1px solid #c1c1c1 !important;
+            box-shadow: 2px 2px 8px 2px #c3bfbfed !important;
+        }
+
+        .infoModal legend {
+            color: #4f4e63 !important;
+        }
+
+        .infoModal .P1Table > tbody > tr:hover > td {
+            background-color: #a3a3a361;
+        }
+
+        .infoModal .P1Table-footer-style tr:last-child td {
+            background-color: #6c7884;
+        }
+
+        .infoModal .P1Table {
+            background-color: white !important;
+            box-shadow: 2px 2px 5px 2px #dededeed !important;
+        }
+
+            .infoModal .P1Table tr th {
+                background-color: #ebebeb !important;
+                border: 0.5px solid gainsboro;
+            }
+
+            .infoModal .P1Table tr td {
+                border: 0.5px solid #f1f1f1 !important;
+            }
+
+            .infoModal .P1Table > tbody > tr:hover > td {
+                background-color: #f1f1f1 !important;
+            }
+
+            .infoModal .P1Table tr td a {
+                color: #1a1a1af7 !important;
+            }
+
+        .infoModal .P1Table-footer-style tr:last-child td {
+            background-color: #ebebeb !important;
+        }
+
+           .checkbox-radiobtn > input {
+            width: 1em;
+            height: 1em;
+            background-color: white;
+            border-radius: 50%;
+            /*vertical-align: sub;*/
+            border: 1px solid #ddd;
+            -webkit-appearance: none;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .checkbox-radiobtn > label {
+            vertical-align: text-bottom;
+            margin-bottom: 0px;
+            margin-left: 2px;
+        }
+
+        .checkbox-radiobtn > input:checked {
+            background-color: #056de3;
+        }
+    </style>
+</head>
+<body id="mainBody" runat="server" clientidmode="static" style="">
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div style="display: flex; flex-direction: column;">
+            <div class="navbar navbar-default navbar-fixed-top nav-header" style="margin-bottom: 0px; padding: 0px 5px; flex-basis: 70px; min-height: 40px; height: 40px; text-align: center">
+                <%--position: static;--%>
+                <div class="HeaderImage" style="padding: 3px 3px 3px 3px;">
+                    <span style="color: red;" class="line">Ace</span><span style="color: #44fff4;" class="line">Micromatic</span>
+                    <div style="display: inline; margin-left: 19px; border: 1px solid white; padding: 6px; border-radius: 5px;">
+                        <div onclick="showMenuPanels(this,'panelMenus','150px','40px')" style="display: inline">
+                            <span id="menuddl" style="color: white; font-weight: bold">Menus</span>
+                            <span id="menudownuparrow" style="margin-left: 85px; color: white" class="glyphicon glyphicon-menu-down"></span>
+                        </div>
+
+                        <div class="panel panel-default panel-subitems" id="panelMenus" style="visibility: hidden">
+                            <div class="panel-body" style="min-width: 300px; padding: 0px">
+
+                                <ul id="ulMenus" class="outer-ul">
+                                    <li class="sub-menu-item " onclick="onMenuClicked(this, '#')" runat="server" id="liLiveStatus" style="border-bottom: unset">
+                                        <span class="glyphicon glyphicon-tasks  menu-icon"></span>
+                                        <span class="menu-text">Live Status</span>
+                                    </li>
+                                    <li class="sub-menu-item" onclick="onMenuClicked(this, 'ProductionOEEDashboard.aspx','ulProduction li')" runat="server" id="liProduction" style="border-bottom: unset">
+                                        <span class="glyphicon glyphicon-th-list  menu-icon"></span>
+                                        <span class="menu-text">Production</span>
+                                    </li>
+                                    <li class="sub-menu-item" onclick="onMenuClicked(this, 'Quality.aspx', 'ulQuality li')" runat="server" id="liQuality" style="border-bottom: unset">
+                                        <span class="glyphicon glyphicon-adjust menu-icon"></span>
+                                        <span class="menu-text">Quality</span>
+                                    </li>
+                                    <li class="sub-menu-item" onclick="onMenuClicked(this, 'Maintenance.aspx','ulMaintenance li')" runat="server" id="liMaintenance" style="border-bottom: unset">
+                                        <span class="glyphicon glyphicon-stats menu-icon"></span>
+                                        <span class="menu-text">Maintenance</span>
+                                    </li>
+                                    <li class="sub-menu-item " onclick="onMenuClicked(this, 'ProcessParameterDashboard.aspx', 'ulProcessParameter li')" runat="server" id="liProcessParameter" style="border-bottom: unset">
+                                        <span class="glyphicon glyphicon-list-alt menu-icon"></span>
+                                        <span class="menu-text">Process Parameters</span>
+                                    </li>
+
+                                    <li class="sub-menu-item " onclick="onMenuClicked(this, 'Energy.aspx','ulEnergy li')" runat="server" id="liEnergy" style="border-bottom: unset">
+                                        <span class="glyphicon glyphicon-compressed  menu-icon"></span>
+                                        <span class="menu-text">Energy</span>
+                                    </li>
+                                    <li class="sub-menu-item " onclick="onMenuClicked(this, 'MachineDocuments')" runat="server" id="li5" style="border-bottom: unset">
+                                        <span class="glyphicon glyphicon-credit-card  menu-icon"></span>
+                                        <span class="menu-text">Machine eDocs</span>
+                                    </li>
+                                    <li class="sub-menu-item " onclick="onMenuClicked(this, 'Assets.aspx','ulAssets li')" runat="server" id="liAssets" style="border-bottom: unset">
+                                        <span class="glyphicon glyphicon-equalizer  menu-icon"></span>
+                                        <span class="menu-text">Assets</span>
+                                    </li>
+                                    <li class="sub-menu-item" onclick="onMenuClicked(this, 'ProcessParameterMaster.aspx','ulMasters li')" runat="server" id="liMasters" style="border-bottom: unset">
+                                        <span class="glyphicon glyphicon-globe  menu-icon"></span>
+                                        <span class="menu-text">Masters</span>
+                                    </li>
+                                    <li class="sub-menu-item " onclick="onMenuClicked(this, '#')" runat="server" id="li9" style="border-bottom: unset">
+                                        <span class="fa fa-address-card  menu-icon"></span>
+                                        <span class="menu-text">User Access</span>
+                                    </li>
+                                    <li class="sub-menu-item" onclick="onMenuClicked(this, '#')" runat="server" id="li10" style="border-bottom: unset">
+                                        <span class="fa fa-cog  menu-icon"></span>
+                                        <span class="menu-text">Settings</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div style="display: inline-block; margin-top: 8px">
+                    <asp:UpdatePanel runat="server">
+                        <ContentTemplate>
+                            <asp:Label runat="server" ID="lblShowSelectedItems" Style="color: white !important; font-weight: bold"></asp:Label>
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                </div>
+                <div style="float: right; position: relative">
+                    <table class="header-right-side" style="height: 40px">
+                        <tr>
+                            <td onmouseover="showPanels(this,'panelQuickLink','-223px','40px');" onmouseout="hidePanels(this,'panelQuickLink')">
+                                <input type="button" class=" quicker-btn" value="Q" />
+                                <div class="panel panel-default panel-subitems" id="panelQuickLink" style="width: 400px">
+                                    <%-- <div class="panel-heading" style="padding: 8px; text-align: center;">
+                                        <h5 class="modal-title" style="font-weight: bold">Company Name</h5>
+                                    </div>--%>
+                                    <div class="panel-body">
+                                        <table id="tableQuickLink">
+                                            <tr>
+                                                <th>ANALYTICS
+                                                </th>
+                                                <th>SETTINGS
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="glyphicon glyphicon-th-list"></span>
+                                                    <span class="menu-text">OEE Dashboard</span>
+                                                </td>
+                                                <td>
+                                                    <span class="fa fa-address-book"></span>
+                                                    <span class="menu-text">User Role</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="glyphicon glyphicon-align-right"></span>
+                                                    <span class="menu-text">BreakDown</span>
+                                                </td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="glyphicon glyphicon-list-alt"></span>
+                                                    <span class="menu-text">Rejection</span>
+                                                </td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <i class="glyphicon glyphicon-question-sign" style="font-size: 25px; color: white; vertical-align: sub"></i>
+                            </td>
+                            <td onmouseover="showPanels(this,'panelNotification','20px','40px');" onmouseout="hidePanels(this,'panelNotification')">
+                                <i class="glyphicon glyphicon-bell" style="font-size: 25px; color: white; vertical-align: sub"></i>
+                                <div class="panel panel-default panel-subitems" id="panelNotification" style="width: 300px;">
+                                    <div class="panel-heading" style="padding: 8px; text-align: center;">
+                                        <h5 class="" style="font-weight: bold">File Messages</h5>
+                                    </div>
+                                    <div class="panel-body">
+                                        <ul class="outer-ul">
+                                            <li>
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                <span class="menu-text">Message 1</span>
+                                            </li>
+                                            <li>
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                <span class="menu-text">Message 2</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td onmouseover="showPanels(this,'panelLogout','20px','40px');" onmouseout="hidePanels(this,'panelLogout')">
+                                <img src="Images/boy-512.png" id="userICon" style="border: 2px solid #688a7e; border-radius: 50%;" />
+                                <%--onmouseout="hidePanels(this,'panelLogout')"--%>
+                                <div class="panel panel-default panel-subitems" id="panelLogout" style="width: 300px;">
+                                    <div class="panel-heading" style="padding: 8px; text-align: center;">
+                                        <h5 class="" style="font-weight: bold" runat="server" id="smCompanyName"></h5>
+                                    </div>
+                                    <div class="panel-body">
+                                        <ul id="logoutPanelUl" class="outer-ul" style="margin-bottom: 0px">
+                                            <li onclick="showSubItems(this,'logoutPersonalUl')">
+                                                <span class="fa fa-address-book"></span>
+                                                <span class="menu-text">Personal Setting</span>
+                                                <span id="downuparrow" style="margin-left: 85px" class="glyphicon glyphicon-menu-down"></span>
+                                                <ul id="logoutPersonalUl" class="inner-ul" style="display: none">
+                                                    <li>
+                                                        <span>Items 1</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>Items 2</span>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="panel-footer" style="padding: 0px 10px 0px 15px; text-align: right;">
+                                        <ul class="outer-ul" style="margin-bottom: 0px">
+                                            <li>
+                                                <span class="glyphicon glyphicon-user"></span>
+                                                <span class="menu-text" id="lblUserName" runat="server"></span>
+                                            </li>
+                                            <li>
+                                                <span class="glyphicon glyphicon-off"></span>
+                                                <span class="menu-text" onclick="gotoLoginPage();">Log Out</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <%--<i id="toogleTheme" class="glyphicon glyphicon-question-sign" style="font-size: 25px; color: white"></i>--%>
+                                <%--   <input type="checkbox" id="toogleTheme" />--%>
+                                <label class="switch">
+                                    <input type="checkbox" id="toogleTheme" />
+                                    <span class="slider round"></span>
+                                </label>
+                                <%--<asp:CheckBox runat="server" ID="chkToggleTheme" OnCheckedChanged="chkToggleTheme_CheckedChanged" AutoPostBack="true" />--%>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+            <div style="width: 100%; position: relative; top: -10px;">
+                <%--display: flex;; position: relative;top: 65px;--%>
+                <%--height: 87vh;--%>
+                <%-- <div class="container-fluid" style="padding-left: 0px">
+                    <div class="row" style="color: white;">
+                       
+
+                    </div>
+                </div>--%>
+                <div class="container-fluid body-content" style="margin-left: 0px; margin-bottom: 0px; width: 100vw;">
+                    <div class="col-sm-12 col-lg-12 col-md-12 content-sub-menu" style="margin-top: 51px; margin-left: 0px">
+                        <div style="float: left; margin-top: 5px">
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav ul-sub-menu" id="ulProduction" style="display: none">
+                                    <li runat="server" id="ProductionOEEDashboard" onclick="onSubMenuClicked(this, 'ProductionOEEDashboard.aspx')">
+                                        <a runat="server" id="SLI" class="menuData">OEE Dashboard</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="liDownTime" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" id="annexureA" class="menuData">Downtime Analysis</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="liRejection" onclick="onSubMenuClicked(this, '#')"><a runat="server" class="menuData" id="a3" data-toggle="tab" href="#menu4">Rejection Analysis</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="liWorkorder" onclick="onSubMenuClicked(this, '#')"><a runat="server" class="menuData" id="A2" data-toggle="tab" href="#menu4">Workorders</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="liPartData" onclick="onSubMenuClicked(this, '#')"><a runat="server" class="menuData" id="A1" data-toggle="tab" href="#menu4">Parts Data</a>
+                                        <i></i>
+                                    </li>
+                                </ul>
+
+                                <ul class="nav navbar-nav ul-sub-menu" id="ulProcessParameter" style="display: none">
+                                    <li runat="server" id="ProcessParameterDashboard" onclick="onSubMenuClicked(this, 'ProcessParameterDashboard.aspx')">
+                                        <a runat="server" id="A4" class="menuData">Dashboard</a>
+                                        <i></i>
+                                    </li>
+                                    <%--  <li runat="server" id="ProcessParameterGraphView" onclick="onSubMenuClicked(this, 'ProcessParameterGraphView.aspx')">
+                                        <a runat="server" id="a5" class="menuData">Signature Comparison</a>
+                                        <i></i>
+                                    </li>--%>
+                                    <li runat="server" id="ProcessParameterSignatureComparison" onclick="onSubMenuClicked(this, 'ProcessParameterSignatureComparison.aspx')">
+                                        <a runat="server" class="menuData" id="a6">Graph View</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="ProcessParameterListOfValues" onclick="onSubMenuClicked(this, 'ProcessParameterListOfValues.aspx')">
+                                        <a runat="server" id="a7" class="menuData">List of Values</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="KB">
+                                        <a runat="server" id="a5" class="menuData" href="~/Troubleshooting.aspx?machineID=&parameterName=&param=KB" target="_blank">KB</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="AlarmHistory" onclick="onSubMenuClicked(this, 'AlarmHistory.aspx')">
+                                        <a runat="server" class="menuData">Alarm</a>
+                                        <i></i>
+                                    </li>
+                                </ul>
+                                <ul class="nav navbar-nav ul-sub-menu" id="ulMasters" style="display: none">
+                                    <li runat="server" id="CompanyGroupMaster" onclick="onSubMenuClicked(this,'CompanyGroupMaster.aspx')">
+                                        <a runat="server" id="aCompanyGroupMaster" class="menuData">Company</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="LevelHierarchy" onclick="onSubMenuClicked(this,'LevelHierarchy.aspx')">
+                                        <a runat="server" id="aLevelHierarchy" class="menuData">Company Hierarchy</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="LevelHierarchyMaster" onclick="onSubMenuClicked(this,'LevelHierarchyMaster.aspx')">
+                                        <a runat="server" id="aLevelHierarchyMaster" class="menuData">Plant Hierarchy</a>
+                                        <i></i>
+                                    </li>
+                                    <%--   <li runat="server" id="MasterHierarchy"  onclick="onSubMenuClicked(this,'MasterHierarchy.aspx')" >
+                                        <a runat="server" id="aMasterHierarchy" class="menuData">Plant / Shop / Cell</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="MachineInformationMaster" onclick="onSubMenuClicked(this, 'MachineInformationMaster.aspx')">
+                                        <a runat="server" class="menuData" id="annexureB">Machine</a>
+                                        <i></i>
+                                    </li>--%>
+                                    <li  runat="server" id="Parts"><a runat="server" class="menuData" id="formSDF" data-toggle="tab" href="#menu3">Parts</a>
+                                        <i></i>
+                                    </li>
+                                    <li  runat="server" id="LossCodes"><a runat="server" class="menuData" id="A10" data-toggle="tab" href="#menu4">Loss Codes</a>
+                                        <i></i>
+                                    </li>
+                                    <li  runat="server" id="RejectionCodes"><a runat="server" class="menuData" id="A11" data-toggle="tab" href="#menu5">Rejection Codes</a>
+                                        <i></i>
+                                    </li>
+                                    <%-- <li><a runat="server" class="menuData" id="A12" data-toggle="tab" href="#menu6">Employee</a>
+                                        <i></i>
+                                    </li>--%>
+                                    <li  runat="server" id="InspectionData"><a runat="server" class="menuData" id="A13" data-toggle="tab" href="#menu7">Inspection Data</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="UserRoleRights"  onclick="onSubMenuClicked(this, 'UserRoleRights.aspx')">
+                                        <a runat="server" class="menuData" id="aUserRoleRights">User Roles</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="ProcessParameterMaster" onclick="onSubMenuClicked(this, 'ProcessParameterMaster.aspx')">
+                                        <a runat="server" class="menuData" id="A15">Process Param.</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="ProcessParameterMasterAGI" onclick="onSubMenuClicked(this, 'ProcessParameterMasterAGI.aspx')">
+                                        <a runat="server" class="menuData" id="A32">AGI Param.</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="MachineDocumentMaster" onclick="onSubMenuClicked(this, 'MachineDocumentMaster.aspx')">
+                                        <a runat="server" class="menuData" id="A31">eDocs</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="SignatureComparisionMaster" onclick="onSubMenuClicked(this, 'SignatureComparisonMaster.aspx')"><a runat="server" id="A30" class="menuData">Signature Comparison</a>
+                                        <i></i>
+                                    </li>
+                                </ul>
+
+                                <ul class="nav navbar-nav ul-sub-menu" id="ulQuality" style="display: none">
+                                    <li runat="server" id="Li7" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" id="A16" class="menuData">Inspection Data</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="li8" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" id="a17" class="menuData">SPC</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="li11" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" class="menuData" id="a18" data-toggle="tab" href="#menu4">Rejections</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="li12" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" class="menuData" id="A19" data-toggle="tab" href="#menu4">Docs</a>
+                                        <i></i>
+                                    </li>
+                                </ul>
+
+                                <ul class="nav navbar-nav ul-sub-menu" id="ulMaintenance" style="display: none">
+                                    <li runat="server" id="Li2" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" id="A20" class="menuData">Autonomous Maintenance</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="li13" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" id="a21" class="menuData">Preventive Maintenance</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="li14" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" class="menuData" id="a22" data-toggle="tab" href="#menu4">Breakdown Maintenance</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="li15" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" class="menuData" id="A23" data-toggle="tab" href="#menu4">Predictive Maintenance</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="li16" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" class="menuData" id="A24" data-toggle="tab" href="#menu4">Alarms Guide</a>
+                                        <i></i>
+                                    </li>
+                                </ul>
+                                <ul class="nav navbar-nav ul-sub-menu" id="ulEnergy" style="display: none">
+                                    <%-- <li runat="server" id="Li3" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" id="A25" class="menuData">Autonomous Maintenance</a>
+                                        <i></i>
+                                    </li>--%>
+                                </ul>
+                                <ul class="nav navbar-nav ul-sub-menu" id="ulAssets" style="display: none">
+                                    <li runat="server" id="li3" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" id="A25" class="menuData">Machines</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="li4" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" id="a26" class="menuData">Gauges / Instruments</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="li6" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" class="menuData" id="a27" data-toggle="tab" href="#menu4">Tools</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="li17" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" class="menuData" id="A28" data-toggle="tab" href="#menu4">Fixtures</a>
+                                        <i></i>
+                                    </li>
+                                    <li runat="server" id="li18" onclick="onSubMenuClicked(this, '#')">
+                                        <a runat="server" class="menuData" id="A29" data-toggle="tab" href="#menu4">MH Equipment</a>
+                                        <i></i>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                        <div style="float: right" id="right-side-filters">
+                        </div>
+                    </div>
+                    <section id="Maincontent" style="position: relative; margin-bottom: 0px;">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </form>
+    <%: Scripts.Render("~/bundles/masterjs") %>
+    <script type="text/javascript">
+        if (localStorage.getItem("selectedTheme")) {
+            if (localStorage.getItem("selectedTheme") == "lightTheme") {
+                $("#mainBody").addClass("light-mode");
+                $("#toogleTheme").prop('checked', true);
+            } else {
+                $("#mainBody").css('transition', 'all 1s ease');
+                $("#mainBody").removeClass("light-mode");
+                $("#toogleTheme").prop('checked', false);
+            }
+        }
+       
+        if (localStorage.getItem("selectedMenu")) {
+            //$("#" + localStorage.getItem("selectedMenu")).addClass("menu-selected");
+            $('#menuddl').text("");
+            $('#menuddl').text(localStorage.getItem("selectedMenu"));
+            //  alert(" ss = "+ localStorage.getItem("selectedMenu"));
+        } else {
+             $.ajax({
+                async: false,
+                type: "POST",
+                url: '<%= ResolveUrl("Login.aspx/checkSuperAdminOrNot") %>',
+                contentType: "application/json; charset=utf-8",
+                crossDomain: true,
+              //  data: '{}',
+                dataType: "json",
+                success: function (response) {
+                    let dataitem = response.d;
+                    if (dataitem) {
+                          $('#menuddl').text("Masters");
+                    } else {
+                         $('#menuddl').text("Production");
+                    }
+                },
+                error: function (Result) {
+                    alert("Error" + Result);
+                }
+            });
+            
+        }
+        if (localStorage.getItem("selectedMenuID")) {
+            let selectmenuId = localStorage.getItem("selectedMenuID");
+            $(".ul-sub-menu").css('display', 'none');
+            if (selectmenuId == "liProduction") {
+                $("#ulProduction").css('display', 'block');
+            }
+            if (selectmenuId == "liProcessParameter") {
+                $("#ulProcessParameter").css('display', 'block');
+            }
+            if (selectmenuId == "liMasters") {
+                $("#ulMasters").css('display', 'block');
+            }
+            if (selectmenuId == "liQuality") {
+                $("#ulQuality").css('display', 'block');
+            }
+            if (selectmenuId == "liMaintenance") {
+                $("#ulMaintenance").css('display', 'block');
+            }
+            if (selectmenuId == "liEnergy") {
+                $("#ulEnergy").css('display', 'block');
+            }
+            if (selectmenuId == "liAssets") {
+                $("#ulAssets").css('display', 'block');
+            }
+
+        } else {
+
+             $.ajax({
+                async: false,
+                type: "POST",
+                url: '<%= ResolveUrl("Login.aspx/checkSuperAdminOrNot") %>',
+                contentType: "application/json; charset=utf-8",
+                crossDomain: true,
+              //  data: '{}',
+                dataType: "json",
+                success: function (response) {
+                    let dataitem = response.d;
+                    if (dataitem) {
+                          $("#ulMasters").css('display', 'block');
+                    } else {
+                          $("#ulProduction").css('display', 'block');
+                    }
+                },
+                error: function (Result) {
+                    alert("Error" + Result);
+                }
+            });
+          
+        }
+        if (localStorage.getItem("selectedSubMenu")) {
+            if ($("#mainBody").hasClass("light-mode")) {
+                // $(".menuData").removeClass("selected-menu-style menu0-select").addClass("other-menu-style");
+                //$(".menuData").closest('li').find('i').removeClass();
+                $("#" + localStorage.getItem("selectedSubMenu")).addClass("selected-menu-style");
+                $("#" + localStorage.getItem("selectedSubMenu")).closest('li').find('i').addClass("arrow up");
+            } else {
+                // $(".menuData").removeClass("selected-menu-style menu0-select").addClass("other-menu-style");
+                //$(".menuData").closest('li').find('i').removeClass();
+                $("#" + localStorage.getItem("selectedSubMenu")).addClass("selected-menu-style");
+                $("#" + localStorage.getItem("selectedSubMenu")).closest('li').find('i').addClass("arrow up");
+            }
+        } else {
+
+              $.ajax({
+                async: false,
+                type: "POST",
+                url: '<%= ResolveUrl("Login.aspx/checkSuperAdminOrNot") %>',
+                contentType: "application/json; charset=utf-8",
+                crossDomain: true,
+              //  data: '{}',
+                dataType: "json",
+                success: function (response) {
+                    let dataitem = response.d;
+                    if (dataitem) {
+                        if ($("#mainBody").hasClass("light-mode")) {
+                            $("#CompanyGroupMaster").addClass("selected-menu-style");
+                            $("#CompanyGroupMaster").closest('li').find('i').addClass("arrow up");
+                        } else {
+                            $("#CompanyGroupMaster").addClass("selected-menu-style");
+                            $("#CompanyGroupMaster").closest('li').find('i').addClass("arrow up");
+                        }
+                    }else {
+                        if ($("#mainBody").hasClass("light-mode")) {
+                            $("#ProductionOEEDashboard").addClass("selected-menu-style");
+                            $("#ProductionOEEDashboard").closest('li').find('i').addClass("arrow up");
+                        } else {
+                            $("#ProductionOEEDashboard").addClass("selected-menu-style");
+                            $("#ProductionOEEDashboard").closest('li').find('i').addClass("arrow up");
+                        }
+                    }
+                },
+                error: function (Result) {
+                    alert("Error" + Result);
+                }
+            });
+          
+        }
+
+
+
+        $('#toogleTheme').click(function () {
+            var projectTheme = "dark";
+            if ($("#toogleTheme").prop('checked')) {
+                $("#mainBody").addClass("light-mode");
+                localStorage.setItem("selectedTheme", "lightTheme");
+                //  $(menu).css("border-bottom", "3px solid #00669f");
+                //$(menu).css("background-color", "unset");
+                //$(menu).css("color", "#000000ab");
+                // $(menu).addClass("aa");
+                //  alert(menu);
+                projectTheme = "light";
+            } else {
+                $("#mainBody").css('transition', 'all 1s ease');
+                $("#mainBody").removeClass("light-mode");
+                localStorage.setItem("selectedTheme", "darkTheme");
+                projectTheme = "dark";
+            }
+            $.ajax({
+                async: false,
+                type: "POST",
+                url: '<%= ResolveUrl("Troubleshooting.aspx/setThemeInSession") %>',
+                contentType: "application/json; charset=utf-8",
+                crossDomain: true,
+                data: '{theme: "' + projectTheme + '"}',
+                dataType: "json",
+                success: function (response) {
+                    dataitem = response.d;
+                },
+                error: function (Result) {
+                    alert("Error" + Result);
+                }
+            });
+        });
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        function showSubItems(element, ulid) {
+            if ($('#' + ulid).css('display') == "none") {
+                $('#' + ulid).css({ 'display': 'block', 'border-top': '1px solid #dfdfdfcf', 'border-bottom': '1px solid #dfdfdfcf' });
+                $('#' + ulid).closest('div').find('#downuparrow').removeClass();
+                $('#' + ulid).closest('div').find('#downuparrow').addClass('glyphicon glyphicon-menu-up');
+            } else {
+                $('#' + ulid).css('display', 'none');
+                $('#' + ulid).closest('div').find('#downuparrow').removeClass();
+                $('#' + ulid).closest('div').find('#downuparrow').addClass('glyphicon glyphicon-menu-down');
+            }
+        }
+
+        function showPanelsTopRight(element, panelid, rightvalue, topvalue) {
+
+            document.getElementById(panelid).style.visibility = "visible";
+            $("#" + panelid).css({ 'right': rightvalue, 'top': topvalue });
+        }
+
+        function showPanelsTopLeft(element, panelid, leftvalue, topvalue) {
+
+            document.getElementById(panelid).style.visibility = "visible";
+            $("#" + panelid).css({ 'left': leftvalue, 'top': topvalue });
+        }
+
+        function showPanelsTopRightClick(element, panelid, rightvalue, topvalue) {
+            //if (document.getElementById(panelid).style.visibility == "visible") {
+            //    document.getElementById(panelid).style.visibility = "hidden";
+            //} else {
+            //    document.getElementById(panelid).style.visibility = "visible";
+            //    $("#" + panelid).css({ 'right': rightvalue, 'top': topvalue });
+            //}
+
+            if ($('#' + panelid).css('visibility') == "hidden") {
+                document.getElementById(panelid).style.visibility = "visible";
+                $("#" + panelid).css({ 'right': rightvalue, 'top': topvalue });
+            } else {
+                document.getElementById(panelid).style.visibility = "hidden";
+            }
+        }
+
+        function showPanels(element, panelid, leftvalue, topvalue) {
+            //if ($(element).hasClass("panelOpen")) {
+            //    document.getElementById(panelid).style.visibility = "hidden";
+            //    $(element).removeClass();
+            //} else {
+            document.getElementById(panelid).style.visibility = "visible";
+            $("#" + panelid).css({ 'left': leftvalue, 'top': topvalue });
+            //    $(element).addClass("panelOpen");
+            //}
+        }
+        function showMenuPanels(element, panelid, leftvalue, topvalue) {
+            debugger;
+            if ($('#' + panelid).css('visibility') == "hidden") {
+                document.getElementById(panelid).style.visibility = "visible";
+                $("#" + panelid).css({ 'left': leftvalue, 'top': topvalue });
+
+                $(element).find('#menudownuparrow').removeClass();
+                $(element).find('#menudownuparrow').addClass('glyphicon glyphicon-menu-up');
+            } else {
+                document.getElementById(panelid).style.visibility = "hidden";
+                $(element).find('#menudownuparrow').removeClass();
+                $(element).find('#menudownuparrow').addClass('glyphicon glyphicon-menu-down');
+            }
+        }
+        function hidePanels(element, panelid) {
+            //   document.getElementById(panelid).style.visibility = "hidden";
+            $('#' + panelid).css('visibility', 'hidden');
+        }
+        function onMenuMouseOver(element, panelid) {
+            let sidebarwidth = $("#sidebar").css('width');
+            document.getElementById(panelid).style.visibility = "visible";
+            $("#" + panelid).css({ 'left': sidebarwidth });
+        }
+        function onMenuBlur(element, panelid) {
+            document.getElementById(panelid).style.visibility = "hidden";
+        }
+        function onSubItemClicked(element, page) {
+            debugger;
+
+            //$(".sub-menu-item").removeClass("menu-selected");
+            $('#menuddl').text($(element).closest('.sub-menu-item').find(".menu-text").text());
+            //console.log($(element).attr("id"))
+            // alert($(element).closest('.sub-menu-item').attr("id"));
+            localStorage.setItem("selectedMenu", $(element).closest('.sub-menu-item').find(".menu-text").text());
+            window.location.href = page;
+
+        }
+        function onMenuClicked(element, page,ulid) {
+            debugger;
+            //$(".sub-menu-item").removeClass("menu-selected");
+            //$(element).addClass("menu-selected");
+            // $.blockUI({ message: '<div style=""><img runat="server" src="Images/Loading.gif"   style="display: inline-block;"/>&nbsp;&nbsp;<h3 style="display: inline-block;color:#524b4b;margin:20px 0px;">Please wait.....</h3></div>' });
+            //  $.blockUI({ message: '<img runat="server" src="Images/Loading.gif" />' });
+            //console.log($(element).attr("id"));
+           // let ulid = "ulMasters li";
+            let pageName = "#";
+            var lilist = $("#" + ulid);
+            for (let i = 0; i < lilist.length; i++) {
+                let li = lilist[i];
+                let display = $(li).css('display');
+                if (display == "block") {
+                    pageName = $(li).attr('id');
+                    break;
+                }
+            }
+
+            localStorage.setItem("selectedMenu", $(element).find(".menu-text").text());
+            localStorage.setItem("selectedMenuID", $(element).attr('id'));
+           // localStorage.setItem("selectedSubMenu", page.replace(".aspx", ""));
+              localStorage.setItem("selectedSubMenu", pageName);
+            window.location.href = pageName;
+            //   $.blockUI({ message: '<img runat="server" src="Images/25 (1).gif" style="margin:5px;width:90px;height:90px;border-radius: 5px; background-color: rgb(30, 31,31)" />' });
+
+
+        }
+        function onSubMenuClicked(element, page) {
+            $.blockUI({ message: '<img runat="server" src="Images/Loading.gif" />' });
+            localStorage.setItem("selectedSubMenu", $(element).attr('id'));
+            window.location.href = page;
+
+            //$.blockUI({ message: '<img runat="server" src="Images/Loading.gif" />' });
+        }
+        function onSubMenuClickedToNavigate(element, page) {
+            $.blockUI({ message: '<img runat="server" src="Images/Loading.gif" />' });
+            localStorage.setItem("selectedSubMenu", element);
+            window.location.href = page;
+
+            //$.blockUI({ message: '<img runat="server" src="Images/Loading.gif" />' });
+        }
+        function gotoLoginPage() {
+
+            localStorage.removeItem("selectedMenu");
+            localStorage.removeItem("selectedMenuID");
+            localStorage.removeItem("selectedSubMenu");
+            window.location.href = "Login.aspx";
+            return false;
+        }
+        function gotoSignalProcess() {
+
+            window.open($('#hdSignalProcess').val(), '_blank');
+            //window.location.replace($('#hdSignalProcess').val());
+            //window.location.href = $('#hdSignalProcess').val();
+        }
+
+        function showTransaction() {
+            if ($('#showTransactions').hasClass('showProfile')) {
+                $('#showTransactions').removeClass('showProfile');
+                $('#transactions').css('display', 'none');
+                // document.getElementById('reports').style.visibility = "hidden";
+            }
+            else {
+                $('#showTransactions').addClass('showProfile');
+                //document.getElementById('reports').style.visibility = "visible";
+                $('#transactions').css('display', 'block');
+            }
+        }
+        function showMaster() {
+            if ($('#showMasters').hasClass('showMaster')) {
+                $('#showMasters').removeClass('showMaster');
+                $('#masters').css('display', 'none');
+                // document.getElementById('reports').style.visibility = "hidden";
+            }
+            else {
+                $('#showMasters').addClass('showMaster');
+                //document.getElementById('reports').style.visibility = "visible";
+                $('#masters').css('display', 'block');
+            }
+        }
+
+        function aboutFunc() {
+            document.getElementById('aboutPanel').style.visibility = "visible";
+            $('#userICon').removeClass('showProfile');
+            document.getElementById('userProfile').style.visibility = "hidden";
+        }
+        function closeAboutModal() {
+            document.getElementById('aboutPanel').style.visibility = "hidden";
+        }
+
+        function profileInfo(lnk) {
+
+            if ($('#userICon').hasClass('showProfile')) {
+                $('#userICon').removeClass('showProfile');
+                document.getElementById('userProfile').style.visibility = "hidden";
+            }
+            else {
+                $('#userICon').addClass('showProfile');
+                document.getElementById('userProfile').style.visibility = "visible";
+            }
+
+
+        }
+        $("#limenu").click(function () {
+            $("#sidebar").toggleClass("collapse-menu");
+            $(".main-menu-item > .menu-icon").toggleClass("menu-icon-big");
+            if ($("#sidebar").hasClass("collapse-menu")) {
+
+                $(".main-menu-item > .menu-text").hide();
+                $(".sub-menu-item > .menu-text").hide();
+                $(".main-menu-item > .menu-text").addClass("menu-animate");
+                $(".sub-menu-item > .menu-text").addClass("menu-animate");
+
+            } else {
+                setTimeout(function () {
+                    $(".main-menu-item > .menu-text").show();
+                    $(".sub-menu-item > .menu-text").show();
+                    $(".main-menu-item > .menu-text").removeClass("menu-animate");
+                    $(".sub-menu-item > .menu-text").removeClass("menu-animate");
+                }, 250);
+
+
+            }
+
+        });
+
+        function togglesidebarClick() {
+            document.getElementById("sidebar").classList.toggle("active");
+        }
+
+        var previousmenu;
+        var previosmenutext = "";
+        var currentmenu;
+
+        var currentmenutext;
+        $(window).resize(function () {
+            //$("#sidebar").css('height', '85vh');
+            var h = $(".navbar-fixed-top").height();
+            console.log("tpop h" + h);
+            if (parseInt(h) > 61) {
+                // $(".body-content").css("margin-top", ($(".navbar-fixed-top").height() / 4) * 3);
+                //$("#sidebar").css("margin-top", $(".navbar-fixed-top").height() / 2);
+            }
+            else {
+                //  $(".body-content").css("margin-top", 20);
+                //   $("#sidebar").css("margin-top", 0);
+            }
+        });
+        var validNavigation = false;
+        $(document).ready(function () {
+            debugger;
+            //   localStorage.setItem("selectedTheme", "darkTheme");
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("active");
+            });
+            setSideBar();
+        });
+        function setSideBar() {
+            var pathname = window.location.pathname;
+            var res = pathname.split("/");
+            if (res.length > 2) {
+                res = res[2].split(".");
+            } else {
+                res = res[1].split(".");
+            }
+            res = res[0].toLowerCase();
+
+            console.log("Resssssss" + res);
+
+            if ((res == "packagingandexportinvoice") || (res == "podetailsmaster") || (res == "documentsdetails")) {
+                $("#masters").css("display", "none");
+                $('#transactions').css("display", "block");
+
+            }
+            else if ((res == "parameterdropdownlistmaster") || (res == "parameterdetailsmaster") || (res == "employeeinformation") || (res == "roleaccessrights") || (res == "customerdetails") || (res == "parameterdropdownlistmaster")) {
+                $("#masters").css("display", "block");
+                $('#transactions').css("display", "none");
+            }
+            else {
+                $("#masters").css("display", "none");
+                $('#transactions').css("display", "none");
+            }
+        }
+
+
+        //$(".menuData").click(function () {
+        //    debugger;
+        //    if ($("#mainBody").hasClass("light-mode")) {
+        //        $(".menuData").removeClass("selected-menu-style menu0-select").addClass("other-menu-style");
+        //        $(".menuData").closest('li').find('i').removeClass();
+        //        $(this).removeClass("other-menu-style menu0-select").addClass("selected-menu-style");
+        //    } else {
+        //        $(".menuData").removeClass("selected-menu-style menu0-select").addClass("other-menu-style");
+        //        $(".menuData").closest('li').find('i').removeClass();
+        //        $(this).removeClass("other-menu-style menu0-select").addClass("selected-menu-style");
+        //    }
+
+        //    $(this).closest('li').find('i').addClass("arrow up");
+        //    menu = $(this).attr('href');
+        //    $("#activeMenu").val(menu);
+        //    $(menu).addClass("in active");
+        //    // $("#menu0").removeClass("in active");
+        //});
+        let checkBoxlbl = $(".checkbox-text-fontweightset").find("label");
+        $(checkBoxlbl).css({ "font-weight": "unset" });
+
+        //To make round for multiselected dropdown
+        $(".dropdown-list").closest('.multiselect-native-select').find('button').css('border-radius', '10px');
+    </script>
+</body>
+</html>

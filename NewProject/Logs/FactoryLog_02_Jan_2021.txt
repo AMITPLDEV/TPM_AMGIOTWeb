@@ -1,0 +1,3 @@
+﻿2021-01-02 10:13:48:0253 : EXCEPTION - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+2021-01-02 12:20:34:5209 : DEBUG - filter= {}
+2021-01-02 12:20:34:5329 : DEBUG - Outside

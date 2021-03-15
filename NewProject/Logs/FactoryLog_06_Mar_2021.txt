@@ -1,0 +1,98 @@
+﻿2021-03-06 09:46:51:6980 : EXCEPTION - getMenuListForLoginUser - spct
+2021-03-06 09:49:56:8643 : EXCEPTION - getAllMachinePlantAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-06 11:10:19:4470 : EXCEPTION - System.NullReferenceException: Object reference not set to an instance of an object.
+   at NewProject.Login.btnLogin_Click(Object sender, EventArgs e) in D:\Divya Bhandari\AMG IOT\AMG IOT 2021\Trying Purpose\NewProject Option2\NewProject\Login.aspx.cs:line 51
+2021-03-06 11:10:48:1644 : EXCEPTION - System.NullReferenceException: Object reference not set to an instance of an object.
+   at NewProject.Login.btnLogin_Click(Object sender, EventArgs e) in D:\Divya Bhandari\AMG IOT\AMG IOT 2021\Trying Purpose\NewProject Option2\NewProject\Login.aspx.cs:line 51
+2021-03-06 11:11:34:2428 : EXCEPTION - System.NullReferenceException: Object reference not set to an instance of an object.
+   at NewProject.Login.btnLogin_Click(Object sender, EventArgs e) in D:\Divya Bhandari\AMG IOT\AMG IOT 2021\Trying Purpose\NewProject Option2\NewProject\Login.aspx.cs:line 51
+2021-03-06 11:48:30:8801 : EXCEPTION - getAllMachinePlantAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-06 13:25:03:9301 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:03:9532 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:03:9755 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:03:9855 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:03:9955 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:04:0065 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:04:0175 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:04:0285 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:04:0405 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:04:0505 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:14:4979 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:14:5269 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:14:5369 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:14:5469 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:14:5569 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:14:5789 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:14:6029 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:14:6279 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:14:6669 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:14:7049 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:23:6660 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:23:6780 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:23:6900 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:23:7010 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:23:7110 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:23:7219 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:23:7330 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:23:7439 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:23:7549 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:23:7699 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:28:2899 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:28:3009 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:28:3109 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:28:3219 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:28:3319 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:28:3429 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:28:3529 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:28:3639 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:28:3739 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:25:28:3839 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-06 13:26:54:3792 : EXCEPTION - getAllMachinePlantAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-06 14:28:18:2625 : EXCEPTION - while getting User Right Exception details Unclosed quotation mark after the character string 'Raks)'.
+Incorrect syntax near 'Raks)'.
+2021-03-06 14:28:20:9561 : EXCEPTION - while getting User Right Exception details Unclosed quotation mark after the character string 'Raks)'.
+Incorrect syntax near 'Raks)'.
+2021-03-06 14:28:24:5186 : EXCEPTION - while getting User Right Exception details Unclosed quotation mark after the character string 'Raks)'.
+Incorrect syntax near 'Raks)'.
+2021-03-06 14:28:24:7902 : EXCEPTION - while getting User Right Exception details Unclosed quotation mark after the character string 'Raks)'.
+Incorrect syntax near 'Raks)'.
+2021-03-06 14:28:25:0028 : EXCEPTION - while getting User Right Exception details Unclosed quotation mark after the character string 'Raks)'.
+Incorrect syntax near 'Raks)'.
+2021-03-06 14:29:29:6333 : EXCEPTION - while getting User Right Exception details Unclosed quotation mark after the character string 'Raks)'.
+Incorrect syntax near 'Raks)'.
+2021-03-06 14:29:44:4140 : EXCEPTION - while getting User Right Exception details Unclosed quotation mark after the character string 'Raks)'.
+Incorrect syntax near 'Raks)'.
+2021-03-06 14:30:04:9852 : EXCEPTION - while getting User Right Exception details Unclosed quotation mark after the character string 'Raks)'.
+Incorrect syntax near 'Raks)'.
+2021-03-06 14:30:58:3457 : EXCEPTION - while getting User Right Exception details Unclosed quotation mark after the character string 'Raks)'.
+Incorrect syntax near 'Raks)'.
+2021-03-06 14:31:01:0085 : EXCEPTION - while getting User Right Exception details Unclosed quotation mark after the character string 'Raks)'.
+Incorrect syntax near 'Raks)'.
+2021-03-06 14:47:46:5023 : EXCEPTION - While getting Company Data Invalid column name 'EffectiveTodate'.
+2021-03-06 14:47:49:6233 : EXCEPTION - While getting PlantID Data Invalid column name 'EffectiveToDate'.
+2021-03-06 14:48:21:3414 : EXCEPTION - checkLoginData: Invalid object name 'UserInfo'.
+2021-03-06 14:48:37:7824 : EXCEPTION - checkLoginData: Invalid object name 'UserInfo'.
+2021-03-06 14:49:45:3569 : EXCEPTION - While getting Company Data Invalid column name 'EffectiveTodate'.
+2021-03-06 14:49:47:1624 : EXCEPTION - While getting PlantID Data Invalid column name 'EffectiveToDate'.
+2021-03-06 15:07:28:3190 : EXCEPTION - getAllMachinePlantAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-06 15:08:19:8605 : EXCEPTION - getAllMachinePlantAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-06 15:08:32:3176 : EXCEPTION - getAllMachinePlantAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-06 15:08:56:8127 : EXCEPTION - getAllMachinePlantAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-06 15:10:21:0843 : EXCEPTION - getAllMachineShopAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-06 15:16:03:3517 : DEBUG - Download eDoc File: Before: 06/03/2021 15:16:03

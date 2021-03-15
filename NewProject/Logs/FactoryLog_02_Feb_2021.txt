@@ -1,0 +1,115 @@
+﻿2021-02-02 11:45:48:5756 : EXCEPTION - While getting Process Parameter wise Validation Data Invalid object name 'ParameterwisePollingFreqMaster'.
+2021-02-02 11:45:49:1726 : EXCEPTION - While getting Process Parameter wise Validation Data IsEnabled
+2021-02-02 11:45:49:8876 : EXCEPTION - While getting Process Parameter Unit Data Invalid object name 'ParametersUnitMaster'.
+2021-02-02 12:24:17:0378 : DEBUG -  Start 0.0001557  DateTime02/02/2021 12:24:17
+2021-02-02 12:24:17:0658 : DEBUG -  Before Query Call Seconds : 5.8E-06  DateTime02/02/2021 12:24:17
+2021-02-02 12:24:20:9904 : DEBUG -  After Query Call Milliseconds: 3926.6732----Seconds: 3.9266769---  DateTime 02/02/2021 12:24:20
+2021-02-02 12:24:21:0085 : DEBUG -  Total Records 0
+2021-02-02 12:24:21:0214 : DEBUG -  After object building 1.0585----Seconds: 0.001062   DateTime 02/02/2021 12:24:21
+2021-02-02 12:24:21:1814 : DEBUG -  After getProcessParameterMasterData 159.9899  DateTime 02/02/2021 12:24:21
+2021-02-02 12:24:21:1934 : DEBUG -  Before Json Conversion 0.0008----Seconds: 1.81E-05   DateTime 02/02/2021 12:24:21
+2021-02-02 12:24:21:4224 : DEBUG -  After Json Conversion 229.054----Seconds: 0.2290591   DateTime 02/02/2021 12:24:21
+2021-02-02 12:24:48:7059 : DEBUG -  Start 8E-07  DateTime02/02/2021 12:24:48
+2021-02-02 12:24:48:7329 : DEBUG -  Before Query Call Seconds : 1.1E-06  DateTime02/02/2021 12:24:48
+2021-02-02 12:24:51:7277 : DEBUG -  After Query Call Milliseconds: 2993.8257----Seconds: 2.9938359---  DateTime 02/02/2021 12:24:51
+2021-02-02 12:24:51:7597 : DEBUG -  Total Records 0
+2021-02-02 12:24:51:7767 : DEBUG -  After object building 0.0081----Seconds: 1.31E-05   DateTime 02/02/2021 12:24:51
+2021-02-02 12:24:51:8217 : DEBUG -  After getProcessParameterMasterData 45.0854  DateTime 02/02/2021 12:24:51
+2021-02-02 12:24:51:8327 : DEBUG -  Before Json Conversion 0.0009----Seconds: 5.1E-06   DateTime 02/02/2021 12:24:51
+2021-02-02 12:24:51:8447 : DEBUG -  After Json Conversion 12.0911----Seconds: 0.0120962   DateTime 02/02/2021 12:24:51
+2021-02-02 12:25:13:2804 : DEBUG -  Start 4.8E-06  DateTime02/02/2021 12:25:13
+2021-02-02 12:25:13:3094 : DEBUG -  Before Query Call Seconds : 1.3E-06  DateTime02/02/2021 12:25:13
+2021-02-02 12:25:16:7645 : DEBUG -  After Query Call Milliseconds: 3454.9134----Seconds: 3.4549158---  DateTime 02/02/2021 12:25:16
+2021-02-02 12:25:16:7766 : DEBUG -  Total Records 0
+2021-02-02 12:25:16:7905 : DEBUG -  After object building 0.0091----Seconds: 3.29E-05   DateTime 02/02/2021 12:25:16
+2021-02-02 12:25:16:8425 : DEBUG -  After getProcessParameterMasterData 51.9298  DateTime 02/02/2021 12:25:16
+2021-02-02 12:25:16:8545 : DEBUG -  Before Json Conversion 0.001----Seconds: 5.2E-06   DateTime 02/02/2021 12:25:16
+2021-02-02 12:25:16:8695 : DEBUG -  After Json Conversion 14.7724----Seconds: 0.0147785   DateTime 02/02/2021 12:25:16
+2021-02-02 13:57:01:4171 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date;; ;; 
+2021-02-02 13:57:16:4886 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date27/02/2021 13:56:10;; 27/02/2021 13:56:10;; 27/02/2021 13:56:10
+2021-02-02 13:57:16:5506 : DEBUG - Prev else 27/02/2021 13:56:10;; 27/02/2021 13:56:10
+2021-02-02 13:57:16:6046 : DEBUG - Latest Date For Next and Start Date27/02/2021 13:56:10 ;; 27/02/2021 13:56:10
+2021-02-02 13:57:16:6266 : DEBUG - Set Next Prev: 27/02/2021 13:26:10   27/02/2021 13:56:10
+2021-02-02 13:57:16:6536 : DEBUG - Set Next Prev: 27-02-2021 13:26:10.000   27-02-2021 13:56:10.000
+2021-02-02 13:57:39:0088 : DEBUG - Eneter BindForTroubleShoot 27/02/2021 13:26:10  ;  27/02/2021 13:56:10
+2021-02-02 13:58:12:4228 : DEBUG - Result Count -0
+2021-02-02 14:07:04:7647 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date;; ;; 
+2021-02-02 14:07:06:2295 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date27/01/2021 14:04:10;; 27/01/2021 14:04:10;; 27/01/2021 14:04:10
+2021-02-02 14:07:06:2515 : DEBUG - Prev else 27/01/2021 14:04:10;; 27/01/2021 14:04:10
+2021-02-02 14:07:06:2725 : DEBUG - Latest Date For Next and Start Date27/01/2021 14:04:10 ;; 27/01/2021 14:04:10
+2021-02-02 14:07:06:2865 : DEBUG - Set Next Prev: 27/01/2021 13:34:10   27/01/2021 14:04:10
+2021-02-02 14:07:06:3025 : DEBUG - Set Next Prev: 27-01-2021 13:34:10.000   27-01-2021 14:04:10.000
+2021-02-02 14:07:07:4529 : DEBUG - Eneter BindForTroubleShoot 27/01/2021 13:34:10  ;  27/01/2021 14:04:10
+2021-02-02 14:07:57:5987 : DEBUG - Result Count -2
+2021-02-02 15:17:36:5546 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date;; ;; 
+2021-02-02 15:17:41:0460 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date25/01/2021 19:16:05;; 25/01/2021 19:16:05;; 25/01/2021 19:16:05
+2021-02-02 15:17:41:0690 : DEBUG - Prev else 25/01/2021 19:16:05;; 25/01/2021 19:16:05
+2021-02-02 15:17:41:0860 : DEBUG - Latest Date For Next and Start Date25/01/2021 19:16:05 ;; 25/01/2021 19:16:05
+2021-02-02 15:17:41:1001 : DEBUG - Set Next Prev: 25/01/2021 18:46:05   25/01/2021 19:16:05
+2021-02-02 15:17:41:1120 : DEBUG - Set Next Prev: 25-01-2021 18:46:05.000   25-01-2021 19:16:05.000
+2021-02-02 15:17:45:5724 : DEBUG - Eneter BindForTroubleShoot 25/01/2021 18:46:05  ;  25/01/2021 19:16:05
+2021-02-02 15:17:59:8152 : DEBUG - Result Count -2
+2021-02-02 15:29:51:5805 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date;; ;; 
+2021-02-02 15:29:51:6055 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date25/01/2021 22:28:47;; 25/01/2021 22:28:47;; 25/01/2021 22:28:47
+2021-02-02 15:29:51:6255 : DEBUG - Prev else 25/01/2021 22:28:47;; 25/01/2021 22:28:47
+2021-02-02 15:29:51:6425 : DEBUG - Latest Date For Next and Start Date25/01/2021 22:28:47 ;; 25/01/2021 22:28:47
+2021-02-02 15:29:51:6595 : DEBUG - Set Next Prev: 25/01/2021 21:58:47   25/01/2021 22:28:47
+2021-02-02 15:29:51:6765 : DEBUG - Set Next Prev: 25-01-2021 21:58:47.000   25-01-2021 22:28:47.000
+2021-02-02 15:29:51:7015 : DEBUG - Eneter BindForTroubleShoot 25/01/2021 21:58:47  ;  25/01/2021 22:28:47
+2021-02-02 15:30:03:2868 : DEBUG - Result Count -2
+2021-02-02 15:31:31:4110 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date25/01/2021 21:58:47;; 25/01/2021 22:28:47;; 25/01/2021 22:28:47
+2021-02-02 15:31:31:4700 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date26/01/2021 00:28:47;; 26/01/2021 00:28:47;; 26/01/2021 00:28:47
+2021-02-02 15:31:31:5049 : DEBUG - Prev else 26/01/2021 00:28:47;; 26/01/2021 00:28:47
+2021-02-02 15:31:31:5319 : DEBUG - Latest Date For Next and Start Date26/01/2021 00:28:47 ;; 26/01/2021 00:28:47
+2021-02-02 15:31:31:5509 : DEBUG - Set Next Prev: 25/01/2021 23:58:47   26/01/2021 00:28:47
+2021-02-02 15:31:31:5699 : DEBUG - Set Next Prev: 25-01-2021 23:58:47.000   26-01-2021 00:28:47.000
+2021-02-02 15:31:31:5969 : DEBUG - Eneter BindForTroubleShoot 25/01/2021 23:58:47  ;  26/01/2021 00:28:47
+2021-02-02 15:31:37:5095 : DEBUG - Result Count -0
+2021-02-02 15:31:47:7214 : DEBUG - Prev else 25/01/2021 23:58:47;; 26/01/2021 00:28:47
+2021-02-02 15:31:47:7414 : DEBUG - Latest Date For Next and Start Date25/01/2021 23:58:47 ;; 26/01/2021 00:28:47
+2021-02-02 15:31:47:7604 : DEBUG - Set Next Prev: 25/01/2021 23:28:47   25/01/2021 23:58:47
+2021-02-02 15:31:47:7804 : DEBUG - Set Next Prev: 25-01-2021 23:28:47.000   25-01-2021 23:58:47.000
+2021-02-02 15:31:47:8004 : DEBUG - Eneter BindForTroubleShoot 25/01/2021 23:28:47  ;  25/01/2021 23:58:47
+2021-02-02 15:31:55:1106 : DEBUG - Result Count -0
+2021-02-02 15:33:13:2082 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date25/01/2021 23:28:47;; 25/01/2021 23:58:47;; 26/01/2021 00:28:47
+2021-02-02 15:33:13:2292 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date25/01/2021 17:28:47;; 25/01/2021 17:28:47;; 25/01/2021 17:28:47
+2021-02-02 15:33:13:2472 : DEBUG - Prev else 25/01/2021 17:28:47;; 25/01/2021 17:28:47
+2021-02-02 15:33:13:2622 : DEBUG - Latest Date For Next and Start Date25/01/2021 17:28:47 ;; 25/01/2021 17:28:47
+2021-02-02 15:33:13:2812 : DEBUG - Set Next Prev: 25/01/2021 16:58:47   25/01/2021 17:28:47
+2021-02-02 15:33:13:2952 : DEBUG - Set Next Prev: 25-01-2021 16:58:47.000   25-01-2021 17:28:47.000
+2021-02-02 15:33:13:3152 : DEBUG - Eneter BindForTroubleShoot 25/01/2021 16:58:47  ;  25/01/2021 17:28:47
+2021-02-02 15:33:21:9820 : DEBUG - Result Count -2
+2021-02-02 15:35:00:5558 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date25/01/2021 16:58:47;; 25/01/2021 17:28:47;; 25/01/2021 17:28:47
+2021-02-02 15:35:00:5848 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date25/01/2021 23:28:47;; 25/01/2021 23:28:47;; 25/01/2021 23:28:47
+2021-02-02 15:35:00:6118 : DEBUG - Prev else 25/01/2021 23:28:47;; 25/01/2021 23:28:47
+2021-02-02 15:35:00:6418 : DEBUG - Latest Date For Next and Start Date25/01/2021 23:28:47 ;; 25/01/2021 23:28:47
+2021-02-02 15:35:00:6768 : DEBUG - Set Next Prev: 25/01/2021 22:58:47   25/01/2021 23:28:47
+2021-02-02 15:35:00:7128 : DEBUG - Set Next Prev: 25-01-2021 22:58:47.000   25-01-2021 23:28:47.000
+2021-02-02 15:35:00:7438 : DEBUG - Eneter BindForTroubleShoot 25/01/2021 22:58:47  ;  25/01/2021 23:28:47
+2021-02-02 15:35:08:4429 : DEBUG - Result Count -0
+2021-02-02 15:43:27:8387 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date;; ;; 
+2021-02-02 15:43:27:8587 : DEBUG - Before call set Next, Prev Date, nextdate, and Start Date25/01/2021 17:05:58;; 25/01/2021 17:05:58;; 25/01/2021 17:05:58
+2021-02-02 15:43:27:8757 : DEBUG - Prev else 25/01/2021 17:05:58;; 25/01/2021 17:05:58
+2021-02-02 15:43:27:8907 : DEBUG - Latest Date For Next and Start Date25/01/2021 17:05:58 ;; 25/01/2021 17:05:58
+2021-02-02 15:43:27:9057 : DEBUG - Set Next Prev: 25/01/2021 16:35:58   25/01/2021 17:05:58
+2021-02-02 15:43:27:9217 : DEBUG - Set Next Prev: 25-01-2021 16:35:58.000   25-01-2021 17:05:58.000
+2021-02-02 15:43:27:9377 : DEBUG - Eneter BindForTroubleShoot 25/01/2021 16:35:58  ;  25/01/2021 17:05:58
+2021-02-02 15:43:42:8147 : DEBUG - Result Count -2
+2021-02-02 15:43:52:1572 : DEBUG - Prev else 25/01/2021 16:35:58;; 25/01/2021 17:05:58
+2021-02-02 15:43:52:1902 : DEBUG - Latest Date For Next and Start Date25/01/2021 16:35:58 ;; 25/01/2021 17:05:58
+2021-02-02 15:43:52:2252 : DEBUG - Set Next Prev: 25/01/2021 16:05:58   25/01/2021 16:35:58
+2021-02-02 15:43:52:2582 : DEBUG - Set Next Prev: 25-01-2021 16:05:58.000   25-01-2021 16:35:58.000
+2021-02-02 15:43:52:2982 : DEBUG - Eneter BindForTroubleShoot 25/01/2021 16:05:58  ;  25/01/2021 16:35:58
+2021-02-02 15:43:59:5651 : DEBUG - Result Count -0
+2021-02-02 15:44:04:4852 : DEBUG - Prev else 25/01/2021 16:05:58;; 25/01/2021 17:05:58
+2021-02-02 15:44:04:5112 : DEBUG - Latest Date For Next and Start Date25/01/2021 16:05:58 ;; 25/01/2021 17:05:58
+2021-02-02 15:44:04:5352 : DEBUG - Set Next Prev: 25/01/2021 15:35:58   25/01/2021 16:05:58
+2021-02-02 15:44:04:5532 : DEBUG - Set Next Prev: 25-01-2021 15:35:58.000   25-01-2021 16:05:58.000
+2021-02-02 15:44:04:5732 : DEBUG - Eneter BindForTroubleShoot 25/01/2021 15:35:58  ;  25/01/2021 16:05:58
+2021-02-02 15:44:09:9324 : DEBUG - Result Count -0
+2021-02-02 15:44:16:4562 : DEBUG - Prev else 25/01/2021 15:35:58;; 25/01/2021 17:05:58
+2021-02-02 15:44:16:4762 : DEBUG - Latest Date For Next and Start Date25/01/2021 15:35:58 ;; 25/01/2021 17:05:58
+2021-02-02 15:44:16:4972 : DEBUG - Set Next Prev: 25/01/2021 15:05:58   25/01/2021 15:35:58
+2021-02-02 15:44:16:5162 : DEBUG - Set Next Prev: 25-01-2021 15:05:58.000   25-01-2021 15:35:58.000
+2021-02-02 15:44:16:5342 : DEBUG - Eneter BindForTroubleShoot 25/01/2021 15:05:58  ;  25/01/2021 15:35:58
+2021-02-02 15:44:23:0858 : DEBUG - Result Count -0

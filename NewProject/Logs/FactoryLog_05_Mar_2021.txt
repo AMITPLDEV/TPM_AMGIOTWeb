@@ -1,0 +1,25 @@
+﻿2021-03-05 09:09:44:8477 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-05 09:09:44:9416 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-05 09:14:14:6241 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-05 09:14:14:7231 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-05 09:22:06:1194 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-05 09:22:06:2184 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-05 09:23:49:8163 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-05 09:23:50:0803 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-05 09:23:51:3684 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-05 09:23:51:5704 : EXCEPTION - While getting Process Parameter Model Level Data Invalid column name 'PlantID'.
+2021-03-05 09:31:33:2442 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-05 09:31:33:3522 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-05 09:47:01:4507 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-05 09:47:01:6757 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-05 09:57:59:9040 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-03-05 09:58:00:0070 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-03-05 11:22:31:8050 : EXCEPTION - getAllMachinePlantAssociation - Invalid length parameter passed to the LEFT or SUBSTRING function.
+Incorrect syntax near the keyword 'FROM'.
+Incorrect syntax near the keyword 'AS'.
+2021-03-05 12:49:02:8649 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-05 12:49:02:8839 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-05 12:49:09:3840 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-05 12:49:09:4090 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-05 12:49:15:5087 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-03-05 12:49:15:5228 : EXCEPTION - Not able to convert datetime string  to DateTime

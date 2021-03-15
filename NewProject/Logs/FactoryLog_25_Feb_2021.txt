@@ -1,0 +1,152 @@
+﻿2021-02-25 09:03:32:2588 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 09:03:32:4048 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 09:14:23:8356 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 09:14:23:9206 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 09:18:18:7199 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 09:18:19:0019 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 09:18:21:3559 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 09:18:21:9049 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 09:25:56:4568 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 09:25:56:5445 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 10:05:10:3068 : EXCEPTION - getCompanyDetails:  Userid
+2021-02-25 10:08:08:7675 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 10:08:08:7845 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 10:08:08:7965 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 10:08:08:8115 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 10:08:08:8245 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 10:08:08:8355 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 10:08:08:8505 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 10:08:08:8685 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 10:08:08:8835 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 10:08:08:8955 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 10:10:22:7675 : EXCEPTION - getCompanyDetails:  Userid
+2021-02-25 10:20:12:9099 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 10:20:13:0169 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 10:56:28:6782 : DEBUG -  Start 8.93E-05  DateTime25/02/2021 10:56:28
+2021-02-25 10:56:28:7482 : DEBUG -  Before Query Call Seconds : 1.8E-06  DateTime25/02/2021 10:56:28
+2021-02-25 10:56:31:7001 : DEBUG -  After Query Call Milliseconds: 2951.3029----Seconds: 2.951306---  DateTime 25/02/2021 10:56:31
+2021-02-25 10:56:31:7170 : DEBUG -  Total Records 0
+2021-02-25 10:56:31:7310 : DEBUG -  After object building 1.3478----Seconds: 0.0013518   DateTime 25/02/2021 10:56:31
+2021-02-25 10:56:31:9369 : DEBUG -  After getProcessParameterMasterData 207.7764  DateTime 25/02/2021 10:56:31
+2021-02-25 10:56:31:9489 : DEBUG -  Before Json Conversion 0.0008----Seconds: 1.9E-05   DateTime 25/02/2021 10:56:31
+2021-02-25 10:56:32:1349 : DEBUG -  After Json Conversion 186.7082----Seconds: 0.1867109   DateTime 25/02/2021 10:56:32
+2021-02-25 10:56:50:4595 : DEBUG -  Start 9E-07  DateTime25/02/2021 10:56:50
+2021-02-25 10:56:50:4795 : DEBUG -  Before Query Call Seconds : 1.7E-06  DateTime25/02/2021 10:56:50
+2021-02-25 10:56:56:8972 : DEBUG -  After Query Call Milliseconds: 6417.8569----Seconds: 6.4178623---  DateTime 25/02/2021 10:56:56
+2021-02-25 10:56:56:9262 : DEBUG -  Total Records 0
+2021-02-25 10:56:56:9462 : DEBUG -  After object building 0.0264----Seconds: 3.12E-05   DateTime 25/02/2021 10:56:56
+2021-02-25 10:56:57:0449 : DEBUG -  After getProcessParameterMasterData 98.2002  DateTime 25/02/2021 10:56:57
+2021-02-25 10:56:57:0719 : DEBUG -  Before Json Conversion 0.0014----Seconds: 6.5E-06   DateTime 25/02/2021 10:56:57
+2021-02-25 10:56:57:0899 : DEBUG -  After Json Conversion 18.9417----Seconds: 0.0189478   DateTime 25/02/2021 10:56:57
+2021-02-25 10:57:23:0673 : DEBUG -  Start 8E-07  DateTime25/02/2021 10:57:23
+2021-02-25 10:57:23:0974 : DEBUG -  Before Query Call Seconds : 1.6E-06  DateTime25/02/2021 10:57:23
+2021-02-25 10:59:31:6311 : DEBUG -  Start 8.7E-05  DateTime25/02/2021 10:59:31
+2021-02-25 10:59:31:6491 : DEBUG -  Before Query Call Seconds : 1E-06  DateTime25/02/2021 10:59:31
+2021-02-25 10:59:44:0696 : DEBUG -  After Query Call Milliseconds: 12420.6752----Seconds: 12.4206784---  DateTime 25/02/2021 10:59:44
+2021-02-25 10:59:44:1055 : DEBUG -  Total Records 0
+2021-02-25 10:59:44:1216 : DEBUG -  After object building 1.8038----Seconds: 0.0018086   DateTime 25/02/2021 10:59:44
+2021-02-25 10:59:44:3461 : DEBUG -  After getProcessParameterMasterData 226.9243  DateTime 25/02/2021 10:59:44
+2021-02-25 10:59:44:3651 : DEBUG -  Before Json Conversion 0.0005----Seconds: 5.9E-06   DateTime 25/02/2021 10:59:44
+2021-02-25 10:59:44:5821 : DEBUG -  After Json Conversion 217.1274----Seconds: 0.2171307   DateTime 25/02/2021 10:59:44
+2021-02-25 11:00:04:2069 : DEBUG -  Start 8E-07  DateTime25/02/2021 11:00:04
+2021-02-25 11:00:04:2269 : DEBUG -  Before Query Call Seconds : 4.2E-06  DateTime25/02/2021 11:00:04
+2021-02-25 11:00:31:9522 : DEBUG -  After Query Call Milliseconds: 27725.3074----Seconds: 27.7253139---  DateTime 25/02/2021 11:00:31
+2021-02-25 11:00:31:9911 : DEBUG -  Total Records 0
+2021-02-25 11:00:32:0101 : DEBUG -  After object building 0.0122----Seconds: 1.82E-05   DateTime 25/02/2021 11:00:32
+2021-02-25 11:00:32:0401 : DEBUG -  After getProcessParameterMasterData 29.9249  DateTime 25/02/2021 11:00:32
+2021-02-25 11:00:32:0511 : DEBUG -  Before Json Conversion 0.0007----Seconds: 4.6E-06   DateTime 25/02/2021 11:00:32
+2021-02-25 11:00:32:0621 : DEBUG -  After Json Conversion 10.2791----Seconds: 0.010283   DateTime 25/02/2021 11:00:32
+2021-02-25 11:01:04:6576 : DEBUG -  Start 9E-07  DateTime25/02/2021 11:01:04
+2021-02-25 11:01:04:6816 : DEBUG -  Before Query Call Seconds : 1.9E-06  DateTime25/02/2021 11:01:04
+2021-02-25 11:01:21:9952 : DEBUG -  After Query Call Milliseconds: 17314.6438----Seconds: 17.3146469---  DateTime 25/02/2021 11:01:21
+2021-02-25 11:01:22:0142 : DEBUG -  Total Records 11107
+2021-02-25 11:01:22:1472 : DEBUG -  After object building 111.2823----Seconds: 0.1112871   DateTime 25/02/2021 11:01:22
+2021-02-25 11:01:22:2612 : DEBUG -  After getProcessParameterMasterData 225.5099  DateTime 25/02/2021 11:01:22
+2021-02-25 11:01:22:2922 : DEBUG -  Before Json Conversion 0.0011----Seconds: 7.3E-06   DateTime 25/02/2021 11:01:22
+2021-02-25 11:01:22:4232 : DEBUG -  After Json Conversion 131.3167----Seconds: 0.1313216   DateTime 25/02/2021 11:01:22
+2021-02-25 11:01:28:9609 : DEBUG -  Start 5E-07  DateTime25/02/2021 11:01:28
+2021-02-25 11:01:28:9779 : DEBUG -  Before Query Call Seconds : 9E-07  DateTime25/02/2021 11:01:28
+2021-02-25 11:02:33:7253 : DEBUG -  After Query Call Milliseconds: 64748.0585----Seconds: 64.7480611---  DateTime 25/02/2021 11:02:33
+2021-02-25 11:02:33:7393 : DEBUG -  Total Records 11107
+2021-02-25 11:02:33:8453 : DEBUG -  After object building 94.4883----Seconds: 0.094494   DateTime 25/02/2021 11:02:33
+2021-02-25 11:02:33:8733 : DEBUG -  After getProcessParameterMasterData 122.2179  DateTime 25/02/2021 11:02:33
+2021-02-25 11:02:33:8843 : DEBUG -  Before Json Conversion 0.0008----Seconds: 5.3E-06   DateTime 25/02/2021 11:02:33
+2021-02-25 11:02:33:9923 : DEBUG -  After Json Conversion 108.3508----Seconds: 0.1083561   DateTime 25/02/2021 11:02:33
+2021-02-25 11:55:40:2202 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 11:55:40:4282 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 12:06:17:9696 : EXCEPTION - getCompanyDetails:  Userid
+2021-02-25 12:14:06:4360 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 12:14:06:5700 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 12:53:31:8897 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 12:53:32:0247 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 13:10:14:3035 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 13:10:14:4155 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 13:10:15:8967 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 13:10:15:9907 : EXCEPTION - While getting Machine model Data Invalid column name 'PlantID'.
+2021-02-25 13:10:16:1377 : EXCEPTION - While getting Process Parameter Machine Level Data Invalid column name 'PlantID'.
+2021-02-25 14:15:26:9076 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 14:15:27:0026 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 14:26:19:0770 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 14:26:19:1620 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 14:59:31:3961 : EXCEPTION - getCheckedShopCellList:  The parameterized query '(@CompanyID nvarchar(4000),@PlantID nvarchar(7))select * from [U' expects the parameter '@CompanyID', which was not supplied.
+2021-02-25 14:59:40:8889 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 14:59:40:9839 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 15:17:07:3584 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 15:17:07:4224 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 15:19:48:7738 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 15:19:48:8808 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 16:09:46:3436 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 16:09:46:5026 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 16:23:47:6011 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:47:6201 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:47:6331 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:47:6451 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:47:6591 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:47:6701 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:47:6822 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:47:6962 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:47:7132 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:47:7271 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:52:8078 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:52:8208 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:52:8338 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:52:8448 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:52:8558 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:52:8697 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:52:8808 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:52:8928 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:52:9048 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:23:52:9178 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:29:31:2066 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:29:31:2386 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:29:31:2696 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:29:31:2816 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:29:31:2936 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:29:31:3056 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:29:31:3176 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:29:31:3306 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:29:31:3426 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:29:31:3736 : EXCEPTION - Not able to convert datetime string  to DateTime
+2021-02-25 16:35:29:9888 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 16:35:30:1088 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 16:38:03:0354 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 16:38:03:1415 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 16:43:44:0846 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 16:43:44:1906 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 16:59:41:8946 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 16:59:42:0016 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 17:22:04:6926 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 17:22:04:8036 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 17:34:52:6636 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 17:34:52:8076 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 17:49:40:7812 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 17:49:40:8802 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 17:59:01:0209 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 17:59:01:1669 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 17:59:25:9557 : EXCEPTION - While getting Employee Master Data ExecuteReader: CommandText property has not been initialized
+2021-02-25 18:12:13:2010 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 18:12:13:3500 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 18:38:03:0480 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 18:38:03:2230 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
+2021-02-25 18:43:32:4268 : EXCEPTION - While getting Process Parameter wise Validation Data SourceDataType1Condition
+2021-02-25 18:43:32:5977 : EXCEPTION - While getting Process Parameter Controller Level Data Invalid column name 'PlantID'.
