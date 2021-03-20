@@ -1,0 +1,2 @@
+﻿2021-03-18 17:42:16:7734 : EXCEPTION - Syntax error, command unrecognized. The server response was: 
+2021-03-18 18:18:21:4140 : EXCEPTION - Thread was being aborted.

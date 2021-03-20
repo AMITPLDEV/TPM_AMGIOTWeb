@@ -1,0 +1,151 @@
+﻿body {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+.loginContainer {
+    width: 310px;
+    background-color: white;
+    padding: 2% 2% 2% 2%;
+    border-radius: 8px;
+    margin: auto;
+}
+
+    .loginContainer h2 {
+        margin: 10px 0px 10% 0px;
+        text-align: center;
+        font-weight: bold;
+        color: #100e0e;
+    }
+
+    .loginContainer input {
+        margin-bottom: 50px;
+        padding: 10px 0px;
+        width: 100%;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid black;
+    }
+
+#loginBtn {
+    width: 100%;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.2);
+    border-radius: 20px;
+    padding: 15px 10px;
+    outline: none;
+}
+
+#btnLogin {
+    width: 100%;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.2);
+    border-radius: 20px;
+    padding: 15px 10px;
+    outline: none;
+}
+
+    #btnLogin:hover {
+        background-color: black;
+        color: white;
+        box-shadow: 3px 5px 10px rgba(1,1,1,0.3);
+        font-size: 20px;
+    }
+
+#loginBtn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 3px 5px 10px rgba(1,1,1,0.3);
+    font-size: 20px;
+}
+
+.loginContainer div {
+    position: relative;
+}
+
+    .loginContainer div label {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        pointer-events: none;
+        color: #a1978d;
+        transition: .5s;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+.loginContainer input:focus ~ label, .loginContainer input:valid ~ label {
+    top: -12px;
+    left: 0px;
+    font-size: 13px;
+    color: #100e0e;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.loginContainer input:focus, .loginContainer input:valid {
+    border-bottom: 2px solid black;
+}
+
+.userImage {
+    position: relative;
+    left: 42%;
+    font-size: 50px;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+    .userImage i {
+        color: white;
+    }
+
+.HeaderImage {
+    flex: 1;
+    float: left;
+}
+
+.slanted {
+    position: relative;
+    height: 100vh;
+    background: #333333;
+    float: left;
+    float: left;
+}
+
+    .slanted:after, .slanted:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slanted.slanted-left {
+        width: 90%;
+    }
+
+.slanted-left.slant-to-left:after {
+    right: 0;
+    border-left: 250px solid white;
+    border-bottom: 100vh solid #828282;
+}
+
+.loginContainer {
+    position: absolute;
+    right: 8%;
+    bottom: 20%;
+    border: 1px solid black;
+}

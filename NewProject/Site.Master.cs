@@ -23,6 +23,7 @@ namespace NewProject
                 lblShowSelectedItems.Text = value;
             }
         }
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -43,11 +44,12 @@ namespace NewProject
 
             if (Session["Username"] != null)
             {
-                lblUserName.InnerText = Session["Username"].ToString() + " - " + Session["UserRole"].ToString();
+                string role = Session["UserRole"] != null ? Session["UserRole"].ToString() : "";
+                lblUserName.InnerText = Session["Username"].ToString() + " - " + role;
             }
             else
             {
-                Response.Redirect("~/Login.aspx", false);
+                Response.Redirect("~/LoginInitial", false);
             }
             if (Session["CompanyName"] != null)
             {
@@ -55,7 +57,7 @@ namespace NewProject
             }
             else
             {
-                Response.Redirect("~/Login.aspx", false);
+                Response.Redirect("~/LoginInitial", false);
             }
             //if (Session["UserRole"] == null)
             //{
@@ -116,11 +118,11 @@ namespace NewProject
                 KB.Visible = list.Where(x => x.Screen == "KB").Select(x => x.Visible).FirstOrDefault();
                 AlarmHistory.Visible = list.Where(x => x.Screen == "Alarm").Select(x => x.Visible).FirstOrDefault();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
-          
+
         }
         protected void chkToggleTheme_CheckedChanged(object sender, EventArgs e)
         {

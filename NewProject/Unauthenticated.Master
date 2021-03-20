@@ -1,0 +1,288 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Unauthenticated.master.cs" Inherits="NewProject.Unauthenticated" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMG IOT</title>
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+
+    <script src="Scripts/FontAwesome/all.js"></script>
+    <script src="Scripts/FontAwesome/fontawesome.js"></script>
+    <script src="Scripts/FontAwesome/regular.js"></script>
+    <script src="Scripts/FontAwesome/solid.js"></script>
+    <script src="Scripts/Toaster/toastr.min.js"></script>
+    <link href="Scripts/Toaster/toastr.min.css" rel="stylesheet" />
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="Content/Master.css" rel="stylesheet" />
+</head>
+
+<body id="mainBody" runat="server" clientidmode="static" style="">
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div style="display: flex; flex-direction: column;">
+            <div class="navbar navbar-default navbar-fixed-top nav-header" style="margin-bottom: 0px; padding: 0px 5px; flex-basis: 70px; min-height: 40px; height: 40px; text-align: center">
+                <div class="HeaderImage" style="padding: 3px 3px 3px 3px;">
+                    <span style="color: red;" class="line">Ace</span><span style="color: #44fff4;" class="line">Micromatic</span>
+                </div>
+                <div style="display: inline-block; margin-top: 8px">
+                    <asp:UpdatePanel runat="server">
+                        <ContentTemplate>
+                            <asp:Label runat="server" ID="lblShowSelectedItems" Style="color: white !important; font-weight: bold"></asp:Label>
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                </div>
+                <div style="float: right; position: relative">
+                    <table class="header-right-side" style="height: 40px">
+                        <tr>
+                            <td>
+                                <i class="glyphicon glyphicon-question-sign" style="font-size: 25px; color: white; vertical-align: sub"></i>
+                            </td>
+                            <td onmouseover="showPanels(this,'panelNotification','20px','40px');" onmouseout="hidePanels(this,'panelNotification')">
+                                <i class="glyphicon glyphicon-bell" style="font-size: 25px; color: white; vertical-align: sub"></i>
+                                <div class="panel panel-default panel-subitems" id="panelNotification" style="width: 300px;">
+                                    <div class="panel-heading" style="padding: 8px; text-align: center;">
+                                        <h5 class="" style="font-weight: bold">File Messages</h5>
+                                    </div>
+                                    <div class="panel-body">
+                                        <ul class="outer-ul">
+                                            <li>
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                <span class="menu-text">Message 1</span>
+                                            </li>
+                                            <li>
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                <span class="menu-text">Message 2</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td onmouseover="showPanels(this,'panelLogout','20px','40px');" onmouseout="hidePanels(this,'panelLogout')">
+                                <img src="Images/boy-512.png" id="userICon" style="border: 2px solid #688a7e; border-radius: 50%;" />
+                                <div class="panel panel-default panel-subitems" id="panelLogout" style="width: 300px;">
+                                    <div class="panel-heading" style="padding: 8px; text-align: center;">
+                                        <h5 class="" style="font-weight: bold" runat="server" id="smCompanyName"></h5>
+                                    </div>
+                                    <div class="panel-body">
+                                        <ul id="logoutPanelUl" class="outer-ul" style="margin-bottom: 0px">
+                                            <li onclick="showSubItems(this,'logoutPersonalUl')">
+                                                <span class="fa fa-address-book"></span>
+                                                <span class="menu-text">Personal Setting</span>
+                                                <span id="downuparrow" style="margin-left: 85px" class="glyphicon glyphicon-menu-down"></span>
+                                                <ul id="logoutPersonalUl" class="inner-ul" style="display: none">
+                                                    <li>
+                                                        <span>Items 1</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>Items 2</span>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="panel-footer" style="padding: 0px 10px 0px 15px; text-align: right;">
+                                        <ul class="outer-ul" style="margin-bottom: 0px">
+                                            <li>
+                                                <span class="glyphicon glyphicon-user"></span>
+                                                <span class="menu-text" id="lblUserName" runat="server"></span>
+                                            </li>
+                                            <li>
+                                                <span class="glyphicon glyphicon-off"></span>
+                                                <span class="menu-text" onclick="gotoLoginPage();">Log Out</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <label class="switch">
+                                    <input type="checkbox" id="toogleTheme" />
+                                    <span class="slider round"></span>
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div style="width: 100%; position: relative; top: -10px;">
+                <div class="container-fluid body-content" style="margin-left: 0px; margin-bottom: 0px; width: 100vw;">
+                    <div class="col-sm-12 col-lg-12 col-md-12 content-sub-menu" style="margin-top: 51px; margin-left: 0px">
+                    </div>
+                    <section id="Maincontent" style="position: relative; margin: 5px 10px;" class="container">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </form>
+    <%: Scripts.Render("~/bundles/masterjs") %>
+    <script type="text/javascript">
+        if (localStorage.getItem("selectedTheme")) {
+            if (localStorage.getItem("selectedTheme") == "lightTheme") {
+                $("#mainBody").addClass("light-mode");
+                $("#toogleTheme").prop('checked', true);
+            } else {
+                $("#mainBody").css('transition', 'all 1s ease');
+                $("#mainBody").removeClass("light-mode");
+                $("#toogleTheme").prop('checked', false);
+            }
+        }
+
+        $('#toogleTheme').click(function () {
+            var projectTheme = "dark";
+            if ($("#toogleTheme").prop('checked')) {
+                $("#mainBody").addClass("light-mode");
+                localStorage.setItem("selectedTheme", "lightTheme");
+                projectTheme = "light";
+            } else {
+                $("#mainBody").css('transition', 'all 1s ease');
+                $("#mainBody").removeClass("light-mode");
+                localStorage.setItem("selectedTheme", "darkTheme");
+                projectTheme = "dark";
+            }
+            $.ajax({
+                async: false,
+                type: "POST",
+                url: '<%= ResolveUrl("Troubleshooting.aspx/setThemeInSession") %>',
+                contentType: "application/json; charset=utf-8",
+                crossDomain: true,
+                data: '{theme: "' + projectTheme + '"}',
+                dataType: "json",
+                success: function (response) {
+                    dataitem = response.d;
+                },
+                error: function (Result) {
+                    alert("Error" + Result);
+                }
+            });
+        });
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+        function showSubItems(element, ulid) {
+            if ($('#' + ulid).css('display') == "none") {
+                $('#' + ulid).css({ 'display': 'block', 'border-top': '1px solid #dfdfdfcf', 'border-bottom': '1px solid #dfdfdfcf' });
+                $('#' + ulid).closest('div').find('#downuparrow').removeClass();
+                $('#' + ulid).closest('div').find('#downuparrow').addClass('glyphicon glyphicon-menu-up');
+            } else {
+                $('#' + ulid).css('display', 'none');
+                $('#' + ulid).closest('div').find('#downuparrow').removeClass();
+                $('#' + ulid).closest('div').find('#downuparrow').addClass('glyphicon glyphicon-menu-down');
+            }
+        }
+
+        function showPanelsTopRight(element, panelid, rightvalue, topvalue) {
+
+            document.getElementById(panelid).style.visibility = "visible";
+            $("#" + panelid).css({ 'right': rightvalue, 'top': topvalue });
+        }
+
+        function showPanelsTopLeft(element, panelid, leftvalue, topvalue) {
+
+            document.getElementById(panelid).style.visibility = "visible";
+            $("#" + panelid).css({ 'left': leftvalue, 'top': topvalue });
+        }
+
+        function showPanelsTopRightClick(element, panelid, rightvalue, topvalue) {
+            if ($('#' + panelid).css('visibility') == "hidden") {
+                document.getElementById(panelid).style.visibility = "visible";
+                $("#" + panelid).css({ 'right': rightvalue, 'top': topvalue });
+            } else {
+                document.getElementById(panelid).style.visibility = "hidden";
+            }
+        }
+
+        function showPanels(element, panelid, leftvalue, topvalue) {
+            document.getElementById(panelid).style.visibility = "visible";
+            $("#" + panelid).css({ 'left': leftvalue, 'top': topvalue });
+        }
+
+        function showMenuPanels(element, panelid, leftvalue, topvalue) {
+            debugger;
+            if ($('#' + panelid).css('visibility') == "hidden") {
+                document.getElementById(panelid).style.visibility = "visible";
+                $("#" + panelid).css({ 'left': leftvalue, 'top': topvalue });
+
+                $(element).find('#menudownuparrow').removeClass();
+                $(element).find('#menudownuparrow').addClass('glyphicon glyphicon-menu-up');
+            } else {
+                document.getElementById(panelid).style.visibility = "hidden";
+                $(element).find('#menudownuparrow').removeClass();
+                $(element).find('#menudownuparrow').addClass('glyphicon glyphicon-menu-down');
+            }
+        }
+        function hidePanels(element, panelid) {
+            $('#' + panelid).css('visibility', 'hidden');
+        }
+
+        function onMenuMouseOver(element, panelid) {
+            let sidebarwidth = $("#sidebar").css('width');
+            document.getElementById(panelid).style.visibility = "visible";
+            $("#" + panelid).css({ 'left': sidebarwidth });
+        }
+
+        function onMenuBlur(element, panelid) {
+            document.getElementById(panelid).style.visibility = "hidden";
+        }
+
+        function onSubItemClicked(element, page) {
+            $('#menuddl').text($(element).closest('.sub-menu-item').find(".menu-text").text());
+            localStorage.setItem("selectedMenu", $(element).closest('.sub-menu-item').find(".menu-text").text());
+            window.location.href = page;
+        }
+
+        function gotoLoginPage() {
+
+            localStorage.removeItem("selectedMenu");
+            localStorage.removeItem("selectedMenuID");
+            localStorage.removeItem("selectedSubMenu");
+            window.location.href = "LoginInitial.aspx";
+            return false;
+        }
+
+        $(window).resize(function () {
+            var h = $(".navbar-fixed-top").height();
+            console.log("tpop h" + h);
+        });
+
+        var validNavigation = false;
+        let checkBoxlbl = $(".checkbox-text-fontweightset").find("label");
+        $(checkBoxlbl).css({ "font-weight": "unset" });
+    </script>
+</body>
+</html>

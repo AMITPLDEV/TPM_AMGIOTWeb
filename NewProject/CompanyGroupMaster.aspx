@@ -412,7 +412,6 @@
                                 <asp:AsyncPostBackTrigger ControlID="btnNewEditCompanySave" EventName="Click" />
                                 <asp:AsyncPostBackTrigger ControlID="btnViewCompany" EventName="Click" />
                                 <asp:AsyncPostBackTrigger ControlID="btnDeleteCompanyConfirm" EventName="Click" />
-
                             </Triggers>
                         </asp:UpdatePanel>
                     </div>
@@ -422,7 +421,6 @@
 
                 <div id="LHmastermenu0" class="tab-pane fade">
                     <div>
-
                         <fieldset class="field-set" style="display: inline-block;">
                             <legend>&nbsp;<b>Filter By</b></legend>
                             <table class="filterTbl filter-field-table">
@@ -2333,8 +2331,7 @@
 
             $('[id$=multiselectPlant]').multiselect({
                 includeSelectAllOption: true
-            });
-
+            });     
         }
         function setActiveSubmenuValue() {
             debugger;

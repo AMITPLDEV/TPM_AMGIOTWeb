@@ -15,7 +15,7 @@ namespace NewProject
 {
     public partial class MachineDocumentMaster : System.Web.UI.Page
     {
-       
+
         static string appPath = HttpContext.Current.Server.MapPath("");
         List<string> listMachineType = new List<string>();
         List<string> listMachineModel = new List<string>();
@@ -87,16 +87,16 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
-        private void BindMachineType(DropDownList ddl,string mtb)
+        private void BindMachineType(DropDownList ddl, string mtb)
         {
             try
             {
                 if (ddl == null)
                 {
-                    listMachineType = DBAccess.getMachineTypeData("","","","", mtb);
+                    listMachineType = DBAccess.getMachineTypeData("", "", "", "", mtb);
                 }
                 else
                 {
@@ -110,7 +110,7 @@ namespace NewProject
                 Logger.WriteErrorLog(ex.Message);
             }
         }
-        private void BindMachineModel(DropDownList ddl, string mtb,string machinetype)
+        private void BindMachineModel(DropDownList ddl, string mtb, string machinetype)
         {
             try
             {
@@ -130,13 +130,13 @@ namespace NewProject
                 Logger.WriteErrorLog(ex.Message);
             }
         }
-        private void BindMachineSlno(DropDownList ddl, string mtb, string machinetype,string machinemodel,string cncmake,string cncmodel)
+        private void BindMachineSlno(DropDownList ddl, string mtb, string machinetype, string machinemodel, string cncmake, string cncmodel)
         {
             try
             {
                 if (ddl == null)
                 {
-                    listMachineSlno = DBAccess.getMachineSerialNumberData("", "", cncmake, cncmodel, mtb, machinetype,machinemodel);
+                    listMachineSlno = DBAccess.getMachineSerialNumberData("", "", cncmake, cncmodel, mtb, machinetype, machinemodel);
                 }
                 else
                 {
@@ -164,7 +164,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
 
@@ -185,7 +185,7 @@ namespace NewProject
         {
             try
             {
-                string mtb=ddlMTBCompanyLvl.SelectedValue;
+                string mtb = ddlMTBCompanyLvl.SelectedValue;
                 List<eDocumentData> list = MongoDBAccess.getCompanyLvlEdocData(mtb);
                 int listcountFlag = 0;
                 if (list.Count == 0)
@@ -218,7 +218,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         protected void btnCompanyLevel_Click(object sender, EventArgs e)
@@ -238,7 +238,7 @@ namespace NewProject
                 }
                 else
                 {
-                    Response.Redirect("~/Login.aspx", false);
+                    Response.Redirect("~/LoginInitial", false);
                 }
 
                 eDocumentData data = new eDocumentData();
@@ -278,12 +278,12 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         protected void btnViewCompanyLvl_Click(object sender, EventArgs e)
         {
-           // BindMTBData();
+            // BindMTBData();
             BindCompanyLevel();
         }
 
@@ -298,7 +298,7 @@ namespace NewProject
                 }
                 else
                 {
-                    Response.Redirect("~/Login.aspx", false);
+                    Response.Redirect("~/LoginInitial", false);
                 }
                 eDocumentData data = new eDocumentData();
                 for (int i = 0; i < gvCompanyLevel.Rows.Count; i++)
@@ -341,7 +341,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
 
         }
@@ -363,7 +363,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         private ProcessParameterMasterData setGetProcessData(string MachineID, string MachineType, string MTB, string MachineModel, string ParemeterID, string SourceType, string SourceAdd1, string SourceAdd2, string SourceDatatype1, string SourceDatatype2, string PollingFrequency, string DataGroup, string PollingType, string CycleFreqTime, string NoOfCycle, bool IsEnabled, bool ShouldNotBeDisabled, string CNCMake, string CNCModel, bool IsEnabledForDataRead)
@@ -394,7 +394,7 @@ namespace NewProject
         private void setDropdownValues(string param)
         {
             BindMachineType(null, "");
-            BindMachineModel(null, "","");
+            BindMachineModel(null, "", "");
             if (param == "machine")
             {
                 BindMachineSlno(null, "", "", "", "", "");
@@ -404,7 +404,6 @@ namespace NewProject
         {
             try
             {
-                var filter = "{}";
                 //string modellist = "";
                 //foreach (ListItem item in lbMachineModelModelLvl.Items)
                 //{
@@ -473,7 +472,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         protected void btnInsertModelLvl_Click(object sender, EventArgs e)
@@ -487,7 +486,7 @@ namespace NewProject
                 }
                 else
                 {
-                    Response.Redirect("~/Login.aspx", false);
+                    Response.Redirect("~/LoginInitial", false);
                 }
 
                 eDocumentData data = new eDocumentData();
@@ -527,7 +526,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         protected void btnDeleteModelLvl_Click(object sender, EventArgs e)
@@ -548,7 +547,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         protected void btnViewModelLvl_Click(object sender, EventArgs e)
@@ -568,7 +567,7 @@ namespace NewProject
                 }
                 else
                 {
-                    Response.Redirect("~/Login.aspx", false);
+                    Response.Redirect("~/LoginInitial", false);
                 }
 
                 //GridFSBucketOptions op = new GridFSBucketOptions();
@@ -678,7 +677,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         [System.Web.Services.WebMethod(EnableSession = true)]
@@ -855,19 +854,18 @@ namespace NewProject
 
         private void BindMachineLevelData()
         {
-           
+
             try
             {
-                var filter = "{}";
                 string mtb = ddlMTBMachineLvl.SelectedValue;
                 string model = ddlMachineModelMachineLvl.SelectedValue;
                 string machineSlno = ddlMachineSlnoMachineLvl.SelectedValue;
                 BsonArray levelView = new BsonArray();
-                if(ddlMachineLevelView.SelectedValue=="All")
+                if (ddlMachineLevelView.SelectedValue == "All")
                 {
                     foreach (ListItem item in ddlMachineLevelView.Items)
                     {
-                            levelView.Add(item.Value);
+                        levelView.Add(item.Value);
                     }
                 }
                 else
@@ -875,7 +873,7 @@ namespace NewProject
                     levelView.Add(ddlMachineLevelView.SelectedValue);
                 }
 
-                List<eDocumentData> list = MongoDBAccess.getMachineLvlEdocData(mtb,model,machineSlno,levelView);
+                List<eDocumentData> list = MongoDBAccess.getMachineLvlEdocData(mtb, model, machineSlno, levelView);
                 int listcountFlag = 0;
                 if (list.Count == 0)
                 {
@@ -940,7 +938,7 @@ namespace NewProject
                 }
                 else
                 {
-                    Response.Redirect("~/Login.aspx", false);
+                    Response.Redirect("~/LoginInitial", false);
                 }
                 eDocumentData data = new eDocumentData();
                 for (int i = 0; i < gvMachineLvlData.Rows.Count; i++)
@@ -1070,7 +1068,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
 
@@ -1092,7 +1090,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
 
@@ -1107,7 +1105,7 @@ namespace NewProject
                 }
                 else
                 {
-                    Response.Redirect("~/Login.aspx", false);
+                    Response.Redirect("~/LoginInitial", false);
                 }
 
                 eDocumentData data = new eDocumentData();
@@ -1148,7 +1146,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
 
@@ -1162,7 +1160,7 @@ namespace NewProject
                 ddl.DataBind();
             }
             catch (Exception ex)
-            { }
+            { Logger.WriteErrorLog(ex.Message); }
         }
 
         protected void ddlCNCMakeNewModelLvl_SelectedIndexChanged(object sender, EventArgs e)
@@ -1183,7 +1181,7 @@ namespace NewProject
                 ddl.DataBind();
             }
             catch (Exception ex)
-            { }
+            { Logger.WriteErrorLog(ex.Message); }
         }
         protected void ddlCNCModelNewModelLvl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -1201,7 +1199,7 @@ namespace NewProject
                 ddl.DataBind();
             }
             catch (Exception ex)
-            { }
+            { Logger.WriteErrorLog(ex.Message); }
         }
         protected void ddlMachineTypeNewModelLvl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -1215,7 +1213,7 @@ namespace NewProject
                 ddl.DataBind();
             }
             catch (Exception ex)
-            { }
+            { Logger.WriteErrorLog(ex.Message); }
         }
 
         protected void ddlCNCMakeNewMachineLvl_SelectedIndexChanged(object sender, EventArgs e)
@@ -1241,7 +1239,7 @@ namespace NewProject
                 ddl.DataBind();
             }
             catch (Exception ex)
-            { }
+            { Logger.WriteErrorLog(ex.Message); }
         }
 
         protected void ddlCNCModelNewMachineLvl_SelectedIndexChanged(object sender, EventArgs e)
@@ -1264,7 +1262,7 @@ namespace NewProject
                 ddl.DataBind();
             }
             catch (Exception ex)
-            { }
+            { Logger.WriteErrorLog(ex.Message); }
         }
         protected void ddlMachineTypeNewMachineLvl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -1283,7 +1281,7 @@ namespace NewProject
                 ddl.DataBind();
             }
             catch (Exception ex)
-            { }
+            { Logger.WriteErrorLog(ex.Message); }
         }
         protected void ddlMachineModelNewMachineLvl_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -1299,7 +1297,7 @@ namespace NewProject
                 ddl.DataBind();
             }
             catch (Exception ex)
-            { }
+            { Logger.WriteErrorLog(ex.Message); }
         }
 
         protected void ddlMTBModelLvl_SelectedIndexChanged(object sender, EventArgs e)
@@ -1311,7 +1309,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
 
@@ -1326,7 +1324,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
 
@@ -1339,7 +1337,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
 
@@ -1362,7 +1360,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
 
@@ -1397,14 +1395,14 @@ namespace NewProject
                 {
                     ddl.SelectedValue = hdnvalue;
                 }
-                string level= (e.Row.FindControl("lblLevel") as Label).Text;
-                if(level=="Model")
+                string level = (e.Row.FindControl("lblLevel") as Label).Text;
+                if (level == "Model")
                 {
-                    (e.Row.FindControl("chkDeleteSelection") as CheckBox).Visible=true;
+                    (e.Row.FindControl("chkDeleteSelection") as CheckBox).Visible = true;
                 }
                 else
                 {
-                    (e.Row.FindControl("chkDeleteSelection") as CheckBox).Visible=false;
+                    (e.Row.FindControl("chkDeleteSelection") as CheckBox).Visible = false;
                 }
             }
         }
@@ -1441,7 +1439,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
 
@@ -1471,7 +1469,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
 
@@ -1551,6 +1549,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
+                Logger.WriteErrorLog(ex.Message);
             }
             return list;
         }
@@ -1565,6 +1564,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
+                Logger.WriteErrorLog(ex.Message);
             }
             return list;
         }
@@ -1584,7 +1584,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
             return list;
         }
@@ -1603,7 +1603,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
             return list;
         }
@@ -1632,7 +1632,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         private void SortGridview(GridView gridView, GridViewSortEventArgs e, out System.Web.UI.WebControls.SortDirection sortDirection, out string sortField)
@@ -1710,7 +1710,9 @@ namespace NewProject
                 }
             }
             catch (Exception ex)
-            { }
+            {
+                Logger.WriteErrorLogDetailed(ex);
+            }
         }
 
         protected void gvModelLvlData_Sorting(object sender, GridViewSortEventArgs e)
@@ -1750,7 +1752,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1795,7 +1797,7 @@ namespace NewProject
                 }
             }
             catch (Exception ex)
-            { }
+            { Logger.WriteErrorLog(ex.Message); }
         }
 
         protected void gvMachineLvlData_Sorting(object sender, GridViewSortEventArgs e)
@@ -1839,7 +1841,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
 
@@ -1884,7 +1886,9 @@ namespace NewProject
                 }
             }
             catch (Exception ex)
-            { }
+            {
+                Logger.WriteErrorLogDetailed(ex);
+            }
         }
     }
 }

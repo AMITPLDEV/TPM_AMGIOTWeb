@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NewProject {
-    
-    
-    public partial class SiteMaster {
-        
+namespace NewProject
+{
+
+
+    public partial class SiteMaster
+    {
+
         /// <summary>
         /// mainBody control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl mainBody;
-        
+
         /// <summary>
         /// liLiveStatus control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLiveStatus;
-        
+
         /// <summary>
         /// liProduction control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liProduction;
-        
+
         /// <summary>
         /// liQuality control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liQuality;
-        
+
         /// <summary>
         /// liMaintenance control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liMaintenance;
-        
+
         /// <summary>
         /// liProcessParameter control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liProcessParameter;
-        
+
         /// <summary>
         /// liEnergy control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liEnergy;
-        
+
         /// <summary>
         /// li5 control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li5;
-        
+
         /// <summary>
         /// liAssets control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAssets;
-        
+
         /// <summary>
         /// liMasters control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liMasters;
-        
+
         /// <summary>
         /// li9 control.
         /// </summary>
@@ -110,16 +112,16 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li9;
-        
+
         /// <summary>
-        /// li10 control.
+        /// liAccountSettings control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl li10;
-        
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAccountSettings;
+
         /// <summary>
         /// lblShowSelectedItems control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblShowSelectedItems;
-        
+
         /// <summary>
         /// smCompanyName control.
         /// </summary>
@@ -137,7 +139,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl smCompanyName;
-        
+
         /// <summary>
         /// lblUserName control.
         /// </summary>
@@ -146,7 +148,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblUserName;
-        
+
         /// <summary>
         /// ProductionOEEDashboard control.
         /// </summary>
@@ -155,7 +157,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl ProductionOEEDashboard;
-        
+
         /// <summary>
         /// SLI control.
         /// </summary>
@@ -164,7 +166,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor SLI;
-        
+
         /// <summary>
         /// liDownTime control.
         /// </summary>
@@ -173,7 +175,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDownTime;
-        
+
         /// <summary>
         /// annexureA control.
         /// </summary>
@@ -182,7 +184,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor annexureA;
-        
+
         /// <summary>
         /// liRejection control.
         /// </summary>
@@ -191,7 +193,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRejection;
-        
+
         /// <summary>
         /// a3 control.
         /// </summary>
@@ -200,7 +202,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor a3;
-        
+
         /// <summary>
         /// liWorkorder control.
         /// </summary>
@@ -209,7 +211,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liWorkorder;
-        
+
         /// <summary>
         /// A2 control.
         /// </summary>
@@ -218,7 +220,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A2;
-        
+
         /// <summary>
         /// liPartData control.
         /// </summary>
@@ -227,7 +229,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPartData;
-        
+
         /// <summary>
         /// A1 control.
         /// </summary>
@@ -236,7 +238,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A1;
-        
+
         /// <summary>
         /// ProcessParameterDashboard control.
         /// </summary>
@@ -245,7 +247,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl ProcessParameterDashboard;
-        
+
         /// <summary>
         /// A4 control.
         /// </summary>
@@ -254,7 +256,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A4;
-        
+
         /// <summary>
         /// ProcessParameterSignatureComparison control.
         /// </summary>
@@ -263,7 +265,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl ProcessParameterSignatureComparison;
-        
+
         /// <summary>
         /// a6 control.
         /// </summary>
@@ -272,7 +274,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor a6;
-        
+
         /// <summary>
         /// ProcessParameterListOfValues control.
         /// </summary>
@@ -281,7 +283,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl ProcessParameterListOfValues;
-        
+
         /// <summary>
         /// a7 control.
         /// </summary>
@@ -290,7 +292,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor a7;
-        
+
         /// <summary>
         /// KB control.
         /// </summary>
@@ -299,7 +301,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl KB;
-        
+
         /// <summary>
         /// a5 control.
         /// </summary>
@@ -308,7 +310,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor a5;
-        
+
         /// <summary>
         /// AlarmHistory control.
         /// </summary>
@@ -317,7 +319,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl AlarmHistory;
-        
+
         /// <summary>
         /// CompanyGroupMaster control.
         /// </summary>
@@ -326,7 +328,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl CompanyGroupMaster;
-        
+
         /// <summary>
         /// aCompanyGroupMaster control.
         /// </summary>
@@ -335,7 +337,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor aCompanyGroupMaster;
-        
+
         /// <summary>
         /// LevelHierarchy control.
         /// </summary>
@@ -344,7 +346,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl LevelHierarchy;
-        
+
         /// <summary>
         /// aLevelHierarchy control.
         /// </summary>
@@ -353,7 +355,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor aLevelHierarchy;
-        
+
         /// <summary>
         /// LevelHierarchyMaster control.
         /// </summary>
@@ -362,7 +364,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl LevelHierarchyMaster;
-        
+
         /// <summary>
         /// aLevelHierarchyMaster control.
         /// </summary>
@@ -371,7 +373,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor aLevelHierarchyMaster;
-        
+
         /// <summary>
         /// Parts control.
         /// </summary>
@@ -380,7 +382,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Parts;
-        
+
         /// <summary>
         /// formSDF control.
         /// </summary>
@@ -389,7 +391,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor formSDF;
-        
+
         /// <summary>
         /// LossCodes control.
         /// </summary>
@@ -398,7 +400,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl LossCodes;
-        
+
         /// <summary>
         /// A10 control.
         /// </summary>
@@ -407,7 +409,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A10;
-        
+
         /// <summary>
         /// RejectionCodes control.
         /// </summary>
@@ -416,7 +418,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl RejectionCodes;
-        
+
         /// <summary>
         /// A11 control.
         /// </summary>
@@ -425,7 +427,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A11;
-        
+
         /// <summary>
         /// InspectionData control.
         /// </summary>
@@ -434,7 +436,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl InspectionData;
-        
+
         /// <summary>
         /// A13 control.
         /// </summary>
@@ -443,7 +445,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A13;
-        
+
         /// <summary>
         /// UserRoleRights control.
         /// </summary>
@@ -452,7 +454,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl UserRoleRights;
-        
+
         /// <summary>
         /// aUserRoleRights control.
         /// </summary>
@@ -461,7 +463,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor aUserRoleRights;
-        
+
         /// <summary>
         /// ProcessParameterMaster control.
         /// </summary>
@@ -470,7 +472,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl ProcessParameterMaster;
-        
+
         /// <summary>
         /// A15 control.
         /// </summary>
@@ -479,7 +481,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A15;
-        
+
         /// <summary>
         /// ProcessParameterMasterAGI control.
         /// </summary>
@@ -488,7 +490,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl ProcessParameterMasterAGI;
-        
+
         /// <summary>
         /// A32 control.
         /// </summary>
@@ -497,7 +499,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A32;
-        
+
         /// <summary>
         /// MachineDocumentMaster control.
         /// </summary>
@@ -506,7 +508,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl MachineDocumentMaster;
-        
+
         /// <summary>
         /// A31 control.
         /// </summary>
@@ -515,7 +517,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A31;
-        
+
         /// <summary>
         /// SignatureComparisionMaster control.
         /// </summary>
@@ -524,7 +526,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl SignatureComparisionMaster;
-        
+
         /// <summary>
         /// A30 control.
         /// </summary>
@@ -533,7 +535,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A30;
-        
+
         /// <summary>
         /// Li7 control.
         /// </summary>
@@ -542,7 +544,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Li7;
-        
+
         /// <summary>
         /// A16 control.
         /// </summary>
@@ -551,7 +553,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A16;
-        
+
         /// <summary>
         /// li8 control.
         /// </summary>
@@ -560,7 +562,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li8;
-        
+
         /// <summary>
         /// a17 control.
         /// </summary>
@@ -569,7 +571,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor a17;
-        
+
         /// <summary>
         /// li11 control.
         /// </summary>
@@ -578,7 +580,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li11;
-        
+
         /// <summary>
         /// a18 control.
         /// </summary>
@@ -587,7 +589,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor a18;
-        
+
         /// <summary>
         /// li12 control.
         /// </summary>
@@ -596,7 +598,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li12;
-        
+
         /// <summary>
         /// A19 control.
         /// </summary>
@@ -605,7 +607,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A19;
-        
+
         /// <summary>
         /// Li2 control.
         /// </summary>
@@ -614,7 +616,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Li2;
-        
+
         /// <summary>
         /// A20 control.
         /// </summary>
@@ -623,7 +625,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A20;
-        
+
         /// <summary>
         /// li13 control.
         /// </summary>
@@ -632,7 +634,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li13;
-        
+
         /// <summary>
         /// a21 control.
         /// </summary>
@@ -641,7 +643,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor a21;
-        
+
         /// <summary>
         /// li14 control.
         /// </summary>
@@ -650,7 +652,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li14;
-        
+
         /// <summary>
         /// a22 control.
         /// </summary>
@@ -659,7 +661,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor a22;
-        
+
         /// <summary>
         /// li15 control.
         /// </summary>
@@ -668,7 +670,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li15;
-        
+
         /// <summary>
         /// A23 control.
         /// </summary>
@@ -677,7 +679,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A23;
-        
+
         /// <summary>
         /// li16 control.
         /// </summary>
@@ -686,7 +688,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li16;
-        
+
         /// <summary>
         /// A24 control.
         /// </summary>
@@ -695,7 +697,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A24;
-        
+
         /// <summary>
         /// li3 control.
         /// </summary>
@@ -704,7 +706,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li3;
-        
+
         /// <summary>
         /// A25 control.
         /// </summary>
@@ -713,7 +715,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A25;
-        
+
         /// <summary>
         /// li4 control.
         /// </summary>
@@ -722,7 +724,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li4;
-        
+
         /// <summary>
         /// a26 control.
         /// </summary>
@@ -731,7 +733,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor a26;
-        
+
         /// <summary>
         /// li6 control.
         /// </summary>
@@ -740,7 +742,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li6;
-        
+
         /// <summary>
         /// a27 control.
         /// </summary>
@@ -749,7 +751,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor a27;
-        
+
         /// <summary>
         /// li17 control.
         /// </summary>
@@ -758,7 +760,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li17;
-        
+
         /// <summary>
         /// A28 control.
         /// </summary>
@@ -767,7 +769,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A28;
-        
+
         /// <summary>
         /// li18 control.
         /// </summary>
@@ -776,7 +778,7 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li18;
-        
+
         /// <summary>
         /// A29 control.
         /// </summary>
@@ -785,7 +787,25 @@ namespace NewProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A29;
-        
+
+        /// <summary>
+        /// ManageAccount control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl ManageAccount;
+
+        /// <summary>
+        /// A40 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor A40;
+
         /// <summary>
         /// MainContent control.
         /// </summary>

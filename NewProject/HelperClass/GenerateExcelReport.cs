@@ -32,6 +32,7 @@ namespace NewProject.HelperClass
 
 
         #endregion
+
         public static string SafeFileName(string name)
         {
             StringBuilder str = new StringBuilder(name);
@@ -41,9 +42,15 @@ namespace NewProject.HelperClass
             }
             return str.ToString();
         }
-        internal static void setWorkSheetSetting(ExcelWorksheet wksheet)        {            wksheet.PrinterSettings.Orientation = eOrientation.Landscape;            wksheet.PrinterSettings.FitToPage = true;            wksheet.PrinterSettings.FitToWidth = 1;            wksheet.PrinterSettings.FitToHeight = 0;
 
+        internal static void setWorkSheetSetting(ExcelWorksheet wksheet)
+        {
+            wksheet.PrinterSettings.Orientation = eOrientation.Landscape;
+            wksheet.PrinterSettings.FitToPage = true;
+            wksheet.PrinterSettings.FitToWidth = 1;
+            wksheet.PrinterSettings.FitToHeight = 0;
         }
+
         private static void DownloadMultipleFile(string fileName, byte[] byteArray)
         {
             try

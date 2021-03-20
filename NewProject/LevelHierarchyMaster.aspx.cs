@@ -3,6 +3,7 @@ using NewProject.Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Web;
@@ -96,7 +97,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         private void ShowHideList(string companyID,string plantID,string type, bool isMachine)
@@ -123,9 +124,9 @@ namespace NewProject
 
 
                         btnassignShop.Visible = true;
-                        btnassignShopCell.Visible = shopcelllist.Where(x => x.KeyValue == "ShopCell").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "ShopCell").Select(x => x.CheckOrUncheck).FirstOrDefault();
-                        btnassignShopCellGroup.Visible = shopcelllist.Where(x => x.KeyValue == "ShopCellGroup").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "ShopCellGroup").Select(x => x.CheckOrUncheck).FirstOrDefault();
-                        btnassignShopGroup.Visible = shopcelllist.Where(x => x.KeyValue == "ShopGroup").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "ShopGroup").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                        btnassignShopCell.Visible = shopcelllist.Where(x => x.KeyValue == "ShopCell").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                        btnassignShopCellGroup.Visible = shopcelllist.Where(x => x.KeyValue == "ShopCellGroup").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                        btnassignShopGroup.Visible = shopcelllist.Where(x => x.KeyValue == "ShopGroup").Select(x => x.CheckOrUncheck).FirstOrDefault();
                     }
                     else
                     {
@@ -152,7 +153,7 @@ namespace NewProject
                        // ScriptManager.RegisterStartupScript(this, this.GetType(), "setActiveValueCell", "setSubActiveMenu('Cell');", true);
 
                         btnassignCell.Visible = true;
-                        btnassignCellGroup.Visible = shopcelllist.Where(x => x.KeyValue == "CellGroup").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "CellGroup").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                        btnassignCellGroup.Visible = shopcelllist.Where(x => x.KeyValue == "CellGroup").Select(x => x.CheckOrUncheck).FirstOrDefault();
                     }
                     else
                     {
@@ -169,14 +170,14 @@ namespace NewProject
                 }
                 else
                 {
-                    Shop.Visible = shopcelllist.Where(x => x.KeyValue == "Shop").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "Shop").Select(x => x.CheckOrUncheck).FirstOrDefault();
-                    Cell.Visible = shopcelllist.Where(x => x.KeyValue == "Cell").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "Cell").Select(x => x.CheckOrUncheck).FirstOrDefault();
-                    Group.Visible = shopcelllist.Where(x => x.KeyValue == "Group").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "Group").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                    Shop.Visible = shopcelllist.Where(x => x.KeyValue == "Shop").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                    Cell.Visible = shopcelllist.Where(x => x.KeyValue == "Cell").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                    Group.Visible = shopcelllist.Where(x => x.KeyValue == "Group").Select(x => x.CheckOrUncheck).FirstOrDefault();
 
 
-                    AssignMachineToShop.Visible = shopcelllist.Where(x => x.KeyValue == "Shop").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "Shop").Select(x => x.CheckOrUncheck).FirstOrDefault();
-                    AssignMachineToCell.Visible = shopcelllist.Where(x => x.KeyValue == "Cell").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "Cell").Select(x => x.CheckOrUncheck).FirstOrDefault();
-                    AssignMachineToGroup.Visible = shopcelllist.Where(x => x.KeyValue == "Group").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "Group").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                    AssignMachineToShop.Visible = shopcelllist.Where(x => x.KeyValue == "Shop").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                    AssignMachineToCell.Visible = shopcelllist.Where(x => x.KeyValue == "Cell").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                    AssignMachineToGroup.Visible = shopcelllist.Where(x => x.KeyValue == "Group").Select(x => x.CheckOrUncheck).FirstOrDefault();
 
 
                     if (!isMachine)
@@ -261,7 +262,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -278,7 +279,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         private void BindPlantIDs()
@@ -325,7 +326,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
     
@@ -351,7 +352,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         private void BindShopIDsForNewEdit(string plantid)
@@ -370,7 +371,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         private void BindCellIDsForView(string plant,string shop)
@@ -388,7 +389,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         private void BindCellIDsForEditNew(string plant, string shop)
@@ -402,7 +403,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         private void BindPlantIDsForAssignMachines(DropDownList ddl, bool isAllRequired, string type)
@@ -418,7 +419,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         private void BindShopIDs(DropDownList ddl, string plantid, bool isAllRequired)
@@ -434,7 +435,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         private void BindShopIDsForMultiSelect(ListBox ddl, string plantid, bool isAllRequired)
@@ -450,7 +451,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         private void BindCellIDs(DropDownList ddl, string plant, string shop, bool isAllRequired)
@@ -468,7 +469,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         private void BindCellIDsForMultiSelect(ListBox ddl, string plant, string shop, bool isAllRequired)
@@ -486,7 +487,8 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                StackTrace stackTrace = new StackTrace(ex, true);
+                Logger.WriteErrorLog($"Error : {ex.Message} at Page : {stackTrace.GetFrame(0).GetFileName()} in Method : {stackTrace.GetFrame(1).GetMethod().Name} at Line Number :  {stackTrace.GetFrame(0).GetFileLineNumber()}");
             }
         }
         private void BindGroupIDs(DropDownList ddl, string plant, string shop,string cell, bool isAllRequired)
@@ -504,7 +506,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         private void BindGroupIDsForMultiSelect(ListBox ddl, string plant, string shop, string cell, bool isAllRequired)
@@ -522,7 +524,8 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                StackTrace stackTrace = new StackTrace(ex, true);
+                Logger.WriteErrorLog($"Error : {ex.Message} at Page : {stackTrace.GetFrame(0).GetFileName()} in Method : {stackTrace.GetFrame(1).GetMethod().Name} at Line Number :  {stackTrace.GetFrame(0).GetFileLineNumber()}");
             }
         }
         //private void BindGroupIDsForNewEdit(string plantID)
@@ -588,7 +591,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
         }
         protected void btnShopGroup_Click(object sender, EventArgs e)
@@ -650,7 +653,7 @@ namespace NewProject
             }
             catch(Exception ex)
             {
-
+                Logger.WriteErrorLog(ex.Message);
             }
          
         }
@@ -670,7 +673,8 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                StackTrace stackTrace = new StackTrace(ex, true);
+                Logger.WriteErrorLog($"Error : {ex.Message} at Page : {stackTrace.GetFrame(0).GetFileName()} in Method : {stackTrace.GetFrame(1).GetMethod().Name} at Line Number :  {stackTrace.GetFrame(0).GetFileLineNumber()}");
             }
         }
 
@@ -704,7 +708,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
 
         }
@@ -765,7 +769,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -778,7 +782,7 @@ namespace NewProject
             }
             catch(Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
            
         }
@@ -794,7 +798,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -828,7 +832,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
 
         }
@@ -844,7 +848,7 @@ namespace NewProject
             }
             catch(Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
 
         }
@@ -868,6 +872,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         protected void btnNewEditShopCellSave_Click(object sender, EventArgs e)
@@ -926,7 +931,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -957,7 +962,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -977,7 +982,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1008,6 +1013,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         protected void btnShopGroupView_Click(object sender, EventArgs e)
@@ -1043,7 +1049,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1057,7 +1063,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1121,7 +1127,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1146,6 +1152,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         protected void btnShopCellGroupView_Click(object sender, EventArgs e)
@@ -1210,7 +1217,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1243,7 +1250,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         protected void lbDeleteShopCellGroup_Click(object sender, EventArgs e)
@@ -1256,7 +1263,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         protected void ddlPlant_ForShopCellGroupNewEdit_SelectedIndexChanged(object sender, EventArgs e)
@@ -1303,7 +1310,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
 
         }
@@ -1321,7 +1328,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1354,7 +1361,9 @@ namespace NewProject
                 ShowHideList(Session["CompanyName"].ToString(), ddlPlant.SelectedValue == null ? "" : ddlPlant.SelectedValue.ToString(),"Cell",false);
             }
             catch (Exception ex)
-            { }
+            {
+                Logger.WriteErrorLogDetailed(ex);
+            }
         }
         private void BindPlantForCell(DropDownList ddl, bool isAllRequired)
         {
@@ -1362,7 +1371,7 @@ namespace NewProject
             {
                 if (Session["CompanyName"] == null)
                 {
-                    Response.Redirect("~/Login.aspx", false);
+                    Response.Redirect("~/LoginInitial", false);
                     return;
                 }
                 ddl.DataSource = DBAccess.getPlantData(Session["CompanyName"].ToString());
@@ -1374,7 +1383,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         private void BindCellDettails()
@@ -1394,7 +1403,9 @@ namespace NewProject
                 setCellDetailsRowColor(Session["LHCell"].ToString());
             }
             catch (Exception ex)
-            { }
+            {
+                Logger.WriteErrorLogDetailed(ex);
+            }
         }
         protected void btnCellView_Click(object sender, EventArgs e)
         {
@@ -1424,7 +1435,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1447,7 +1458,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1512,7 +1523,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1527,7 +1538,9 @@ namespace NewProject
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "confirmModal", "openCellDeleteConfirmModal('" + deleteMsg + " ?')", true);
             }
             catch (Exception ex)
-            { }
+            {
+                Logger.WriteErrorLogDetailed(ex);
+            }
         }
 
 
@@ -1560,7 +1573,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1578,7 +1591,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         private void BindCellIDForCellGroup(DropDownList ddl, string plant, bool isAllRequired)
@@ -1593,7 +1606,9 @@ namespace NewProject
                 }
             }
             catch (Exception ex)
-            { }
+            {
+                Logger.WriteErrorLogDetailed(ex);
+            }
         }
         private void BindCellGroupData()
         {
@@ -1607,7 +1622,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         protected void btnCGView_Click(object sender, EventArgs e)
@@ -1634,7 +1649,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1662,7 +1677,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1722,7 +1737,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         protected void lblCellGroupDelete_Click(object sender, EventArgs e)
@@ -1734,7 +1749,9 @@ namespace NewProject
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "confirmModal", "openCellGroupDeleteConfirmModal('" + deleteMsg + " ?')", true);
             }
             catch (Exception ex)
-            { }
+            {
+                Logger.WriteErrorLogDetailed(ex);
+            }
         }
 
         protected void ddlCGPlantID_SelectedIndexChanged(object sender, EventArgs e)
@@ -1745,7 +1762,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1775,7 +1792,9 @@ namespace NewProject
                 selectedDeleteRowIndex = -1;
             }
             catch (Exception ex)
-            { }
+            {
+                Logger.WriteErrorLogDetailed(ex);
+            }
         }
 
 
@@ -1795,7 +1814,9 @@ namespace NewProject
                 BindPlantGroupDettails();
             }
             catch (Exception ex)
-            { }
+            {
+                Logger.WriteErrorLogDetailed(ex);
+            }
         }
         private void BindPlantGroupDettails()
         {
@@ -1808,7 +1829,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
 
         }
@@ -1835,7 +1856,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1858,7 +1879,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1871,7 +1892,9 @@ namespace NewProject
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "confirmModal", "openPlantGroupDeleteConfirmModal('" + deleteMsg + " ?')", true);
             }
             catch (Exception ex)
-            { }
+            {
+                Logger.WriteErrorLogDetailed(ex);
+            }
         }
 
         protected void btnPlantGroupInsertUpdate_Click(object sender, EventArgs e)
@@ -1929,7 +1952,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -1958,7 +1981,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -2110,9 +2133,9 @@ namespace NewProject
                     if (shopcelllist.Where(x => x.KeyValue == "Shop").Select(x => x.CheckOrUncheck).FirstOrDefault())
                     {
                         btnassignShop.Visible = true;
-                        btnassignShopCell.Visible= shopcelllist.Where(x => x.KeyValue == "ShopCell").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "ShopCell").Select(x => x.CheckOrUncheck).FirstOrDefault();
-                        btnassignShopCellGroup.Visible = shopcelllist.Where(x => x.KeyValue == "ShopCellGroup").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "ShopCellGroup").Select(x => x.CheckOrUncheck).FirstOrDefault();
-                        btnassignShopGroup.Visible = shopcelllist.Where(x => x.KeyValue == "ShopGroup").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "ShopGroup").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                        btnassignShopCell.Visible= shopcelllist.Where(x => x.KeyValue == "ShopCell").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                        btnassignShopCellGroup.Visible = shopcelllist.Where(x => x.KeyValue == "ShopCellGroup").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                        btnassignShopGroup.Visible = shopcelllist.Where(x => x.KeyValue == "ShopGroup").Select(x => x.CheckOrUncheck).FirstOrDefault();
                     }
                     else
                     {
@@ -2127,37 +2150,34 @@ namespace NewProject
                     if (shopcelllist.Where(x => x.KeyValue == "Cell").Select(x => x.CheckOrUncheck).FirstOrDefault())
                     {
                         btnassignCell.Visible = true;
-                        btnassignCellGroup.Visible= shopcelllist.Where(x => x.KeyValue == "CellGroup").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "CellGroup").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                        btnassignCellGroup.Visible= shopcelllist.Where(x => x.KeyValue == "CellGroup").Select(x => x.CheckOrUncheck).FirstOrDefault();
                     }
                     else
                     {
                         btnassignCell.Visible = false;
                         btnassignCellGroup.Visible = false;
                     }
-
                 }
                 else
                 {
-                    AssignMachineToShop.Visible = shopcelllist.Where(x => x.KeyValue == "Shop").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "Shop").Select(x => x.CheckOrUncheck).FirstOrDefault();
-                    AssignMachineToCell.Visible = shopcelllist.Where(x => x.KeyValue == "Cell").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "Cell").Select(x => x.CheckOrUncheck).FirstOrDefault();
-                    AssignMachineToGroup.Visible = shopcelllist.Where(x => x.KeyValue == "Group").Select(x => x.CheckOrUncheck).FirstOrDefault() == null ? false : shopcelllist.Where(x => x.KeyValue == "Group").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                    AssignMachineToShop.Visible = shopcelllist.Where(x => x.KeyValue == "Shop").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                    AssignMachineToCell.Visible = shopcelllist.Where(x => x.KeyValue == "Cell").Select(x => x.CheckOrUncheck).FirstOrDefault();
+                    AssignMachineToGroup.Visible = shopcelllist.Where(x => x.KeyValue == "Group").Select(x => x.CheckOrUncheck).FirstOrDefault();
                     ScriptManager.RegisterStartupScript(this, this.GetType(), "setActivePlantMenu", "setActiveAssignMachineMenu();", true);
                 }
 
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
      
         private void showHideFilterSectionCell()
         {
-            string type = "";
             BindCellIDs(ddlCell_ForAssignMachineToCell, ddlPlant.SelectedValue == null ? "" : ddlPlant.SelectedValue.ToString(), "", false);
             if (!btnassignCell.CssClass.Contains("unselected-btn"))
             {
-                type = "Cell";
                 //assignCell_GroupName.Visible = false;
                 //assignCell_GroupDDL.Visible = false;
                 assignCell_CellName.Visible = false;
@@ -2167,11 +2187,10 @@ namespace NewProject
             }
             else if (!btnassignCellGroup.CssClass.Contains("unselected-btn"))
             {
-                type = "CellGroup";
                 assignCell_CellName.Visible = true;
                 assignCell_CellDDL.Visible = true;
                 lblmultiselectCell_ForCell.Text = "Group";
-                BindGroupIDsForMultiSelect(multiselectCell_ForCell, ddlPlant.SelectedValue == null ? "" : ddlPlant.SelectedValue.ToString(), "", ddlCell_ForAssignMachineToCell.SelectedValue==null?"":ddlCell_ForAssignMachineToCell.SelectedValue.ToString() ,false);
+                BindGroupIDsForMultiSelect(multiselectCell_ForCell, ddlPlant.SelectedValue == null ? "" : ddlPlant.SelectedValue.ToString(), "", ddlCell_ForAssignMachineToCell.SelectedValue == null ? "" : ddlCell_ForAssignMachineToCell.SelectedValue.ToString(), false);
             }
             foreach (ListItem item in multiselectCell_ForCell.Items)
             {
@@ -2183,7 +2202,6 @@ namespace NewProject
         }
         private void showHideFilterSectionShop()
         {
-            string type = "";
             //if (cbassignShop.Checked)
             //{
             //    type = "Shop";
@@ -2224,27 +2242,24 @@ namespace NewProject
             BindCellIDs(ddlCell_ForAssignMachineToShop, ddlPlant.SelectedValue == null ? "" : ddlPlant.SelectedValue.ToString(), ddlShop_ForAssignMachineToShop.SelectedValue == null ? "" : ddlShop_ForAssignMachineToShop.SelectedValue.ToString(), false);
             if (!btnassignShop.CssClass.Contains("unselected-btn"))
             {
-                type = "Shop";
                 assignShop_ShopDLL.Visible = false;
                 assignShop_ShopName.Visible = false;
                 assignShop_CellDDL.Visible = false;
                 assignShop_CellName.Visible = false;
                 lblmultiselectShopCellGroup_ForShop.Text = "Shop";
-                BindShopIDsForMultiSelect(multiselectShop_ForShop, ddlPlant.SelectedValue == null ? "" : ddlPlant.SelectedValue.ToString(),false);
+                BindShopIDsForMultiSelect(multiselectShop_ForShop, ddlPlant.SelectedValue == null ? "" : ddlPlant.SelectedValue.ToString(), false);
             }
             else if (!btnassignShopCell.CssClass.Contains("unselected-btn"))
             {
-                type = "ShopCell";
                 assignShop_ShopDLL.Visible = true;
                 assignShop_ShopName.Visible = true;
                 assignShop_CellDDL.Visible = false;
                 assignShop_CellName.Visible = false;
                 lblmultiselectShopCellGroup_ForShop.Text = "Cell";
-                BindCellIDsForMultiSelect(multiselectShop_ForShop, ddlPlant.SelectedValue == null ? "" : ddlPlant.SelectedValue.ToString(),ddlShop_ForAssignMachineToShop.SelectedValue==null?"":ddlShop_ForAssignMachineToShop.SelectedValue.ToString(), false);
+                BindCellIDsForMultiSelect(multiselectShop_ForShop, ddlPlant.SelectedValue == null ? "" : ddlPlant.SelectedValue.ToString(), ddlShop_ForAssignMachineToShop.SelectedValue == null ? "" : ddlShop_ForAssignMachineToShop.SelectedValue.ToString(), false);
             }
             else if (!btnassignShopCellGroup.CssClass.Contains("unselected-btn"))
             {
-                type = "ShopCellGroup";
                 //ddlCell_ForAssignMachineToShop.Visible = true;
                 //ddlGroup_ForAssignMachineToShop.Visible = false;
                 assignShop_ShopDLL.Visible = true;
@@ -2252,11 +2267,10 @@ namespace NewProject
                 assignShop_CellDDL.Visible = true;
                 assignShop_CellName.Visible = true;
                 lblmultiselectShopCellGroup_ForShop.Text = "Group";
-                BindGroupIDsForMultiSelect(multiselectShop_ForShop, ddlPlant.SelectedValue == null ? "" : ddlPlant.SelectedValue.ToString(), ddlShop_ForAssignMachineToShop.SelectedValue == null ? "" : ddlShop_ForAssignMachineToShop.SelectedValue.ToString(), ddlCell_ForAssignMachineToShop.SelectedValue==null?"":ddlCell_ForAssignMachineToShop.SelectedValue.ToString() , false);
+                BindGroupIDsForMultiSelect(multiselectShop_ForShop, ddlPlant.SelectedValue == null ? "" : ddlPlant.SelectedValue.ToString(), ddlShop_ForAssignMachineToShop.SelectedValue == null ? "" : ddlShop_ForAssignMachineToShop.SelectedValue.ToString(), ddlCell_ForAssignMachineToShop.SelectedValue == null ? "" : ddlCell_ForAssignMachineToShop.SelectedValue.ToString(), false);
             }
             else if (!btnassignShopGroup.CssClass.Contains("unselected-btn"))
             {
-                type = "ShopGroup";
                 assignShop_ShopDLL.Visible = true;
                 assignShop_ShopName.Visible = true;
                 assignShop_CellDDL.Visible = false;
@@ -2266,7 +2280,7 @@ namespace NewProject
                 lblmultiselectShopCellGroup_ForShop.Text = "Group";
                 BindGroupIDsForMultiSelect(multiselectShop_ForShop, ddlPlant.SelectedValue == null ? "" : ddlPlant.SelectedValue.ToString(), ddlShop_ForAssignMachineToShop.SelectedValue == null ? "" : ddlShop_ForAssignMachineToShop.SelectedValue.ToString(), "", false);
             }
-            foreach(ListItem item in multiselectShop_ForShop.Items)
+            foreach (ListItem item in multiselectShop_ForShop.Items)
             {
                 item.Selected = true;
             }
@@ -2365,7 +2379,7 @@ namespace NewProject
             }
             catch(Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
             return dtCloned;
         }
@@ -2519,7 +2533,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -2613,7 +2627,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -2680,7 +2694,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -2791,7 +2805,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -2873,7 +2887,6 @@ namespace NewProject
 
 
                         data.Type = type;
-                        int sucess = 0;
                         if (checkBox.Checked)
                         {
                             data.CheckOrUncheck = "Check";
@@ -2899,7 +2912,7 @@ namespace NewProject
             {
                 BindAssignMachineToShopData();
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "error", "openErrorModal('Failed to insert records: " + ex.Message + "');", true);
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -2930,7 +2943,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -3082,7 +3095,7 @@ namespace NewProject
             }
             catch(Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
 
         }
@@ -3263,7 +3276,7 @@ namespace NewProject
             }
             catch (Exception ex)
             {
-
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
         protected void btnRoleView_Click(object sender, EventArgs e)

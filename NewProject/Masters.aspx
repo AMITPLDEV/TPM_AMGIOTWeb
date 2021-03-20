@@ -1732,7 +1732,6 @@
                                             <asp:TemplateField HeaderText="Machine Model">
                                                 <ItemTemplate>
                                                     <asp:Label ID="lblMachineModel" runat="server" Text='<%# Eval("MachineModel") %>' ClientIDMode="Static"></asp:Label>
-
                                                 </ItemTemplate>
                                                 <FooterTemplate>
                                                     <asp:DropDownList runat="server" ID="ddlMachineModelNew"  CssClass="form-control">
@@ -1967,7 +1966,6 @@
     </div>
     <script>
         $(document).ready(function () {
-
             $("#menu0").addClass("in active");
             $("#activeMenu").val("#menu0");
             $("a[href$='#menu0']").removeClass("selected-menu-style").addClass("menu0-select");

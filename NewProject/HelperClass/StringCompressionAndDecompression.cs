@@ -60,6 +60,7 @@ namespace NewProject.HelperClass
 
             return Encoding.UTF8.GetString(decompressedBytes);
         }
+
         public static string CompressString(string text)
         {
             byte[] buffer = Encoding.UTF8.GetBytes(text);

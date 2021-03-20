@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -93,6 +94,35 @@ namespace NewProject
                 {
                     writer = new StreamWriter(appPath, true, Encoding.UTF8, 8195);
                     writer.WriteLine(string.Format("{0} : Exception - {1}", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:ffff"), ex));
+                    writer.Flush();
+                    writer.Close();
+                    writer.Dispose();
+                    writer = null;
+                }
+                catch { }
+                finally
+                {
+                    Monitor.Exit(_locker);
+                    if (writer != null)
+                    {
+                        writer.Close();
+                        writer.Dispose();
+                    }
+                }
+            }
+        }
+
+        public static void WriteErrorLogDetailed(Exception ex)
+        {
+            StreamWriter writer = null;
+            if (Monitor.TryEnter(_locker, 1000))
+            {
+                try
+                {
+                    StackTrace stackTrace = new StackTrace(ex, true);
+                    string errorMessage = $"{ex.Message} at Page : {stackTrace.GetFrame(0).GetFileName()} in Method : {stackTrace.GetFrame(1).GetMethod().Name} at Line Number :  {stackTrace.GetFrame(0).GetFileLineNumber()}";
+                    writer = new StreamWriter(appPath, true, Encoding.UTF8, 8195);
+                    writer.WriteLine(string.Format("{0} : Exception - {1}", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:ffff"), errorMessage));
                     writer.Flush();
                     writer.Close();
                     writer.Dispose();
