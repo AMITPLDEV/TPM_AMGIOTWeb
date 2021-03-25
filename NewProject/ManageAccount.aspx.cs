@@ -14,7 +14,8 @@ namespace NewProject
     {
         private ApplicationUserManager manager;
         private ApplicationSignInManager signInManager;
-        protected string SuccessMessage { get; private set; }
+        protected string MessageText { get; private set; }
+        protected string MessageTextClass { get; private set; }
         public bool HasPhoneNumber { get; private set; }
         public bool TwoFactorEnabled { get; private set; }
         public bool TwoFactorBrowserRemembered { get; private set; }
@@ -29,45 +30,54 @@ namespace NewProject
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            HasPhoneNumber = string.IsNullOrEmpty(manager.GetPhoneNumber(User.Identity.GetUserId()));
-            PhoneNumber.Text = manager.GetPhoneNumber(User.Identity.GetUserId()) ?? String.Empty;
-            TwoFactorEnabled = manager.GetTwoFactorEnabled(User.Identity.GetUserId());
-            LoginsCount = manager.GetLogins(User.Identity.GetUserId()).Count;
-            var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
-            var user = manager.FindById(User.Identity.GetUserId());
-            if (user != null)
-                TotpAuthenticatorEnabled = user.IsTOTPAuthenticatorEnabled;
-            if (!IsPostBack)
+            try
             {
-                if (HasPassword(manager))
+                HasPhoneNumber = string.IsNullOrEmpty(manager.GetPhoneNumber(User.Identity.GetUserId()));
+                PhoneNumber.Text = manager.GetPhoneNumber(User.Identity.GetUserId()) ?? String.Empty;
+                TwoFactorEnabled = manager.GetTwoFactorEnabled(User.Identity.GetUserId());
+                LoginsCount = manager.GetLogins(User.Identity.GetUserId()).Count;
+                var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
+                var user = manager.FindById(User.Identity.GetUserId());
+                if (user != null)
+                    TotpAuthenticatorEnabled = user.IsTOTPAuthenticatorEnabled;
+                if (!IsPostBack)
                 {
-                    ChangePassword.Visible = true;
-                }
-                else
-                {
-                    CreatePassword.Visible = true;
-                    ChangePassword.Visible = false;
-                }
+                    if (HasPassword(manager))
+                    {
+                        ChangePassword.Visible = true;
+                    }
+                    else
+                    {
+                        CreatePassword.Visible = true;
+                        ChangePassword.Visible = false;
+                    }
 
-                var message = Request.QueryString["m"];
-                if (message != null)
-                {
-                    Form.Action = ResolveUrl("~/ManageAccount");
-                    SuccessMessage = message == "ChangePwdSuccess" ? "Your password has been changed."
-                        : message == "SetPwdSuccess" ? "Your password has been set."
-                        : message == "RemoveLoginSuccess" ? "The account was removed."
-                        : message == "AddPhoneNumberSuccess" ? "Phone number has been added"
-                        : message == "RemovePhoneNumberSuccess" ? "Phone number was removed"
-                        : message == "AuthenticatorEnableSuccess" ? "Authenticator is enabled for your login"
-                        : message == "AuthenticatorEnableFailed" ? "Authenticator could not be enabled for your login"
-                        : message == "AuthenticatorDisableSuccess" ? "TOTP Authenticator successfully disabled"
-                        : message == "TwoFactorEnableSuccess" ? "Two factor authentication successfully enabled"
-                        : message == "TwoFactorEnableFail" ? "Could not enable two factor authentication"
-                        : message == "TwoFactorDisableSuccess" ? "Two factor authentication successfully disabled"
-                        : message == "TwoFactorDisableFail" ? "Could not disable two factor authentication"
-                        : String.Empty;
-                    successMessage.Visible = !String.IsNullOrEmpty(SuccessMessage);
+                    var message = Request.QueryString["m"];
+                    if (message != null)
+                    {
+                        Form.Action = ResolveUrl("~/ManageAccount");
+                        MessageText = message == "ChangePwdSuccess" ? "Your password has been changed."
+                            : message == "SetPwdSuccess" ? "Your password has been set."
+                            : message == "RemoveLoginSuccess" ? "The account was removed."
+                            : message == "AddPhoneNumberSuccess" ? "Phone number has been added"
+                            : message == "RemovePhoneNumberSuccess" ? "Phone number was removed"
+                            : message == "AuthenticatorEnableSuccess" ? "Authenticator is enabled for your login"
+                            : message == "AuthenticatorEnableFailed" ? "Authenticator could not be enabled for your login"
+                            : message == "AuthenticatorDisableSuccess" ? "TOTP Authenticator successfully disabled"
+                            : message == "TwoFactorEnableSuccess" ? "Two factor authentication successfully enabled"
+                            : message == "TwoFactorEnableFail" ? "Could not enable two factor authentication"
+                            : message == "TwoFactorDisableSuccess" ? "Two factor authentication successfully disabled"
+                            : message == "TwoFactorDisableFail" ? "Could not disable two factor authentication"
+                            : String.Empty;
+                        Message.Visible = !String.IsNullOrEmpty(MessageText);
+                        MessageTextClass = message.Contains("Success") ? "text-success" : "text-danger";
+                        msgPara.Attributes["class"] = MessageTextClass;
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteErrorLogDetailed(ex);
             }
         }
 
@@ -91,7 +101,7 @@ namespace NewProject
         protected void TwoFactorEnable_Click(object sender, EventArgs e)
         {
             var result = manager.SetTwoFactorEnabled(User.Identity.GetUserId(), true);
-            if(result.Succeeded)
+            if (result.Succeeded)
                 Response.Redirect("~/ManageAccount?m=TwoFactorEnableSuccess");
             else
                 Response.Redirect("~/ManageAccount?m=TwoFactorEnableFail");
@@ -120,7 +130,7 @@ namespace NewProject
                 user.IsTOTPAuthenticatorEnabled = false;
                 user.TOTPAuthenticatorSecretKey = null;
                 var result = manager.UpdateAsync(user).Result;
-                if(result.Succeeded)
+                if (result.Succeeded)
                 {
                     await signInManager.SignInAsync(user, false, false);
                     Response.Redirect("~/ManageAccount?m=AuthenticatorDisableSuccess");

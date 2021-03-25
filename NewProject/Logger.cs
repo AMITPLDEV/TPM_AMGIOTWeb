@@ -120,20 +120,21 @@ namespace NewProject
                 try
                 {
                     StackTrace stackTrace = new StackTrace(ex, true);
-                    string errorMessage = $"{ex.Message} at Page : {stackTrace.GetFrame(0).GetFileName()} in Method : {stackTrace.GetFrame(1).GetMethod().Name} at Line Number :  {stackTrace.GetFrame(0).GetFileLineNumber()}";
+                    string errorMessage = $" {ex.Message} at File : {stackTrace.GetFrame(stackTrace.FrameCount - 1).GetFileName()} in Method : {stackTrace.GetFrame(stackTrace.FrameCount - 1).GetMethod().Name} at Line Number : {stackTrace.GetFrame(stackTrace.FrameCount - 1).GetFileLineNumber()}";
                     writer = new StreamWriter(appPath, true, Encoding.UTF8, 8195);
                     writer.WriteLine(string.Format("{0} : Exception - {1}", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:ffff"), errorMessage));
-                    writer.Flush();
-                    writer.Close();
-                    writer.Dispose();
-                    writer = null;
                 }
-                catch { }
+                catch (Exception)
+                {
+                    writer = new StreamWriter(appPath, true, Encoding.UTF8, 8195);
+                    writer.WriteLine(string.Format("{0} : Exception - {1}", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:ffff"), ex.Message));
+                }
                 finally
                 {
                     Monitor.Exit(_locker);
                     if (writer != null)
                     {
+                        writer.Flush();
                         writer.Close();
                         writer.Dispose();
                     }

@@ -358,8 +358,6 @@
             transition: all 0.2s linear;
         }
 
-
-
         .menu-icon {
             margin-right: 5px;
             margin-left: 18px;
@@ -393,8 +391,6 @@
             opacity: 0;
             transition: opacity 0.5s linear;
         }
-
-
 
         .header-right-side tr td {
             /*min-width: 100px;
@@ -431,9 +427,6 @@
                 background-color: #ebeaea;
             }
 
-
-
-
         .inner-ul {
             padding: 6px 0px 6px 44px;
             margin: 10px;
@@ -442,7 +435,6 @@
             .inner-ul > li {
                 padding: 8px;
             }
-
 
         .outer-div {
             /*height: 200px;*/
@@ -492,11 +484,6 @@
             font-weight: bold;
             font-style: italic;
         }
-
-
-
-
-
 
         .themetoggle {
             /*height: 85vh;*/
@@ -2361,8 +2348,6 @@
               localStorage.setItem("selectedSubMenu", pageName);
             window.location.href = pageName;
             //   $.blockUI({ message: '<img runat="server" src="Images/25 (1).gif" style="margin:5px;width:90px;height:90px;border-radius: 5px; background-color: rgb(30, 31,31)" />' });
-
-
         }
         function onSubMenuClicked(element, page) {
             $.blockUI({ message: '<img runat="server" src="Images/Loading.gif" />' });

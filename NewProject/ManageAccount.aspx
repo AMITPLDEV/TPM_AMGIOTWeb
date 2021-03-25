@@ -9,8 +9,8 @@
     <h2><%: Title %>.</h2>
 
     <div>
-        <asp:PlaceHolder runat="server" ID="successMessage" Visible="false" ViewStateMode="Disabled">
-            <p class="text-success"><%: SuccessMessage %></p>
+        <asp:PlaceHolder runat="server" ID="Message" Visible="false" ViewStateMode="Disabled">
+            <p class="text-success" runat="server" id="msgPara"><%: MessageText %></p>
         </asp:PlaceHolder>
     </div>
 
